@@ -1,0 +1,11 @@
+Overview:
+This is the code which solves the "Blocksworld" puzzle for Project #1 of CSE625.
+
+Files:
+stateSpaceGraph.py 	Contains the class definition for "node" and the heuristic function, h5 is the final version of the heuristic described in the report
+searchAlgo.py		Implements the A* search and greedy BFS(pathcost was later added to form the A* algorithm)
+randInitState.py	Generates a random state for the input configuration and executes the A* search to find the solution
+driver.sh		Shell script to execute the tests for various block configurations and number of stacks
+aStar_trace.txt		Complete output trace for one execution of driver.sh
+
+In order to run the code for a single configuration, run randInitState.py. Run driver.sh for a more comprehensive run of the code.

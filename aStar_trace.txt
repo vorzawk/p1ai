@@ -1,0 +1,22661 @@
+Running tests for 10 blocks with 3 stacks ...
+Test 1 summary
+Number of goal tests : 30
+Maximum queue size : 136
+Solution Path:
+| g d j i 
+| a e h 
+| b f c 
+
+| g d j i 
+| a e 
+| b f c h 
+
+| g d j i 
+| a 
+| b f c h e 
+
+| g d j i 
+| 
+| b f c h e a 
+
+| g d j 
+| i 
+| b f c h e a 
+
+| g d 
+| i j 
+| b f c h e a 
+
+| g 
+| i j d 
+| b f c h e a 
+
+| 
+| i j d g 
+| b f c h e a 
+
+| a 
+| i j d g 
+| b f c h e 
+
+| a 
+| i j d g e 
+| b f c h 
+
+| a 
+| i j d g e h 
+| b f c 
+
+| a 
+| i j d g e h c 
+| b f 
+
+| a 
+| i j d g e h c f 
+| b 
+
+| a b 
+| i j d g e h c f 
+| 
+
+| a b 
+| i j d g e h c 
+| f 
+
+| a b c 
+| i j d g e h 
+| f 
+
+| a b c 
+| i j d g e 
+| f h 
+
+| a b c 
+| i j d g 
+| f h e 
+
+| a b c 
+| i j d 
+| f h e g 
+
+| a b c d 
+| i j 
+| f h e g 
+
+| a b c d 
+| i j g 
+| f h e 
+
+| a b c d e 
+| i j g 
+| f h 
+
+| a b c d e 
+| i j g h 
+| f 
+
+| a b c d e f 
+| i j g h 
+| 
+
+| a b c d e f 
+| i j g 
+| h 
+
+| a b c d e f g 
+| i j 
+| h 
+
+| a b c d e f g h 
+| i j 
+| 
+
+| a b c d e f g h 
+| i 
+| j 
+
+| a b c d e f g h i 
+| 
+| j 
+
+| a b c d e f g h i j 
+| 
+| 
+
+Total steps taken : 29
+
+Test 2 summary
+Number of goal tests : 27
+Maximum queue size : 124
+Solution Path:
+| b i a f 
+| 
+| e h c j d g 
+
+| b i a 
+| f 
+| e h c j d g 
+
+| b i 
+| f 
+| e h c j d g a 
+
+| b 
+| f i 
+| e h c j d g a 
+
+| 
+| f i b 
+| e h c j d g a 
+
+| a 
+| f i b 
+| e h c j d g 
+
+| a b 
+| f i 
+| e h c j d g 
+
+| a b 
+| f i g 
+| e h c j d 
+
+| a b 
+| f i g d 
+| e h c j 
+
+| a b 
+| f i g d j 
+| e h c 
+
+| a b c 
+| f i g d j 
+| e h 
+
+| a b c 
+| f i g d 
+| e h j 
+
+| a b c d 
+| f i g 
+| e h j 
+
+| a b c d 
+| f i g j 
+| e h 
+
+| a b c d 
+| f i g j h 
+| e 
+
+| a b c d e 
+| f i g j h 
+| 
+
+| a b c d e 
+| f i g j 
+| h 
+
+| a b c d e 
+| f i g 
+| h j 
+
+| a b c d e 
+| f i 
+| h j g 
+
+| a b c d e 
+| f 
+| h j g i 
+
+| a b c d e f 
+| 
+| h j g i 
+
+| a b c d e f 
+| i 
+| h j g 
+
+| a b c d e f g 
+| i 
+| h j 
+
+| a b c d e f g 
+| i j 
+| h 
+
+| a b c d e f g h 
+| i j 
+| 
+
+| a b c d e f g h 
+| i 
+| j 
+
+| a b c d e f g h i 
+| 
+| j 
+
+| a b c d e f g h i j 
+| 
+| 
+
+Total steps taken : 27
+
+Test 3 summary
+Number of goal tests : 55
+Maximum queue size : 203
+Solution Path:
+| d 
+| a g j i f 
+| b h e c 
+
+| d f 
+| a g j i 
+| b h e c 
+
+| d f 
+| a g j 
+| b h e c i 
+
+| d f 
+| a g 
+| b h e c i j 
+
+| d f 
+| a 
+| b h e c i j g 
+
+| d f 
+| 
+| b h e c i j g a 
+
+| d 
+| f 
+| b h e c i j g a 
+
+| 
+| f d 
+| b h e c i j g a 
+
+| a 
+| f d 
+| b h e c i j g 
+
+| a 
+| f d g 
+| b h e c i j 
+
+| a 
+| f d g j 
+| b h e c i 
+
+| a 
+| f d g j i 
+| b h e c 
+
+| a 
+| f d g j i c 
+| b h e 
+
+| a 
+| f d g j i c e 
+| b h 
+
+| a 
+| f d g j i c e h 
+| b 
+
+| a b 
+| f d g j i c e h 
+| 
+
+| a b 
+| f d g j i c e 
+| h 
+
+| a b 
+| f d g j i c 
+| h e 
+
+| a b c 
+| f d g j i 
+| h e 
+
+| a b c 
+| f d g j 
+| h e i 
+
+| a b c 
+| f d g 
+| h e i j 
+
+| a b c 
+| f d 
+| h e i j g 
+
+| a b c d 
+| f 
+| h e i j g 
+
+| a b c d 
+| f g 
+| h e i j 
+
+| a b c d 
+| f g j 
+| h e i 
+
+| a b c d 
+| f g j i 
+| h e 
+
+| a b c d e 
+| f g j i 
+| h 
+
+| a b c d e 
+| f g j 
+| h i 
+
+| a b c d e 
+| f g 
+| h i j 
+
+| a b c d e 
+| f 
+| h i j g 
+
+| a b c d e f 
+| 
+| h i j g 
+
+| a b c d e f g 
+| 
+| h i j 
+
+| a b c d e f g 
+| j 
+| h i 
+
+| a b c d e f g 
+| j i 
+| h 
+
+| a b c d e f g h 
+| j i 
+| 
+
+| a b c d e f g h i 
+| j 
+| 
+
+| a b c d e f g h i j 
+| 
+| 
+
+Total steps taken : 36
+
+Test 4 summary
+Number of goal tests : 22
+Maximum queue size : 97
+Solution Path:
+| a 
+| b c g h j 
+| e f d i 
+
+| a 
+| b c g h 
+| e f d i j 
+
+| a 
+| b c g 
+| e f d i j h 
+
+| a 
+| b c 
+| e f d i j h g 
+
+| a 
+| b 
+| e f d i j h g c 
+
+| a b 
+| 
+| e f d i j h g c 
+
+| a b c 
+| 
+| e f d i j h g 
+
+| a b c 
+| g 
+| e f d i j h 
+
+| a b c 
+| g h 
+| e f d i j 
+
+| a b c 
+| g h j 
+| e f d i 
+
+| a b c 
+| g h j i 
+| e f d 
+
+| a b c d 
+| g h j i 
+| e f 
+
+| a b c d 
+| g h j i f 
+| e 
+
+| a b c d e 
+| g h j i f 
+| 
+
+| a b c d e f 
+| g h j i 
+| 
+
+| a b c d e f 
+| g h j 
+| i 
+
+| a b c d e f 
+| g h 
+| i j 
+
+| a b c d e f 
+| g 
+| i j h 
+
+| a b c d e f g 
+| 
+| i j h 
+
+| a b c d e f g h 
+| 
+| i j 
+
+| a b c d e f g h 
+| j 
+| i 
+
+| a b c d e f g h i 
+| j 
+| 
+
+| a b c d e f g h i j 
+| 
+| 
+
+Total steps taken : 22
+
+Test 5 summary
+Number of goal tests : 39
+Maximum queue size : 185
+Solution Path:
+| d f 
+| g j 
+| c a i h b e 
+
+| d f 
+| g j e 
+| c a i h b 
+
+| d f 
+| g j e b 
+| c a i h 
+
+| d f 
+| g j e b h 
+| c a i 
+
+| d f 
+| g j e b h i 
+| c a 
+
+| d f 
+| g j e b h i a 
+| c 
+
+| d 
+| g j e b h i a 
+| c f 
+
+| 
+| g j e b h i a 
+| c f d 
+
+| a 
+| g j e b h i 
+| c f d 
+
+| a 
+| g j e b h 
+| c f d i 
+
+| a 
+| g j e b 
+| c f d i h 
+
+| a b 
+| g j e 
+| c f d i h 
+
+| a b 
+| g j e h 
+| c f d i 
+
+| a b 
+| g j e h i 
+| c f d 
+
+| a b 
+| g j e h i d 
+| c f 
+
+| a b 
+| g j e h i d f 
+| c 
+
+| a b c 
+| g j e h i d f 
+| 
+
+| a b c 
+| g j e h i d 
+| f 
+
+| a b c d 
+| g j e h i 
+| f 
+
+| a b c d 
+| g j e h 
+| f i 
+
+| a b c d 
+| g j e 
+| f i h 
+
+| a b c d e 
+| g j 
+| f i h 
+
+| a b c d e 
+| g j h 
+| f i 
+
+| a b c d e 
+| g j h i 
+| f 
+
+| a b c d e f 
+| g j h i 
+| 
+
+| a b c d e f 
+| g j h 
+| i 
+
+| a b c d e f 
+| g j 
+| i h 
+
+| a b c d e f 
+| g 
+| i h j 
+
+| a b c d e f g 
+| 
+| i h j 
+
+| a b c d e f g 
+| j 
+| i h 
+
+| a b c d e f g h 
+| j 
+| i 
+
+| a b c d e f g h i 
+| j 
+| 
+
+| a b c d e f g h i j 
+| 
+| 
+
+Total steps taken : 32
+
+Test 6 summary
+Number of goal tests : 24
+Maximum queue size : 111
+Solution Path:
+| c d f g 
+| h b i j 
+| a e 
+
+| c d f g 
+| h b i j e 
+| a 
+
+| c d f g 
+| h b i j e a 
+| 
+
+| c d f 
+| h b i j e a 
+| g 
+
+| c d 
+| h b i j e a 
+| g f 
+
+| c 
+| h b i j e a 
+| g f d 
+
+| 
+| h b i j e a 
+| g f d c 
+
+| a 
+| h b i j e 
+| g f d c 
+
+| a 
+| h b i j 
+| g f d c e 
+
+| a 
+| h b i 
+| g f d c e j 
+
+| a 
+| h b 
+| g f d c e j i 
+
+| a b 
+| h 
+| g f d c e j i 
+
+| a b 
+| h i 
+| g f d c e j 
+
+| a b 
+| h i j 
+| g f d c e 
+
+| a b 
+| h i j e 
+| g f d c 
+
+| a b c 
+| h i j e 
+| g f d 
+
+| a b c d 
+| h i j e 
+| g f 
+
+| a b c d e 
+| h i j 
+| g f 
+
+| a b c d e f 
+| h i j 
+| g 
+
+| a b c d e f g 
+| h i j 
+| 
+
+| a b c d e f g 
+| h i 
+| j 
+
+| a b c d e f g 
+| h 
+| j i 
+
+| a b c d e f g h 
+| 
+| j i 
+
+| a b c d e f g h i 
+| 
+| j 
+
+| a b c d e f g h i j 
+| 
+| 
+
+Total steps taken : 24
+
+Test 7 summary
+Number of goal tests : 46
+Maximum queue size : 199
+Solution Path:
+| f b d 
+| a h j 
+| c g i e 
+
+| f b d 
+| a h 
+| c g i e j 
+
+| f b d 
+| a 
+| c g i e j h 
+
+| f b d 
+| 
+| c g i e j h a 
+
+| f b 
+| d 
+| c g i e j h a 
+
+| f 
+| d b 
+| c g i e j h a 
+
+| 
+| d b f 
+| c g i e j h a 
+
+| a 
+| d b f 
+| c g i e j h 
+
+| a 
+| d b 
+| c g i e j h f 
+
+| a b 
+| d 
+| c g i e j h f 
+
+| a b 
+| d f 
+| c g i e j h 
+
+| a b 
+| d f h 
+| c g i e j 
+
+| a b 
+| d f h j 
+| c g i e 
+
+| a b 
+| d f h j e 
+| c g i 
+
+| a b 
+| d f h j e i 
+| c g 
+
+| a b 
+| d f h j e i g 
+| c 
+
+| a b c 
+| d f h j e i g 
+| 
+
+| a b c 
+| d f h j e i 
+| g 
+
+| a b c 
+| d f h j e 
+| g i 
+
+| a b c 
+| d f h j 
+| g i e 
+
+| a b c 
+| d f h 
+| g i e j 
+
+| a b c 
+| d f 
+| g i e j h 
+
+| a b c 
+| d 
+| g i e j h f 
+
+| a b c d 
+| 
+| g i e j h f 
+
+| a b c d 
+| f 
+| g i e j h 
+
+| a b c d 
+| f h 
+| g i e j 
+
+| a b c d 
+| f h j 
+| g i e 
+
+| a b c d e 
+| f h j 
+| g i 
+
+| a b c d e 
+| f h 
+| g i j 
+
+| a b c d e 
+| f 
+| g i j h 
+
+| a b c d e f 
+| 
+| g i j h 
+
+| a b c d e f 
+| h 
+| g i j 
+
+| a b c d e f 
+| h j 
+| g i 
+
+| a b c d e f 
+| h j i 
+| g 
+
+| a b c d e f g 
+| h j i 
+| 
+
+| a b c d e f g 
+| h j 
+| i 
+
+| a b c d e f g 
+| h 
+| i j 
+
+| a b c d e f g h 
+| 
+| i j 
+
+| a b c d e f g h 
+| j 
+| i 
+
+| a b c d e f g h i 
+| j 
+| 
+
+| a b c d e f g h i j 
+| 
+| 
+
+Total steps taken : 40
+
+Test 8 summary
+Number of goal tests : 23
+Maximum queue size : 106
+Solution Path:
+| c g h 
+| i j a e d b 
+| f 
+
+| c g h 
+| i j a e d 
+| f b 
+
+| c g h 
+| i j a e 
+| f b d 
+
+| c g h 
+| i j a 
+| f b d e 
+
+| c g h 
+| i j 
+| f b d e a 
+
+| c g 
+| i j h 
+| f b d e a 
+
+| c 
+| i j h g 
+| f b d e a 
+
+| 
+| i j h g c 
+| f b d e a 
+
+| a 
+| i j h g c 
+| f b d e 
+
+| a 
+| i j h g c e 
+| f b d 
+
+| a 
+| i j h g c e d 
+| f b 
+
+| a b 
+| i j h g c e d 
+| f 
+
+| a b 
+| i j h g c e 
+| f d 
+
+| a b 
+| i j h g c 
+| f d e 
+
+| a b c 
+| i j h g 
+| f d e 
+
+| a b c 
+| i j h g e 
+| f d 
+
+| a b c d 
+| i j h g e 
+| f 
+
+| a b c d e 
+| i j h g 
+| f 
+
+| a b c d e f 
+| i j h g 
+| 
+
+| a b c d e f g 
+| i j h 
+| 
+
+| a b c d e f g h 
+| i j 
+| 
+
+| a b c d e f g h 
+| i 
+| j 
+
+| a b c d e f g h i 
+| 
+| j 
+
+| a b c d e f g h i j 
+| 
+| 
+
+Total steps taken : 23
+
+Test 9 summary
+Number of goal tests : 24
+Maximum queue size : 109
+Solution Path:
+| j f b 
+| a i 
+| g e d c h 
+
+| j f 
+| a i 
+| g e d c h b 
+
+| j f 
+| a 
+| g e d c h b i 
+
+| j f 
+| 
+| g e d c h b i a 
+
+| j 
+| f 
+| g e d c h b i a 
+
+| 
+| f j 
+| g e d c h b i a 
+
+| a 
+| f j 
+| g e d c h b i 
+
+| a 
+| f j i 
+| g e d c h b 
+
+| a b 
+| f j i 
+| g e d c h 
+
+| a b 
+| f j i h 
+| g e d c 
+
+| a b c 
+| f j i h 
+| g e d 
+
+| a b c d 
+| f j i h 
+| g e 
+
+| a b c d e 
+| f j i h 
+| g 
+
+| a b c d e 
+| f j i 
+| g h 
+
+| a b c d e 
+| f j 
+| g h i 
+
+| a b c d e 
+| f 
+| g h i j 
+
+| a b c d e f 
+| 
+| g h i j 
+
+| a b c d e f 
+| j 
+| g h i 
+
+| a b c d e f 
+| j i 
+| g h 
+
+| a b c d e f 
+| j i h 
+| g 
+
+| a b c d e f g 
+| j i h 
+| 
+
+| a b c d e f g h 
+| j i 
+| 
+
+| a b c d e f g h i 
+| j 
+| 
+
+| a b c d e f g h i j 
+| 
+| 
+
+Total steps taken : 23
+
+Test 10 summary
+Number of goal tests : 23
+Maximum queue size : 110
+Solution Path:
+| b f i 
+| j d e 
+| a h c g 
+
+| b f i 
+| j d e g 
+| a h c 
+
+| b f i 
+| j d e g c 
+| a h 
+
+| b f i 
+| j d e g c h 
+| a 
+
+| b f i 
+| j d e g c h a 
+| 
+
+| b f 
+| j d e g c h a 
+| i 
+
+| b 
+| j d e g c h a 
+| i f 
+
+| 
+| j d e g c h a 
+| i f b 
+
+| a 
+| j d e g c h 
+| i f b 
+
+| a b 
+| j d e g c h 
+| i f 
+
+| a b 
+| j d e g c 
+| i f h 
+
+| a b c 
+| j d e g 
+| i f h 
+
+| a b c 
+| j d e 
+| i f h g 
+
+| a b c 
+| j d 
+| i f h g e 
+
+| a b c d 
+| j 
+| i f h g e 
+
+| a b c d e 
+| j 
+| i f h g 
+
+| a b c d e 
+| j g 
+| i f h 
+
+| a b c d e 
+| j g h 
+| i f 
+
+| a b c d e f 
+| j g h 
+| i 
+
+| a b c d e f 
+| j g 
+| i h 
+
+| a b c d e f g 
+| j 
+| i h 
+
+| a b c d e f g h 
+| j 
+| i 
+
+| a b c d e f g h i 
+| j 
+| 
+
+| a b c d e f g h i j 
+| 
+| 
+
+Total steps taken : 23
+
+Running tests for 10 blocks with 5 stacks ...
+Test 1 summary
+Number of goal tests : 12
+Maximum queue size : 197
+Solution Path:
+| c d 
+| i 
+| f 
+| j a 
+| h g e b 
+
+| c 
+| i d 
+| f 
+| j a 
+| h g e b 
+
+| 
+| i d c 
+| f 
+| j a 
+| h g e b 
+
+| a 
+| i d c 
+| f 
+| j 
+| h g e b 
+
+| a b 
+| i d c 
+| f 
+| j 
+| h g e 
+
+| a b c 
+| i d 
+| f 
+| j 
+| h g e 
+
+| a b c d 
+| i 
+| f 
+| j 
+| h g e 
+
+| a b c d e 
+| i 
+| f 
+| j 
+| h g 
+
+| a b c d e f 
+| i 
+| 
+| j 
+| h g 
+
+| a b c d e f g 
+| i 
+| 
+| j 
+| h 
+
+| a b c d e f g h 
+| i 
+| 
+| j 
+| 
+
+| a b c d e f g h i 
+| 
+| 
+| j 
+| 
+
+| a b c d e f g h i j 
+| 
+| 
+| 
+| 
+
+Total steps taken : 12
+
+Test 2 summary
+Number of goal tests : 14
+Maximum queue size : 211
+Solution Path:
+| e 
+| f a 
+| h i 
+| c g d 
+| j b 
+
+| 
+| f a 
+| h i e 
+| c g d 
+| j b 
+
+| a 
+| f 
+| h i e 
+| c g d 
+| j b 
+
+| a b 
+| f 
+| h i e 
+| c g d 
+| j 
+
+| a b 
+| f d 
+| h i e 
+| c g 
+| j 
+
+| a b 
+| f d 
+| h i e 
+| c 
+| j g 
+
+| a b c 
+| f d 
+| h i e 
+| 
+| j g 
+
+| a b c d 
+| f 
+| h i e 
+| 
+| j g 
+
+| a b c d e 
+| f 
+| h i 
+| 
+| j g 
+
+| a b c d e f 
+| 
+| h i 
+| 
+| j g 
+
+| a b c d e f g 
+| 
+| h i 
+| 
+| j 
+
+| a b c d e f g 
+| i 
+| h 
+| 
+| j 
+
+| a b c d e f g h 
+| i 
+| 
+| 
+| j 
+
+| a b c d e f g h i 
+| 
+| 
+| 
+| j 
+
+| a b c d e f g h i j 
+| 
+| 
+| 
+| 
+
+Total steps taken : 14
+
+Test 3 summary
+Number of goal tests : 20
+Maximum queue size : 341
+Solution Path:
+| d 
+| 
+| b f e 
+| g a h 
+| c j i 
+
+| d 
+| h 
+| b f e 
+| g a 
+| c j i 
+
+| d 
+| h 
+| b f e a 
+| g 
+| c j i 
+
+| 
+| h d 
+| b f e a 
+| g 
+| c j i 
+
+| a 
+| h d 
+| b f e 
+| g 
+| c j i 
+
+| a 
+| h d 
+| b f 
+| g e 
+| c j i 
+
+| a 
+| h d f 
+| b 
+| g e 
+| c j i 
+
+| a b 
+| h d f 
+| 
+| g e 
+| c j i 
+
+| a b 
+| h d f 
+| i 
+| g e 
+| c j 
+
+| a b 
+| h d f j 
+| i 
+| g e 
+| c 
+
+| a b c 
+| h d f j 
+| i 
+| g e 
+| 
+
+| a b c 
+| h d f 
+| i 
+| g e 
+| j 
+
+| a b c 
+| h d 
+| i f 
+| g e 
+| j 
+
+| a b c d 
+| h 
+| i f 
+| g e 
+| j 
+
+| a b c d e 
+| h 
+| i f 
+| g 
+| j 
+
+| a b c d e f 
+| h 
+| i 
+| g 
+| j 
+
+| a b c d e f g 
+| h 
+| i 
+| 
+| j 
+
+| a b c d e f g h 
+| 
+| i 
+| 
+| j 
+
+| a b c d e f g h i 
+| 
+| 
+| 
+| j 
+
+| a b c d e f g h i j 
+| 
+| 
+| 
+| 
+
+Total steps taken : 19
+
+Test 4 summary
+Number of goal tests : 19
+Maximum queue size : 286
+Solution Path:
+| e d b h 
+| 
+| a i 
+| j 
+| c g f 
+
+| e d b h 
+| i 
+| a 
+| j 
+| c g f 
+
+| e d b h 
+| i 
+| 
+| j 
+| c g f a 
+
+| e d b 
+| i h 
+| 
+| j 
+| c g f a 
+
+| e d 
+| i h b 
+| 
+| j 
+| c g f a 
+
+| e 
+| i h b 
+| d 
+| j 
+| c g f a 
+
+| 
+| i h b 
+| d 
+| j e 
+| c g f a 
+
+| a 
+| i h b 
+| d 
+| j e 
+| c g f 
+
+| a b 
+| i h 
+| d 
+| j e 
+| c g f 
+
+| a b 
+| i h f 
+| d 
+| j e 
+| c g 
+
+| a b 
+| i h f g 
+| d 
+| j e 
+| c 
+
+| a b c 
+| i h f g 
+| d 
+| j e 
+| 
+
+| a b c d 
+| i h f g 
+| 
+| j e 
+| 
+
+| a b c d e 
+| i h f g 
+| 
+| j 
+| 
+
+| a b c d e 
+| i h f 
+| g 
+| j 
+| 
+
+| a b c d e f 
+| i h 
+| g 
+| j 
+| 
+
+| a b c d e f g 
+| i h 
+| 
+| j 
+| 
+
+| a b c d e f g h 
+| i 
+| 
+| j 
+| 
+
+| a b c d e f g h i 
+| 
+| 
+| j 
+| 
+
+| a b c d e f g h i j 
+| 
+| 
+| 
+| 
+
+Total steps taken : 19
+
+Test 5 summary
+Number of goal tests : 16
+Maximum queue size : 245
+Solution Path:
+| g b 
+| 
+| i a d j 
+| f e 
+| c h 
+
+| g 
+| 
+| i a d j 
+| f e 
+| c h b 
+
+| g 
+| j 
+| i a d 
+| f e 
+| c h b 
+
+| g 
+| j 
+| i a 
+| f e d 
+| c h b 
+
+| 
+| j g 
+| i a 
+| f e d 
+| c h b 
+
+| a 
+| j g 
+| i 
+| f e d 
+| c h b 
+
+| a b 
+| j g 
+| i 
+| f e d 
+| c h 
+
+| a b 
+| j g 
+| i h 
+| f e d 
+| c 
+
+| a b c 
+| j g 
+| i h 
+| f e d 
+| 
+
+| a b c d 
+| j g 
+| i h 
+| f e 
+| 
+
+| a b c d e 
+| j g 
+| i h 
+| f 
+| 
+
+| a b c d e f 
+| j g 
+| i h 
+| 
+| 
+
+| a b c d e f g 
+| j 
+| i h 
+| 
+| 
+
+| a b c d e f g h 
+| j 
+| i 
+| 
+| 
+
+| a b c d e f g h i 
+| j 
+| 
+| 
+| 
+
+| a b c d e f g h i j 
+| 
+| 
+| 
+| 
+
+Total steps taken : 15
+
+Test 6 summary
+Number of goal tests : 22
+Maximum queue size : 343
+Solution Path:
+| 
+| c g j 
+| b f e i 
+| h 
+| d a 
+
+| a 
+| c g j 
+| b f e i 
+| h 
+| d 
+
+| a 
+| c g j i 
+| b f e 
+| h 
+| d 
+
+| a 
+| c g j i 
+| b f 
+| h e 
+| d 
+
+| a 
+| c g j i f 
+| b 
+| h e 
+| d 
+
+| a b 
+| c g j i f 
+| 
+| h e 
+| d 
+
+| a b 
+| c g j i 
+| f 
+| h e 
+| d 
+
+| a b 
+| c g j 
+| f i 
+| h e 
+| d 
+
+| a b 
+| c g 
+| f i j 
+| h e 
+| d 
+
+| a b 
+| c g 
+| f i j e 
+| h 
+| d 
+
+| a b 
+| c 
+| f i j e 
+| h g 
+| d 
+
+| a b c 
+| 
+| f i j e 
+| h g 
+| d 
+
+| a b c d 
+| 
+| f i j e 
+| h g 
+| 
+
+| a b c d e 
+| 
+| f i j 
+| h g 
+| 
+
+| a b c d e 
+| j 
+| f i 
+| h g 
+| 
+
+| a b c d e 
+| j i 
+| f 
+| h g 
+| 
+
+| a b c d e f 
+| j i 
+| 
+| h g 
+| 
+
+| a b c d e f g 
+| j i 
+| 
+| h 
+| 
+
+| a b c d e f g h 
+| j i 
+| 
+| 
+| 
+
+| a b c d e f g h i 
+| j 
+| 
+| 
+| 
+
+| a b c d e f g h i j 
+| 
+| 
+| 
+| 
+
+Total steps taken : 20
+
+Test 7 summary
+Number of goal tests : 15
+Maximum queue size : 202
+Solution Path:
+| h d 
+| j i 
+| a f 
+| e g c 
+| b 
+
+| h d 
+| j i f 
+| a 
+| e g c 
+| b 
+
+| h 
+| j i f d 
+| a 
+| e g c 
+| b 
+
+| 
+| j i f d h 
+| a 
+| e g c 
+| b 
+
+| a 
+| j i f d h 
+| 
+| e g c 
+| b 
+
+| a b 
+| j i f d h 
+| 
+| e g c 
+| 
+
+| a b c 
+| j i f d h 
+| 
+| e g 
+| 
+
+| a b c 
+| j i f d 
+| h 
+| e g 
+| 
+
+| a b c d 
+| j i f 
+| h 
+| e g 
+| 
+
+| a b c d 
+| j i f 
+| h g 
+| e 
+| 
+
+| a b c d e 
+| j i f 
+| h g 
+| 
+| 
+
+| a b c d e f 
+| j i 
+| h g 
+| 
+| 
+
+| a b c d e f g 
+| j i 
+| h 
+| 
+| 
+
+| a b c d e f g h 
+| j i 
+| 
+| 
+| 
+
+| a b c d e f g h i 
+| j 
+| 
+| 
+| 
+
+| a b c d e f g h i j 
+| 
+| 
+| 
+| 
+
+Total steps taken : 15
+
+Test 8 summary
+Number of goal tests : 16
+Maximum queue size : 245
+Solution Path:
+| d f e 
+| j b 
+| c h 
+| a i 
+| g 
+
+| d f 
+| j b 
+| c h 
+| a i 
+| g e 
+
+| d f 
+| j 
+| c h b 
+| a i 
+| g e 
+
+| d f 
+| j i 
+| c h b 
+| a 
+| g e 
+
+| d 
+| j i f 
+| c h b 
+| a 
+| g e 
+
+| 
+| j i f d 
+| c h b 
+| a 
+| g e 
+
+| a 
+| j i f d 
+| c h b 
+| 
+| g e 
+
+| a b 
+| j i f d 
+| c h 
+| 
+| g e 
+
+| a b 
+| j i f d 
+| c 
+| h 
+| g e 
+
+| a b c 
+| j i f d 
+| 
+| h 
+| g e 
+
+| a b c d 
+| j i f 
+| 
+| h 
+| g e 
+
+| a b c d e 
+| j i f 
+| 
+| h 
+| g 
+
+| a b c d e f 
+| j i 
+| 
+| h 
+| g 
+
+| a b c d e f g 
+| j i 
+| 
+| h 
+| 
+
+| a b c d e f g h 
+| j i 
+| 
+| 
+| 
+
+| a b c d e f g h i 
+| j 
+| 
+| 
+| 
+
+| a b c d e f g h i j 
+| 
+| 
+| 
+| 
+
+Total steps taken : 16
+
+Test 9 summary
+Number of goal tests : 15
+Maximum queue size : 202
+Solution Path:
+| d 
+| a i b 
+| c 
+| 
+| g h f j e 
+
+| d 
+| a i 
+| c b 
+| 
+| g h f j e 
+
+| d 
+| a 
+| c b 
+| i 
+| g h f j e 
+
+| 
+| a 
+| c b 
+| i d 
+| g h f j e 
+
+| a 
+| 
+| c b 
+| i d 
+| g h f j e 
+
+| a b 
+| 
+| c 
+| i d 
+| g h f j e 
+
+| a b c 
+| 
+| 
+| i d 
+| g h f j e 
+
+| a b c d 
+| 
+| 
+| i 
+| g h f j e 
+
+| a b c d e 
+| 
+| 
+| i 
+| g h f j 
+
+| a b c d e 
+| j 
+| 
+| i 
+| g h f 
+
+| a b c d e f 
+| j 
+| 
+| i 
+| g h 
+
+| a b c d e f 
+| j h 
+| 
+| i 
+| g 
+
+| a b c d e f g 
+| j h 
+| 
+| i 
+| 
+
+| a b c d e f g h 
+| j 
+| 
+| i 
+| 
+
+| a b c d e f g h i 
+| j 
+| 
+| 
+| 
+
+| a b c d e f g h i j 
+| 
+| 
+| 
+| 
+
+Total steps taken : 15
+
+Test 10 summary
+Number of goal tests : 14
+Maximum queue size : 223
+Solution Path:
+| e b i 
+| g d 
+| j h 
+| 
+| f a c 
+
+| e b i 
+| g d c 
+| j h 
+| 
+| f a 
+
+| e b 
+| g d c 
+| j h 
+| i 
+| f a 
+
+| e 
+| g d c b 
+| j h 
+| i 
+| f a 
+
+| 
+| g d c b 
+| j h e 
+| i 
+| f a 
+
+| a 
+| g d c b 
+| j h e 
+| i 
+| f 
+
+| a b 
+| g d c 
+| j h e 
+| i 
+| f 
+
+| a b c 
+| g d 
+| j h e 
+| i 
+| f 
+
+| a b c d 
+| g 
+| j h e 
+| i 
+| f 
+
+| a b c d e 
+| g 
+| j h 
+| i 
+| f 
+
+| a b c d e f 
+| g 
+| j h 
+| i 
+| 
+
+| a b c d e f g 
+| 
+| j h 
+| i 
+| 
+
+| a b c d e f g h 
+| 
+| j 
+| i 
+| 
+
+| a b c d e f g h i 
+| 
+| j 
+| 
+| 
+
+| a b c d e f g h i j 
+| 
+| 
+| 
+| 
+
+Total steps taken : 14
+
+Running tests for 10 blocks with 7 stacks ...
+Test 1 summary
+Number of goal tests : 14
+Maximum queue size : 383
+Solution Path:
+| a 
+| 
+| c g 
+| 
+| f j i b e 
+| d 
+| h 
+
+| a 
+| e 
+| c g 
+| 
+| f j i b 
+| d 
+| h 
+
+| a b 
+| e 
+| c g 
+| 
+| f j i 
+| d 
+| h 
+
+| a b 
+| 
+| c g 
+| 
+| f j i e 
+| d 
+| h 
+
+| a b 
+| g 
+| c 
+| 
+| f j i e 
+| d 
+| h 
+
+| a b c 
+| g 
+| 
+| 
+| f j i e 
+| d 
+| h 
+
+| a b c d 
+| g 
+| 
+| 
+| f j i e 
+| 
+| h 
+
+| a b c d e 
+| g 
+| 
+| 
+| f j i 
+| 
+| h 
+
+| a b c d e 
+| g 
+| i 
+| 
+| f j 
+| 
+| h 
+
+| a b c d e 
+| g 
+| i 
+| j 
+| f 
+| 
+| h 
+
+| a b c d e f 
+| g 
+| i 
+| j 
+| 
+| 
+| h 
+
+| a b c d e f g 
+| 
+| i 
+| j 
+| 
+| 
+| h 
+
+| a b c d e f g h 
+| 
+| i 
+| j 
+| 
+| 
+| 
+
+| a b c d e f g h i 
+| 
+| 
+| j 
+| 
+| 
+| 
+
+| a b c d e f g h i j 
+| 
+| 
+| 
+| 
+| 
+| 
+
+Total steps taken : 14
+
+Test 2 summary
+Number of goal tests : 13
+Maximum queue size : 300
+Solution Path:
+| d f 
+| i e c 
+| h 
+| a 
+| g j b 
+| 
+| 
+
+| d 
+| i e c 
+| h f 
+| a 
+| g j b 
+| 
+| 
+
+| 
+| i e c 
+| h f d 
+| a 
+| g j b 
+| 
+| 
+
+| a 
+| i e c 
+| h f d 
+| 
+| g j b 
+| 
+| 
+
+| a b 
+| i e c 
+| h f d 
+| 
+| g j 
+| 
+| 
+
+| a b c 
+| i e 
+| h f d 
+| 
+| g j 
+| 
+| 
+
+| a b c d 
+| i e 
+| h f 
+| 
+| g j 
+| 
+| 
+
+| a b c d e 
+| i 
+| h f 
+| 
+| g j 
+| 
+| 
+
+| a b c d e f 
+| i 
+| h 
+| 
+| g j 
+| 
+| 
+
+| a b c d e f 
+| i 
+| h 
+| j 
+| g 
+| 
+| 
+
+| a b c d e f g 
+| i 
+| h 
+| j 
+| 
+| 
+| 
+
+| a b c d e f g h 
+| i 
+| 
+| j 
+| 
+| 
+| 
+
+| a b c d e f g h i 
+| 
+| 
+| j 
+| 
+| 
+| 
+
+| a b c d e f g h i j 
+| 
+| 
+| 
+| 
+| 
+| 
+
+Total steps taken : 13
+
+Test 3 summary
+Number of goal tests : 16
+Maximum queue size : 411
+Solution Path:
+| g 
+| 
+| d b j f 
+| c h 
+| a i 
+| 
+| e 
+
+| g 
+| i 
+| d b j f 
+| c h 
+| a 
+| 
+| e 
+
+| g 
+| i 
+| d b j f a 
+| c h 
+| 
+| 
+| e 
+
+| 
+| i g 
+| d b j f a 
+| c h 
+| 
+| 
+| e 
+
+| a 
+| i g 
+| d b j f 
+| c h 
+| 
+| 
+| e 
+
+| a 
+| i g f 
+| d b j 
+| c h 
+| 
+| 
+| e 
+
+| a 
+| i g f 
+| d b 
+| c h 
+| j 
+| 
+| e 
+
+| a b 
+| i g f 
+| d 
+| c h 
+| j 
+| 
+| e 
+
+| a b 
+| i g f 
+| d 
+| c 
+| j h 
+| 
+| e 
+
+| a b c 
+| i g f 
+| d 
+| 
+| j h 
+| 
+| e 
+
+| a b c d 
+| i g f 
+| 
+| 
+| j h 
+| 
+| e 
+
+| a b c d e 
+| i g f 
+| 
+| 
+| j h 
+| 
+| 
+
+| a b c d e f 
+| i g 
+| 
+| 
+| j h 
+| 
+| 
+
+| a b c d e f g 
+| i 
+| 
+| 
+| j h 
+| 
+| 
+
+| a b c d e f g h 
+| i 
+| 
+| 
+| j 
+| 
+| 
+
+| a b c d e f g h i 
+| 
+| 
+| 
+| j 
+| 
+| 
+
+| a b c d e f g h i j 
+| 
+| 
+| 
+| 
+| 
+| 
+
+Total steps taken : 16
+
+Test 4 summary
+Number of goal tests : 16
+Maximum queue size : 417
+Solution Path:
+| h j b a 
+| d g e 
+| 
+| 
+| f c 
+| i 
+| 
+
+| h j b 
+| d g e a 
+| 
+| 
+| f c 
+| i 
+| 
+
+| h j 
+| d g e a 
+| b 
+| 
+| f c 
+| i 
+| 
+
+| h 
+| d g e a 
+| b 
+| j 
+| f c 
+| i 
+| 
+
+| 
+| d g e a 
+| b 
+| j h 
+| f c 
+| i 
+| 
+
+| a 
+| d g e 
+| b 
+| j h 
+| f c 
+| i 
+| 
+
+| a b 
+| d g e 
+| 
+| j h 
+| f c 
+| i 
+| 
+
+| a b c 
+| d g e 
+| 
+| j h 
+| f 
+| i 
+| 
+
+| a b c 
+| d g 
+| e 
+| j h 
+| f 
+| i 
+| 
+
+| a b c 
+| d 
+| e 
+| j h g 
+| f 
+| i 
+| 
+
+| a b c d 
+| 
+| e 
+| j h g 
+| f 
+| i 
+| 
+
+| a b c d e 
+| 
+| 
+| j h g 
+| f 
+| i 
+| 
+
+| a b c d e f 
+| 
+| 
+| j h g 
+| 
+| i 
+| 
+
+| a b c d e f g 
+| 
+| 
+| j h 
+| 
+| i 
+| 
+
+| a b c d e f g h 
+| 
+| 
+| j 
+| 
+| i 
+| 
+
+| a b c d e f g h i 
+| 
+| 
+| j 
+| 
+| 
+| 
+
+| a b c d e f g h i j 
+| 
+| 
+| 
+| 
+| 
+| 
+
+Total steps taken : 16
+
+Test 5 summary
+Number of goal tests : 16
+Maximum queue size : 507
+Solution Path:
+| h g 
+| 
+| f 
+| c 
+| a e j 
+| i 
+| b d 
+
+| h g 
+| j 
+| f 
+| c 
+| a e 
+| i 
+| b d 
+
+| h g 
+| j e 
+| f 
+| c 
+| a 
+| i 
+| b d 
+
+| h 
+| j e 
+| f 
+| c 
+| a 
+| i g 
+| b d 
+
+| h 
+| j e 
+| f 
+| c 
+| 
+| i g 
+| b d a 
+
+| 
+| j e 
+| f 
+| c 
+| h 
+| i g 
+| b d a 
+
+| a 
+| j e 
+| f 
+| c 
+| h 
+| i g 
+| b d 
+
+| a 
+| j e d 
+| f 
+| c 
+| h 
+| i g 
+| b 
+
+| a b 
+| j e d 
+| f 
+| c 
+| h 
+| i g 
+| 
+
+| a b c 
+| j e d 
+| f 
+| 
+| h 
+| i g 
+| 
+
+| a b c d 
+| j e 
+| f 
+| 
+| h 
+| i g 
+| 
+
+| a b c d e 
+| j 
+| f 
+| 
+| h 
+| i g 
+| 
+
+| a b c d e f 
+| j 
+| 
+| 
+| h 
+| i g 
+| 
+
+| a b c d e f g 
+| j 
+| 
+| 
+| h 
+| i 
+| 
+
+| a b c d e f g h 
+| j 
+| 
+| 
+| 
+| i 
+| 
+
+| a b c d e f g h i 
+| j 
+| 
+| 
+| 
+| 
+| 
+
+| a b c d e f g h i j 
+| 
+| 
+| 
+| 
+| 
+| 
+
+Total steps taken : 16
+
+Test 6 summary
+Number of goal tests : 15
+Maximum queue size : 370
+Solution Path:
+| a h 
+| j 
+| 
+| c e 
+| b g 
+| d f i 
+| 
+
+| a h 
+| j g 
+| 
+| c e 
+| b 
+| d f i 
+| 
+
+| a h 
+| j g 
+| 
+| c e 
+| 
+| d f i b 
+| 
+
+| a 
+| j g 
+| h 
+| c e 
+| 
+| d f i b 
+| 
+
+| a b 
+| j g 
+| h 
+| c e 
+| 
+| d f i 
+| 
+
+| a b 
+| j g e 
+| h 
+| c 
+| 
+| d f i 
+| 
+
+| a b c 
+| j g e 
+| h 
+| 
+| 
+| d f i 
+| 
+
+| a b c 
+| j g e 
+| h 
+| i 
+| 
+| d f 
+| 
+
+| a b c 
+| j g e 
+| h f 
+| i 
+| 
+| d 
+| 
+
+| a b c d 
+| j g e 
+| h f 
+| i 
+| 
+| 
+| 
+
+| a b c d e 
+| j g 
+| h f 
+| i 
+| 
+| 
+| 
+
+| a b c d e f 
+| j g 
+| h 
+| i 
+| 
+| 
+| 
+
+| a b c d e f g 
+| j 
+| h 
+| i 
+| 
+| 
+| 
+
+| a b c d e f g h 
+| j 
+| 
+| i 
+| 
+| 
+| 
+
+| a b c d e f g h i 
+| j 
+| 
+| 
+| 
+| 
+| 
+
+| a b c d e f g h i j 
+| 
+| 
+| 
+| 
+| 
+| 
+
+Total steps taken : 15
+
+Test 7 summary
+Number of goal tests : 12
+Maximum queue size : 337
+Solution Path:
+| 
+| j 
+| b a 
+| 
+| f d h e 
+| i 
+| g c 
+
+| a 
+| j 
+| b 
+| 
+| f d h e 
+| i 
+| g c 
+
+| a b 
+| j 
+| 
+| 
+| f d h e 
+| i 
+| g c 
+
+| a b c 
+| j 
+| 
+| 
+| f d h e 
+| i 
+| g 
+
+| a b c 
+| j e 
+| 
+| 
+| f d h 
+| i 
+| g 
+
+| a b c 
+| j e 
+| h 
+| 
+| f d 
+| i 
+| g 
+
+| a b c d 
+| j e 
+| h 
+| 
+| f 
+| i 
+| g 
+
+| a b c d e 
+| j 
+| h 
+| 
+| f 
+| i 
+| g 
+
+| a b c d e f 
+| j 
+| h 
+| 
+| 
+| i 
+| g 
+
+| a b c d e f g 
+| j 
+| h 
+| 
+| 
+| i 
+| 
+
+| a b c d e f g h 
+| j 
+| 
+| 
+| 
+| i 
+| 
+
+| a b c d e f g h i 
+| j 
+| 
+| 
+| 
+| 
+| 
+
+| a b c d e f g h i j 
+| 
+| 
+| 
+| 
+| 
+| 
+
+Total steps taken : 12
+
+Test 8 summary
+Number of goal tests : 15
+Maximum queue size : 346
+Solution Path:
+| d 
+| 
+| b i a 
+| f j 
+| c h 
+| 
+| e g 
+
+| 
+| 
+| b i a 
+| f j d 
+| c h 
+| 
+| e g 
+
+| a 
+| 
+| b i 
+| f j d 
+| c h 
+| 
+| e g 
+
+| a 
+| i 
+| b 
+| f j d 
+| c h 
+| 
+| e g 
+
+| a b 
+| i 
+| 
+| f j d 
+| c h 
+| 
+| e g 
+
+| a b 
+| i h 
+| 
+| f j d 
+| c 
+| 
+| e g 
+
+| a b c 
+| i h 
+| 
+| f j d 
+| 
+| 
+| e g 
+
+| a b c d 
+| i h 
+| 
+| f j 
+| 
+| 
+| e g 
+
+| a b c d 
+| i h g 
+| 
+| f j 
+| 
+| 
+| e 
+
+| a b c d e 
+| i h g 
+| 
+| f j 
+| 
+| 
+| 
+
+| a b c d e 
+| i h g 
+| j 
+| f 
+| 
+| 
+| 
+
+| a b c d e f 
+| i h g 
+| j 
+| 
+| 
+| 
+| 
+
+| a b c d e f g 
+| i h 
+| j 
+| 
+| 
+| 
+| 
+
+| a b c d e f g h 
+| i 
+| j 
+| 
+| 
+| 
+| 
+
+| a b c d e f g h i 
+| 
+| j 
+| 
+| 
+| 
+| 
+
+| a b c d e f g h i j 
+| 
+| 
+| 
+| 
+| 
+| 
+
+Total steps taken : 15
+
+Test 9 summary
+Number of goal tests : 13
+Maximum queue size : 300
+Solution Path:
+| 
+| i f h j 
+| a c 
+| g 
+| e b 
+| 
+| d 
+
+| 
+| i f h j c 
+| a 
+| g 
+| e b 
+| 
+| d 
+
+| a 
+| i f h j c 
+| 
+| g 
+| e b 
+| 
+| d 
+
+| a b 
+| i f h j c 
+| 
+| g 
+| e 
+| 
+| d 
+
+| a b c 
+| i f h j 
+| 
+| g 
+| e 
+| 
+| d 
+
+| a b c d 
+| i f h j 
+| 
+| g 
+| e 
+| 
+| 
+
+| a b c d e 
+| i f h j 
+| 
+| g 
+| 
+| 
+| 
+
+| a b c d e 
+| i f h 
+| j 
+| g 
+| 
+| 
+| 
+
+| a b c d e 
+| i f 
+| j h 
+| g 
+| 
+| 
+| 
+
+| a b c d e f 
+| i 
+| j h 
+| g 
+| 
+| 
+| 
+
+| a b c d e f g 
+| i 
+| j h 
+| 
+| 
+| 
+| 
+
+| a b c d e f g h 
+| i 
+| j 
+| 
+| 
+| 
+| 
+
+| a b c d e f g h i 
+| 
+| j 
+| 
+| 
+| 
+| 
+
+| a b c d e f g h i j 
+| 
+| 
+| 
+| 
+| 
+| 
+
+Total steps taken : 13
+
+Test 10 summary
+Number of goal tests : 14
+Maximum queue size : 377
+Solution Path:
+| c 
+| h 
+| a b d 
+| j g 
+| e 
+| 
+| f i 
+
+| c 
+| h 
+| a b 
+| j g 
+| e 
+| 
+| f i d 
+
+| c 
+| h b 
+| a 
+| j g 
+| e 
+| 
+| f i d 
+
+| 
+| h b 
+| a 
+| j g c 
+| e 
+| 
+| f i d 
+
+| a 
+| h b 
+| 
+| j g c 
+| e 
+| 
+| f i d 
+
+| a b 
+| h 
+| 
+| j g c 
+| e 
+| 
+| f i d 
+
+| a b c 
+| h 
+| 
+| j g 
+| e 
+| 
+| f i d 
+
+| a b c d 
+| h 
+| 
+| j g 
+| e 
+| 
+| f i 
+
+| a b c d e 
+| h 
+| 
+| j g 
+| 
+| 
+| f i 
+
+| a b c d e 
+| h 
+| i 
+| j g 
+| 
+| 
+| f 
+
+| a b c d e f 
+| h 
+| i 
+| j g 
+| 
+| 
+| 
+
+| a b c d e f g 
+| h 
+| i 
+| j 
+| 
+| 
+| 
+
+| a b c d e f g h 
+| 
+| i 
+| j 
+| 
+| 
+| 
+
+| a b c d e f g h i 
+| 
+| 
+| j 
+| 
+| 
+| 
+
+| a b c d e f g h i j 
+| 
+| 
+| 
+| 
+| 
+| 
+
+Total steps taken : 14
+
+Running tests for 10 blocks with 10 stacks ...
+Test 1 summary
+Number of goal tests : 12
+Maximum queue size : 592
+Solution Path:
+| 
+| f 
+| c h b 
+| e 
+| 
+| 
+| d 
+| 
+| g a i 
+| j 
+
+| 
+| f 
+| c h b 
+| e 
+| i 
+| 
+| d 
+| 
+| g a 
+| j 
+
+| a 
+| f 
+| c h b 
+| e 
+| i 
+| 
+| d 
+| 
+| g 
+| j 
+
+| a b 
+| f 
+| c h 
+| e 
+| i 
+| 
+| d 
+| 
+| g 
+| j 
+
+| a b 
+| f 
+| c 
+| e 
+| i h 
+| 
+| d 
+| 
+| g 
+| j 
+
+| a b c 
+| f 
+| 
+| e 
+| i h 
+| 
+| d 
+| 
+| g 
+| j 
+
+| a b c d 
+| f 
+| 
+| e 
+| i h 
+| 
+| 
+| 
+| g 
+| j 
+
+| a b c d e 
+| f 
+| 
+| 
+| i h 
+| 
+| 
+| 
+| g 
+| j 
+
+| a b c d e f 
+| 
+| 
+| 
+| i h 
+| 
+| 
+| 
+| g 
+| j 
+
+| a b c d e f g 
+| 
+| 
+| 
+| i h 
+| 
+| 
+| 
+| 
+| j 
+
+| a b c d e f g h 
+| 
+| 
+| 
+| i 
+| 
+| 
+| 
+| 
+| j 
+
+| a b c d e f g h i 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| j 
+
+| a b c d e f g h i j 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+
+Total steps taken : 12
+
+Test 2 summary
+Number of goal tests : 11
+Maximum queue size : 584
+Solution Path:
+| b 
+| g 
+| i a 
+| d 
+| f 
+| 
+| j 
+| 
+| e c 
+| h 
+
+| 
+| g b 
+| i a 
+| d 
+| f 
+| 
+| j 
+| 
+| e c 
+| h 
+
+| a 
+| g b 
+| i 
+| d 
+| f 
+| 
+| j 
+| 
+| e c 
+| h 
+
+| a b 
+| g 
+| i 
+| d 
+| f 
+| 
+| j 
+| 
+| e c 
+| h 
+
+| a b c 
+| g 
+| i 
+| d 
+| f 
+| 
+| j 
+| 
+| e 
+| h 
+
+| a b c d 
+| g 
+| i 
+| 
+| f 
+| 
+| j 
+| 
+| e 
+| h 
+
+| a b c d e 
+| g 
+| i 
+| 
+| f 
+| 
+| j 
+| 
+| 
+| h 
+
+| a b c d e f 
+| g 
+| i 
+| 
+| 
+| 
+| j 
+| 
+| 
+| h 
+
+| a b c d e f g 
+| 
+| i 
+| 
+| 
+| 
+| j 
+| 
+| 
+| h 
+
+| a b c d e f g h 
+| 
+| i 
+| 
+| 
+| 
+| j 
+| 
+| 
+| 
+
+| a b c d e f g h i 
+| 
+| 
+| 
+| 
+| 
+| j 
+| 
+| 
+| 
+
+| a b c d e f g h i j 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+
+Total steps taken : 11
+
+Test 3 summary
+Number of goal tests : 15
+Maximum queue size : 751
+Solution Path:
+| j 
+| i 
+| f 
+| c 
+| e 
+| 
+| b h g 
+| 
+| 
+| a d 
+
+| j 
+| i d 
+| f 
+| c 
+| e 
+| 
+| b h g 
+| 
+| 
+| a 
+
+| j 
+| i d 
+| f 
+| c 
+| e 
+| 
+| b h g a 
+| 
+| 
+| 
+
+| 
+| i d 
+| f 
+| c 
+| e 
+| j 
+| b h g a 
+| 
+| 
+| 
+
+| a 
+| i d 
+| f 
+| c 
+| e 
+| j 
+| b h g 
+| 
+| 
+| 
+
+| a 
+| i d 
+| f 
+| c 
+| e 
+| j g 
+| b h 
+| 
+| 
+| 
+
+| a 
+| i d 
+| f 
+| c 
+| e 
+| j g 
+| b 
+| h 
+| 
+| 
+
+| a b 
+| i d 
+| f 
+| c 
+| e 
+| j g 
+| 
+| h 
+| 
+| 
+
+| a b c 
+| i d 
+| f 
+| 
+| e 
+| j g 
+| 
+| h 
+| 
+| 
+
+| a b c d 
+| i 
+| f 
+| 
+| e 
+| j g 
+| 
+| h 
+| 
+| 
+
+| a b c d e 
+| i 
+| f 
+| 
+| 
+| j g 
+| 
+| h 
+| 
+| 
+
+| a b c d e f 
+| i 
+| 
+| 
+| 
+| j g 
+| 
+| h 
+| 
+| 
+
+| a b c d e f g 
+| i 
+| 
+| 
+| 
+| j 
+| 
+| h 
+| 
+| 
+
+| a b c d e f g h 
+| i 
+| 
+| 
+| 
+| j 
+| 
+| 
+| 
+| 
+
+| a b c d e f g h i 
+| 
+| 
+| 
+| 
+| j 
+| 
+| 
+| 
+| 
+
+| a b c d e f g h i j 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+
+Total steps taken : 15
+
+Test 4 summary
+Number of goal tests : 14
+Maximum queue size : 500
+Solution Path:
+| d 
+| b e 
+| a 
+| 
+| 
+| 
+| i g 
+| c 
+| f h j 
+| 
+
+| 
+| b e 
+| a 
+| 
+| 
+| 
+| i g 
+| c 
+| f h j d 
+| 
+
+| a 
+| b e 
+| 
+| 
+| 
+| 
+| i g 
+| c 
+| f h j d 
+| 
+
+| a 
+| b 
+| e 
+| 
+| 
+| 
+| i g 
+| c 
+| f h j d 
+| 
+
+| a b 
+| 
+| e 
+| 
+| 
+| 
+| i g 
+| c 
+| f h j d 
+| 
+
+| a b c 
+| 
+| e 
+| 
+| 
+| 
+| i g 
+| 
+| f h j d 
+| 
+
+| a b c d 
+| 
+| e 
+| 
+| 
+| 
+| i g 
+| 
+| f h j 
+| 
+
+| a b c d e 
+| 
+| 
+| 
+| 
+| 
+| i g 
+| 
+| f h j 
+| 
+
+| a b c d e 
+| j 
+| 
+| 
+| 
+| 
+| i g 
+| 
+| f h 
+| 
+
+| a b c d e 
+| j h 
+| 
+| 
+| 
+| 
+| i g 
+| 
+| f 
+| 
+
+| a b c d e f 
+| j h 
+| 
+| 
+| 
+| 
+| i g 
+| 
+| 
+| 
+
+| a b c d e f g 
+| j h 
+| 
+| 
+| 
+| 
+| i 
+| 
+| 
+| 
+
+| a b c d e f g h 
+| j 
+| 
+| 
+| 
+| 
+| i 
+| 
+| 
+| 
+
+| a b c d e f g h i 
+| j 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+
+| a b c d e f g h i j 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+
+Total steps taken : 14
+
+Test 5 summary
+Number of goal tests : 13
+Maximum queue size : 510
+Solution Path:
+| c 
+| b 
+| i j a 
+| 
+| d 
+| f 
+| 
+| g 
+| 
+| e h 
+
+| 
+| b 
+| i j a 
+| 
+| d 
+| f 
+| 
+| g 
+| 
+| e h c 
+
+| a 
+| b 
+| i j 
+| 
+| d 
+| f 
+| 
+| g 
+| 
+| e h c 
+
+| a b 
+| 
+| i j 
+| 
+| d 
+| f 
+| 
+| g 
+| 
+| e h c 
+
+| a b c 
+| 
+| i j 
+| 
+| d 
+| f 
+| 
+| g 
+| 
+| e h 
+
+| a b c d 
+| 
+| i j 
+| 
+| 
+| f 
+| 
+| g 
+| 
+| e h 
+
+| a b c d 
+| 
+| i j h 
+| 
+| 
+| f 
+| 
+| g 
+| 
+| e 
+
+| a b c d e 
+| 
+| i j h 
+| 
+| 
+| f 
+| 
+| g 
+| 
+| 
+
+| a b c d e f 
+| 
+| i j h 
+| 
+| 
+| 
+| 
+| g 
+| 
+| 
+
+| a b c d e f g 
+| 
+| i j h 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+
+| a b c d e f g h 
+| 
+| i j 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+
+| a b c d e f g h 
+| j 
+| i 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+
+| a b c d e f g h i 
+| j 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+
+| a b c d e f g h i j 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+
+Total steps taken : 13
+
+Test 6 summary
+Number of goal tests : 11
+Maximum queue size : 611
+Solution Path:
+| b 
+| 
+| g 
+| f d 
+| i 
+| a 
+| h 
+| j 
+| c 
+| e 
+
+| 
+| b 
+| g 
+| f d 
+| i 
+| a 
+| h 
+| j 
+| c 
+| e 
+
+| a 
+| b 
+| g 
+| f d 
+| i 
+| 
+| h 
+| j 
+| c 
+| e 
+
+| a b 
+| 
+| g 
+| f d 
+| i 
+| 
+| h 
+| j 
+| c 
+| e 
+
+| a b c 
+| 
+| g 
+| f d 
+| i 
+| 
+| h 
+| j 
+| 
+| e 
+
+| a b c d 
+| 
+| g 
+| f 
+| i 
+| 
+| h 
+| j 
+| 
+| e 
+
+| a b c d e 
+| 
+| g 
+| f 
+| i 
+| 
+| h 
+| j 
+| 
+| 
+
+| a b c d e f 
+| 
+| g 
+| 
+| i 
+| 
+| h 
+| j 
+| 
+| 
+
+| a b c d e f g 
+| 
+| 
+| 
+| i 
+| 
+| h 
+| j 
+| 
+| 
+
+| a b c d e f g h 
+| 
+| 
+| 
+| i 
+| 
+| 
+| j 
+| 
+| 
+
+| a b c d e f g h i 
+| 
+| 
+| 
+| 
+| 
+| 
+| j 
+| 
+| 
+
+| a b c d e f g h i j 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+
+Total steps taken : 11
+
+Test 7 summary
+Number of goal tests : 11
+Maximum queue size : 557
+Solution Path:
+| b 
+| f d 
+| i 
+| a 
+| 
+| e 
+| h 
+| g c 
+| j 
+| 
+
+| 
+| f d b 
+| i 
+| a 
+| 
+| e 
+| h 
+| g c 
+| j 
+| 
+
+| a 
+| f d b 
+| i 
+| 
+| 
+| e 
+| h 
+| g c 
+| j 
+| 
+
+| a b 
+| f d 
+| i 
+| 
+| 
+| e 
+| h 
+| g c 
+| j 
+| 
+
+| a b c 
+| f d 
+| i 
+| 
+| 
+| e 
+| h 
+| g 
+| j 
+| 
+
+| a b c d 
+| f 
+| i 
+| 
+| 
+| e 
+| h 
+| g 
+| j 
+| 
+
+| a b c d e 
+| f 
+| i 
+| 
+| 
+| 
+| h 
+| g 
+| j 
+| 
+
+| a b c d e f 
+| 
+| i 
+| 
+| 
+| 
+| h 
+| g 
+| j 
+| 
+
+| a b c d e f g 
+| 
+| i 
+| 
+| 
+| 
+| h 
+| 
+| j 
+| 
+
+| a b c d e f g h 
+| 
+| i 
+| 
+| 
+| 
+| 
+| 
+| j 
+| 
+
+| a b c d e f g h i 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| j 
+| 
+
+| a b c d e f g h i j 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+
+Total steps taken : 11
+
+Test 8 summary
+Number of goal tests : 13
+Maximum queue size : 564
+Solution Path:
+| 
+| 
+| 
+| 
+| i g 
+| a j e 
+| f b 
+| c 
+| d h 
+| 
+
+| 
+| e 
+| 
+| 
+| i g 
+| a j 
+| f b 
+| c 
+| d h 
+| 
+
+| 
+| e 
+| j 
+| 
+| i g 
+| a 
+| f b 
+| c 
+| d h 
+| 
+
+| a 
+| e 
+| j 
+| 
+| i g 
+| 
+| f b 
+| c 
+| d h 
+| 
+
+| a b 
+| e 
+| j 
+| 
+| i g 
+| 
+| f 
+| c 
+| d h 
+| 
+
+| a b c 
+| e 
+| j 
+| 
+| i g 
+| 
+| f 
+| 
+| d h 
+| 
+
+| a b c 
+| e 
+| j h 
+| 
+| i g 
+| 
+| f 
+| 
+| d 
+| 
+
+| a b c d 
+| e 
+| j h 
+| 
+| i g 
+| 
+| f 
+| 
+| 
+| 
+
+| a b c d e 
+| 
+| j h 
+| 
+| i g 
+| 
+| f 
+| 
+| 
+| 
+
+| a b c d e f 
+| 
+| j h 
+| 
+| i g 
+| 
+| 
+| 
+| 
+| 
+
+| a b c d e f g 
+| 
+| j h 
+| 
+| i 
+| 
+| 
+| 
+| 
+| 
+
+| a b c d e f g h 
+| 
+| j 
+| 
+| i 
+| 
+| 
+| 
+| 
+| 
+
+| a b c d e f g h i 
+| 
+| j 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+
+| a b c d e f g h i j 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+
+Total steps taken : 13
+
+Test 9 summary
+Number of goal tests : 12
+Maximum queue size : 538
+Solution Path:
+| 
+| g h 
+| 
+| c 
+| e b 
+| d j 
+| a 
+| f 
+| 
+| i 
+
+| a 
+| g h 
+| 
+| c 
+| e b 
+| d j 
+| 
+| f 
+| 
+| i 
+
+| a b 
+| g h 
+| 
+| c 
+| e 
+| d j 
+| 
+| f 
+| 
+| i 
+
+| a b c 
+| g h 
+| 
+| 
+| e 
+| d j 
+| 
+| f 
+| 
+| i 
+
+| a b c 
+| g h 
+| j 
+| 
+| e 
+| d 
+| 
+| f 
+| 
+| i 
+
+| a b c d 
+| g h 
+| j 
+| 
+| e 
+| 
+| 
+| f 
+| 
+| i 
+
+| a b c d e 
+| g h 
+| j 
+| 
+| 
+| 
+| 
+| f 
+| 
+| i 
+
+| a b c d e f 
+| g h 
+| j 
+| 
+| 
+| 
+| 
+| 
+| 
+| i 
+
+| a b c d e f 
+| g 
+| j h 
+| 
+| 
+| 
+| 
+| 
+| 
+| i 
+
+| a b c d e f g 
+| 
+| j h 
+| 
+| 
+| 
+| 
+| 
+| 
+| i 
+
+| a b c d e f g h 
+| 
+| j 
+| 
+| 
+| 
+| 
+| 
+| 
+| i 
+
+| a b c d e f g h i 
+| 
+| j 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+
+| a b c d e f g h i j 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+
+Total steps taken : 12
+
+Test 10 summary
+Number of goal tests : 13
+Maximum queue size : 744
+Solution Path:
+| h b a 
+| 
+| 
+| f 
+| 
+| e 
+| c 
+| g 
+| i 
+| j d 
+
+| h b 
+| a 
+| 
+| f 
+| 
+| e 
+| c 
+| g 
+| i 
+| j d 
+
+| h 
+| a 
+| b 
+| f 
+| 
+| e 
+| c 
+| g 
+| i 
+| j d 
+
+| 
+| a 
+| b 
+| f 
+| h 
+| e 
+| c 
+| g 
+| i 
+| j d 
+
+| a 
+| 
+| b 
+| f 
+| h 
+| e 
+| c 
+| g 
+| i 
+| j d 
+
+| a b 
+| 
+| 
+| f 
+| h 
+| e 
+| c 
+| g 
+| i 
+| j d 
+
+| a b c 
+| 
+| 
+| f 
+| h 
+| e 
+| 
+| g 
+| i 
+| j d 
+
+| a b c d 
+| 
+| 
+| f 
+| h 
+| e 
+| 
+| g 
+| i 
+| j 
+
+| a b c d e 
+| 
+| 
+| f 
+| h 
+| 
+| 
+| g 
+| i 
+| j 
+
+| a b c d e f 
+| 
+| 
+| 
+| h 
+| 
+| 
+| g 
+| i 
+| j 
+
+| a b c d e f g 
+| 
+| 
+| 
+| h 
+| 
+| 
+| 
+| i 
+| j 
+
+| a b c d e f g h 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| i 
+| j 
+
+| a b c d e f g h i 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| j 
+
+| a b c d e f g h i j 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+
+Total steps taken : 13
+
+Running tests for 10 blocks with 15 stacks ...
+Test 1 summary
+Number of goal tests : 13
+Maximum queue size : 968
+Solution Path:
+| c f 
+| 
+| 
+| 
+| g 
+| h j 
+| 
+| 
+| i 
+| a 
+| 
+| b 
+| e 
+| d 
+| 
+
+| c 
+| 
+| 
+| 
+| g 
+| h j f 
+| 
+| 
+| i 
+| a 
+| 
+| b 
+| e 
+| d 
+| 
+
+| 
+| c 
+| 
+| 
+| g 
+| h j f 
+| 
+| 
+| i 
+| a 
+| 
+| b 
+| e 
+| d 
+| 
+
+| a 
+| c 
+| 
+| 
+| g 
+| h j f 
+| 
+| 
+| i 
+| 
+| 
+| b 
+| e 
+| d 
+| 
+
+| a b 
+| c 
+| 
+| 
+| g 
+| h j f 
+| 
+| 
+| i 
+| 
+| 
+| 
+| e 
+| d 
+| 
+
+| a b c 
+| 
+| 
+| 
+| g 
+| h j f 
+| 
+| 
+| i 
+| 
+| 
+| 
+| e 
+| d 
+| 
+
+| a b c d 
+| 
+| 
+| 
+| g 
+| h j f 
+| 
+| 
+| i 
+| 
+| 
+| 
+| e 
+| 
+| 
+
+| a b c d e 
+| 
+| 
+| 
+| g 
+| h j f 
+| 
+| 
+| i 
+| 
+| 
+| 
+| 
+| 
+| 
+
+| a b c d e f 
+| 
+| 
+| 
+| g 
+| h j 
+| 
+| 
+| i 
+| 
+| 
+| 
+| 
+| 
+| 
+
+| a b c d e f g 
+| 
+| 
+| 
+| 
+| h j 
+| 
+| 
+| i 
+| 
+| 
+| 
+| 
+| 
+| 
+
+| a b c d e f g 
+| j 
+| 
+| 
+| 
+| h 
+| 
+| 
+| i 
+| 
+| 
+| 
+| 
+| 
+| 
+
+| a b c d e f g h 
+| j 
+| 
+| 
+| 
+| 
+| 
+| 
+| i 
+| 
+| 
+| 
+| 
+| 
+| 
+
+| a b c d e f g h i 
+| j 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+
+| a b c d e f g h i j 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+
+Total steps taken : 13
+
+Test 2 summary
+Number of goal tests : 13
+Maximum queue size : 926
+Solution Path:
+| e 
+| 
+| b a 
+| 
+| 
+| 
+| 
+| h 
+| j 
+| 
+| c 
+| d g 
+| 
+| 
+| f i 
+
+| 
+| 
+| b a 
+| 
+| 
+| 
+| 
+| h 
+| j 
+| 
+| c 
+| d g 
+| 
+| 
+| f i e 
+
+| a 
+| 
+| b 
+| 
+| 
+| 
+| 
+| h 
+| j 
+| 
+| c 
+| d g 
+| 
+| 
+| f i e 
+
+| a b 
+| 
+| 
+| 
+| 
+| 
+| 
+| h 
+| j 
+| 
+| c 
+| d g 
+| 
+| 
+| f i e 
+
+| a b c 
+| 
+| 
+| 
+| 
+| 
+| 
+| h 
+| j 
+| 
+| 
+| d g 
+| 
+| 
+| f i e 
+
+| a b c 
+| g 
+| 
+| 
+| 
+| 
+| 
+| h 
+| j 
+| 
+| 
+| d 
+| 
+| 
+| f i e 
+
+| a b c d 
+| g 
+| 
+| 
+| 
+| 
+| 
+| h 
+| j 
+| 
+| 
+| 
+| 
+| 
+| f i e 
+
+| a b c d e 
+| g 
+| 
+| 
+| 
+| 
+| 
+| h 
+| j 
+| 
+| 
+| 
+| 
+| 
+| f i 
+
+| a b c d e 
+| g 
+| i 
+| 
+| 
+| 
+| 
+| h 
+| j 
+| 
+| 
+| 
+| 
+| 
+| f 
+
+| a b c d e f 
+| g 
+| i 
+| 
+| 
+| 
+| 
+| h 
+| j 
+| 
+| 
+| 
+| 
+| 
+| 
+
+| a b c d e f g 
+| 
+| i 
+| 
+| 
+| 
+| 
+| h 
+| j 
+| 
+| 
+| 
+| 
+| 
+| 
+
+| a b c d e f g h 
+| 
+| i 
+| 
+| 
+| 
+| 
+| 
+| j 
+| 
+| 
+| 
+| 
+| 
+| 
+
+| a b c d e f g h i 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| j 
+| 
+| 
+| 
+| 
+| 
+| 
+
+| a b c d e f g h i j 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+
+Total steps taken : 13
+
+Test 3 summary
+Number of goal tests : 13
+Maximum queue size : 982
+Solution Path:
+| d 
+| 
+| 
+| 
+| 
+| 
+| 
+| f a 
+| h 
+| c 
+| 
+| j 
+| e g 
+| b i 
+| 
+
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| f a 
+| h 
+| c 
+| 
+| j 
+| e g d 
+| b i 
+| 
+
+| a 
+| 
+| 
+| 
+| 
+| 
+| 
+| f 
+| h 
+| c 
+| 
+| j 
+| e g d 
+| b i 
+| 
+
+| a 
+| i 
+| 
+| 
+| 
+| 
+| 
+| f 
+| h 
+| c 
+| 
+| j 
+| e g d 
+| b 
+| 
+
+| a b 
+| i 
+| 
+| 
+| 
+| 
+| 
+| f 
+| h 
+| c 
+| 
+| j 
+| e g d 
+| 
+| 
+
+| a b c 
+| i 
+| 
+| 
+| 
+| 
+| 
+| f 
+| h 
+| 
+| 
+| j 
+| e g d 
+| 
+| 
+
+| a b c d 
+| i 
+| 
+| 
+| 
+| 
+| 
+| f 
+| h 
+| 
+| 
+| j 
+| e g 
+| 
+| 
+
+| a b c d 
+| i g 
+| 
+| 
+| 
+| 
+| 
+| f 
+| h 
+| 
+| 
+| j 
+| e 
+| 
+| 
+
+| a b c d e 
+| i g 
+| 
+| 
+| 
+| 
+| 
+| f 
+| h 
+| 
+| 
+| j 
+| 
+| 
+| 
+
+| a b c d e f 
+| i g 
+| 
+| 
+| 
+| 
+| 
+| 
+| h 
+| 
+| 
+| j 
+| 
+| 
+| 
+
+| a b c d e f g 
+| i 
+| 
+| 
+| 
+| 
+| 
+| 
+| h 
+| 
+| 
+| j 
+| 
+| 
+| 
+
+| a b c d e f g h 
+| i 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| j 
+| 
+| 
+| 
+
+| a b c d e f g h i 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| j 
+| 
+| 
+| 
+
+| a b c d e f g h i j 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+
+Total steps taken : 13
+
+Test 4 summary
+Number of goal tests : 11
+Maximum queue size : 914
+Solution Path:
+| c 
+| d 
+| j b 
+| i a 
+| 
+| 
+| 
+| 
+| 
+| g 
+| 
+| f 
+| e 
+| h 
+| 
+
+| 
+| d c 
+| j b 
+| i a 
+| 
+| 
+| 
+| 
+| 
+| g 
+| 
+| f 
+| e 
+| h 
+| 
+
+| a 
+| d c 
+| j b 
+| i 
+| 
+| 
+| 
+| 
+| 
+| g 
+| 
+| f 
+| e 
+| h 
+| 
+
+| a b 
+| d c 
+| j 
+| i 
+| 
+| 
+| 
+| 
+| 
+| g 
+| 
+| f 
+| e 
+| h 
+| 
+
+| a b c 
+| d 
+| j 
+| i 
+| 
+| 
+| 
+| 
+| 
+| g 
+| 
+| f 
+| e 
+| h 
+| 
+
+| a b c d 
+| 
+| j 
+| i 
+| 
+| 
+| 
+| 
+| 
+| g 
+| 
+| f 
+| e 
+| h 
+| 
+
+| a b c d e 
+| 
+| j 
+| i 
+| 
+| 
+| 
+| 
+| 
+| g 
+| 
+| f 
+| 
+| h 
+| 
+
+| a b c d e f 
+| 
+| j 
+| i 
+| 
+| 
+| 
+| 
+| 
+| g 
+| 
+| 
+| 
+| h 
+| 
+
+| a b c d e f g 
+| 
+| j 
+| i 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| h 
+| 
+
+| a b c d e f g h 
+| 
+| j 
+| i 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+
+| a b c d e f g h i 
+| 
+| j 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+
+| a b c d e f g h i j 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+
+Total steps taken : 11
+
+Test 5 summary
+Number of goal tests : 12
+Maximum queue size : 1053
+Solution Path:
+| h 
+| 
+| c 
+| 
+| 
+| 
+| 
+| 
+| e 
+| 
+| g b 
+| f 
+| i 
+| j a d 
+| 
+
+| h 
+| d 
+| c 
+| 
+| 
+| 
+| 
+| 
+| e 
+| 
+| g b 
+| f 
+| i 
+| j a 
+| 
+
+| 
+| d 
+| c 
+| h 
+| 
+| 
+| 
+| 
+| e 
+| 
+| g b 
+| f 
+| i 
+| j a 
+| 
+
+| a 
+| d 
+| c 
+| h 
+| 
+| 
+| 
+| 
+| e 
+| 
+| g b 
+| f 
+| i 
+| j 
+| 
+
+| a b 
+| d 
+| c 
+| h 
+| 
+| 
+| 
+| 
+| e 
+| 
+| g 
+| f 
+| i 
+| j 
+| 
+
+| a b c 
+| d 
+| 
+| h 
+| 
+| 
+| 
+| 
+| e 
+| 
+| g 
+| f 
+| i 
+| j 
+| 
+
+| a b c d 
+| 
+| 
+| h 
+| 
+| 
+| 
+| 
+| e 
+| 
+| g 
+| f 
+| i 
+| j 
+| 
+
+| a b c d e 
+| 
+| 
+| h 
+| 
+| 
+| 
+| 
+| 
+| 
+| g 
+| f 
+| i 
+| j 
+| 
+
+| a b c d e f 
+| 
+| 
+| h 
+| 
+| 
+| 
+| 
+| 
+| 
+| g 
+| 
+| i 
+| j 
+| 
+
+| a b c d e f g 
+| 
+| 
+| h 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| i 
+| j 
+| 
+
+| a b c d e f g h 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| i 
+| j 
+| 
+
+| a b c d e f g h i 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| j 
+| 
+
+| a b c d e f g h i j 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+
+Total steps taken : 12
+
+Test 6 summary
+Number of goal tests : 12
+Maximum queue size : 787
+Solution Path:
+| e 
+| a 
+| 
+| 
+| 
+| 
+| 
+| g 
+| 
+| h i 
+| j b 
+| d 
+| 
+| 
+| f c 
+
+| 
+| a 
+| 
+| 
+| 
+| 
+| 
+| g 
+| 
+| h i e 
+| j b 
+| d 
+| 
+| 
+| f c 
+
+| a 
+| 
+| 
+| 
+| 
+| 
+| 
+| g 
+| 
+| h i e 
+| j b 
+| d 
+| 
+| 
+| f c 
+
+| a b 
+| 
+| 
+| 
+| 
+| 
+| 
+| g 
+| 
+| h i e 
+| j 
+| d 
+| 
+| 
+| f c 
+
+| a b c 
+| 
+| 
+| 
+| 
+| 
+| 
+| g 
+| 
+| h i e 
+| j 
+| d 
+| 
+| 
+| f 
+
+| a b c d 
+| 
+| 
+| 
+| 
+| 
+| 
+| g 
+| 
+| h i e 
+| j 
+| 
+| 
+| 
+| f 
+
+| a b c d e 
+| 
+| 
+| 
+| 
+| 
+| 
+| g 
+| 
+| h i 
+| j 
+| 
+| 
+| 
+| f 
+
+| a b c d e f 
+| 
+| 
+| 
+| 
+| 
+| 
+| g 
+| 
+| h i 
+| j 
+| 
+| 
+| 
+| 
+
+| a b c d e f g 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| h i 
+| j 
+| 
+| 
+| 
+| 
+
+| a b c d e f g 
+| i 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| h 
+| j 
+| 
+| 
+| 
+| 
+
+| a b c d e f g h 
+| i 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| j 
+| 
+| 
+| 
+| 
+
+| a b c d e f g h i 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| j 
+| 
+| 
+| 
+| 
+
+| a b c d e f g h i j 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+
+Total steps taken : 12
+
+Test 7 summary
+Number of goal tests : 13
+Maximum queue size : 1136
+Solution Path:
+| b f 
+| 
+| j 
+| 
+| h 
+| 
+| 
+| i 
+| 
+| g 
+| 
+| c e 
+| 
+| a 
+| d 
+
+| b 
+| f 
+| j 
+| 
+| h 
+| 
+| 
+| i 
+| 
+| g 
+| 
+| c e 
+| 
+| a 
+| d 
+
+| 
+| f 
+| j 
+| 
+| h 
+| 
+| 
+| i 
+| 
+| g 
+| 
+| c e b 
+| 
+| a 
+| d 
+
+| a 
+| f 
+| j 
+| 
+| h 
+| 
+| 
+| i 
+| 
+| g 
+| 
+| c e b 
+| 
+| 
+| d 
+
+| a b 
+| f 
+| j 
+| 
+| h 
+| 
+| 
+| i 
+| 
+| g 
+| 
+| c e 
+| 
+| 
+| d 
+
+| a b 
+| f e 
+| j 
+| 
+| h 
+| 
+| 
+| i 
+| 
+| g 
+| 
+| c 
+| 
+| 
+| d 
+
+| a b c 
+| f e 
+| j 
+| 
+| h 
+| 
+| 
+| i 
+| 
+| g 
+| 
+| 
+| 
+| 
+| d 
+
+| a b c d 
+| f e 
+| j 
+| 
+| h 
+| 
+| 
+| i 
+| 
+| g 
+| 
+| 
+| 
+| 
+| 
+
+| a b c d e 
+| f 
+| j 
+| 
+| h 
+| 
+| 
+| i 
+| 
+| g 
+| 
+| 
+| 
+| 
+| 
+
+| a b c d e f 
+| 
+| j 
+| 
+| h 
+| 
+| 
+| i 
+| 
+| g 
+| 
+| 
+| 
+| 
+| 
+
+| a b c d e f g 
+| 
+| j 
+| 
+| h 
+| 
+| 
+| i 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+
+| a b c d e f g h 
+| 
+| j 
+| 
+| 
+| 
+| 
+| i 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+
+| a b c d e f g h i 
+| 
+| j 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+
+| a b c d e f g h i j 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+
+Total steps taken : 13
+
+Test 8 summary
+Number of goal tests : 11
+Maximum queue size : 746
+Solution Path:
+| 
+| d 
+| a 
+| 
+| c 
+| 
+| 
+| 
+| f 
+| e 
+| 
+| j g h 
+| 
+| i 
+| b 
+
+| a 
+| d 
+| 
+| 
+| c 
+| 
+| 
+| 
+| f 
+| e 
+| 
+| j g h 
+| 
+| i 
+| b 
+
+| a b 
+| d 
+| 
+| 
+| c 
+| 
+| 
+| 
+| f 
+| e 
+| 
+| j g h 
+| 
+| i 
+| 
+
+| a b c 
+| d 
+| 
+| 
+| 
+| 
+| 
+| 
+| f 
+| e 
+| 
+| j g h 
+| 
+| i 
+| 
+
+| a b c d 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| f 
+| e 
+| 
+| j g h 
+| 
+| i 
+| 
+
+| a b c d e 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| f 
+| 
+| 
+| j g h 
+| 
+| i 
+| 
+
+| a b c d e f 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| j g h 
+| 
+| i 
+| 
+
+| a b c d e f 
+| h 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| j g 
+| 
+| i 
+| 
+
+| a b c d e f g 
+| h 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| j 
+| 
+| i 
+| 
+
+| a b c d e f g h 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| j 
+| 
+| i 
+| 
+
+| a b c d e f g h i 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| j 
+| 
+| 
+| 
+
+| a b c d e f g h i j 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+
+Total steps taken : 11
+
+Test 9 summary
+Number of goal tests : 12
+Maximum queue size : 1039
+Solution Path:
+| j 
+| b 
+| 
+| h 
+| e 
+| 
+| f 
+| 
+| c a 
+| 
+| g 
+| 
+| 
+| 
+| d i 
+
+| 
+| b 
+| j 
+| h 
+| e 
+| 
+| f 
+| 
+| c a 
+| 
+| g 
+| 
+| 
+| 
+| d i 
+
+| a 
+| b 
+| j 
+| h 
+| e 
+| 
+| f 
+| 
+| c 
+| 
+| g 
+| 
+| 
+| 
+| d i 
+
+| a b 
+| 
+| j 
+| h 
+| e 
+| 
+| f 
+| 
+| c 
+| 
+| g 
+| 
+| 
+| 
+| d i 
+
+| a b c 
+| 
+| j 
+| h 
+| e 
+| 
+| f 
+| 
+| 
+| 
+| g 
+| 
+| 
+| 
+| d i 
+
+| a b c 
+| i 
+| j 
+| h 
+| e 
+| 
+| f 
+| 
+| 
+| 
+| g 
+| 
+| 
+| 
+| d 
+
+| a b c d 
+| i 
+| j 
+| h 
+| e 
+| 
+| f 
+| 
+| 
+| 
+| g 
+| 
+| 
+| 
+| 
+
+| a b c d e 
+| i 
+| j 
+| h 
+| 
+| 
+| f 
+| 
+| 
+| 
+| g 
+| 
+| 
+| 
+| 
+
+| a b c d e f 
+| i 
+| j 
+| h 
+| 
+| 
+| 
+| 
+| 
+| 
+| g 
+| 
+| 
+| 
+| 
+
+| a b c d e f g 
+| i 
+| j 
+| h 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+
+| a b c d e f g h 
+| i 
+| j 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+
+| a b c d e f g h i 
+| 
+| j 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+
+| a b c d e f g h i j 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+
+Total steps taken : 12
+
+Test 10 summary
+Number of goal tests : 12
+Maximum queue size : 969
+Solution Path:
+| h 
+| 
+| a 
+| g c 
+| 
+| 
+| 
+| d j 
+| 
+| 
+| e 
+| f b 
+| 
+| 
+| i 
+
+| 
+| h 
+| a 
+| g c 
+| 
+| 
+| 
+| d j 
+| 
+| 
+| e 
+| f b 
+| 
+| 
+| i 
+
+| a 
+| h 
+| 
+| g c 
+| 
+| 
+| 
+| d j 
+| 
+| 
+| e 
+| f b 
+| 
+| 
+| i 
+
+| a b 
+| h 
+| 
+| g c 
+| 
+| 
+| 
+| d j 
+| 
+| 
+| e 
+| f 
+| 
+| 
+| i 
+
+| a b c 
+| h 
+| 
+| g 
+| 
+| 
+| 
+| d j 
+| 
+| 
+| e 
+| f 
+| 
+| 
+| i 
+
+| a b c 
+| h 
+| j 
+| g 
+| 
+| 
+| 
+| d 
+| 
+| 
+| e 
+| f 
+| 
+| 
+| i 
+
+| a b c d 
+| h 
+| j 
+| g 
+| 
+| 
+| 
+| 
+| 
+| 
+| e 
+| f 
+| 
+| 
+| i 
+
+| a b c d e 
+| h 
+| j 
+| g 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| f 
+| 
+| 
+| i 
+
+| a b c d e f 
+| h 
+| j 
+| g 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| i 
+
+| a b c d e f g 
+| h 
+| j 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| i 
+
+| a b c d e f g h 
+| 
+| j 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| i 
+
+| a b c d e f g h i 
+| 
+| j 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+
+| a b c d e f g h i j 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+
+Total steps taken : 12
+
+Running tests for 20 blocks with 3 stacks ...
+Test 1 summary
+Number of goal tests : 120
+Maximum queue size : 533
+Solution Path:
+| g q h n a 
+| t r d e i l 
+| m j k p s f b o c 
+
+| g q h n a 
+| t r d e i l c 
+| m j k p s f b o 
+
+| g q h n 
+| t r d e i l c 
+| m j k p s f b o a 
+
+| g q h 
+| t r d e i l c n 
+| m j k p s f b o a 
+
+| g q 
+| t r d e i l c n h 
+| m j k p s f b o a 
+
+| g 
+| t r d e i l c n h q 
+| m j k p s f b o a 
+
+| g 
+| t r d e i l c n h q a 
+| m j k p s f b o 
+
+| 
+| t r d e i l c n h q a 
+| m j k p s f b o g 
+
+| a 
+| t r d e i l c n h q 
+| m j k p s f b o g 
+
+| a 
+| t r d e i l c n h q g 
+| m j k p s f b o 
+
+| a 
+| t r d e i l c n h q g o 
+| m j k p s f b 
+
+| a b 
+| t r d e i l c n h q g o 
+| m j k p s f 
+
+| a b 
+| t r d e i l c n h q g 
+| m j k p s f o 
+
+| a b 
+| t r d e i l c n h q 
+| m j k p s f o g 
+
+| a b 
+| t r d e i l c n h 
+| m j k p s f o g q 
+
+| a b 
+| t r d e i l c n 
+| m j k p s f o g q h 
+
+| a b 
+| t r d e i l c 
+| m j k p s f o g q h n 
+
+| a b c 
+| t r d e i l 
+| m j k p s f o g q h n 
+
+| a b c 
+| t r d e i 
+| m j k p s f o g q h n l 
+
+| a b c 
+| t r d e 
+| m j k p s f o g q h n l i 
+
+| a b c 
+| t r d 
+| m j k p s f o g q h n l i e 
+
+| a b c d 
+| t r 
+| m j k p s f o g q h n l i e 
+
+| a b c d e 
+| t r 
+| m j k p s f o g q h n l i 
+
+| a b c d e 
+| t r i 
+| m j k p s f o g q h n l 
+
+| a b c d e 
+| t r i l 
+| m j k p s f o g q h n 
+
+| a b c d e 
+| t r i l n 
+| m j k p s f o g q h 
+
+| a b c d e 
+| t r i l n h 
+| m j k p s f o g q 
+
+| a b c d e 
+| t r i l n h q 
+| m j k p s f o g 
+
+| a b c d e 
+| t r i l n h q g 
+| m j k p s f o 
+
+| a b c d e 
+| t r i l n h q g o 
+| m j k p s f 
+
+| a b c d e f 
+| t r i l n h q g o 
+| m j k p s 
+
+| a b c d e f 
+| t r i l n h q g 
+| m j k p s o 
+
+| a b c d e f g 
+| t r i l n h q 
+| m j k p s o 
+
+| a b c d e f g 
+| t r i l n h 
+| m j k p s o q 
+
+| a b c d e f g h 
+| t r i l n 
+| m j k p s o q 
+
+| a b c d e f g h 
+| t r i l 
+| m j k p s o q n 
+
+| a b c d e f g h 
+| t r i 
+| m j k p s o q n l 
+
+| a b c d e f g h i 
+| t r 
+| m j k p s o q n l 
+
+| a b c d e f g h i 
+| t r l 
+| m j k p s o q n 
+
+| a b c d e f g h i 
+| t r l n 
+| m j k p s o q 
+
+| a b c d e f g h i 
+| t r l n q 
+| m j k p s o 
+
+| a b c d e f g h i 
+| t r l n q o 
+| m j k p s 
+
+| a b c d e f g h i 
+| t r l n q o s 
+| m j k p 
+
+| a b c d e f g h i 
+| t r l n q o s p 
+| m j k 
+
+| a b c d e f g h i 
+| t r l n q o s p k 
+| m j 
+
+| a b c d e f g h i j 
+| t r l n q o s p k 
+| m 
+
+| a b c d e f g h i j k 
+| t r l n q o s p 
+| m 
+
+| a b c d e f g h i j k 
+| t r l n q o s 
+| m p 
+
+| a b c d e f g h i j k 
+| t r l n q o 
+| m p s 
+
+| a b c d e f g h i j k 
+| t r l n q 
+| m p s o 
+
+| a b c d e f g h i j k 
+| t r l n 
+| m p s o q 
+
+| a b c d e f g h i j k 
+| t r l 
+| m p s o q n 
+
+| a b c d e f g h i j k l 
+| t r 
+| m p s o q n 
+
+| a b c d e f g h i j k l 
+| t r n 
+| m p s o q 
+
+| a b c d e f g h i j k l 
+| t r n q 
+| m p s o 
+
+| a b c d e f g h i j k l 
+| t r n q o 
+| m p s 
+
+| a b c d e f g h i j k l 
+| t r n q o s 
+| m p 
+
+| a b c d e f g h i j k l 
+| t r n q o s p 
+| m 
+
+| a b c d e f g h i j k l m 
+| t r n q o s p 
+| 
+
+| a b c d e f g h i j k l m 
+| t r n q o s 
+| p 
+
+| a b c d e f g h i j k l m 
+| t r n q o 
+| p s 
+
+| a b c d e f g h i j k l m 
+| t r n q 
+| p s o 
+
+| a b c d e f g h i j k l m 
+| t r n 
+| p s o q 
+
+| a b c d e f g h i j k l m n 
+| t r 
+| p s o q 
+
+| a b c d e f g h i j k l m n 
+| t r q 
+| p s o 
+
+| a b c d e f g h i j k l m n o 
+| t r q 
+| p s 
+
+| a b c d e f g h i j k l m n o 
+| t r q s 
+| p 
+
+| a b c d e f g h i j k l m n o p 
+| t r q s 
+| 
+
+| a b c d e f g h i j k l m n o p 
+| t r q 
+| s 
+
+| a b c d e f g h i j k l m n o p q 
+| t r 
+| s 
+
+| a b c d e f g h i j k l m n o p q r 
+| t 
+| s 
+
+| a b c d e f g h i j k l m n o p q r s 
+| t 
+| 
+
+| a b c d e f g h i j k l m n o p q r s t 
+| 
+| 
+
+Total steps taken : 72
+
+Test 2 summary
+
+Test 3 summary
+Number of goal tests : 764
+Maximum queue size : 2897
+Solution Path:
+| q i n b l h f 
+| j r k a p m d 
+| c s o e t g 
+
+| q i n b l h f 
+| j r k a p m 
+| c s o e t g d 
+
+| q i n b l h f 
+| j r k a p 
+| c s o e t g d m 
+
+| q i n b l h f 
+| j r k a 
+| c s o e t g d m p 
+
+| q i n b l h f 
+| j r k 
+| c s o e t g d m p a 
+
+| q i n b l h 
+| j r k 
+| c s o e t g d m p a f 
+
+| q i n b l 
+| j r k h 
+| c s o e t g d m p a f 
+
+| q i n b 
+| j r k h l 
+| c s o e t g d m p a f 
+
+| q i n b 
+| j r k h l f 
+| c s o e t g d m p a 
+
+| q i n 
+| j r k h l f 
+| c s o e t g d m p a b 
+
+| q i 
+| j r k h l f n 
+| c s o e t g d m p a b 
+
+| q 
+| j r k h l f n i 
+| c s o e t g d m p a b 
+
+| 
+| j r k h l f n i q 
+| c s o e t g d m p a b 
+
+| 
+| j r k h l f n i q b 
+| c s o e t g d m p a 
+
+| a 
+| j r k h l f n i q b 
+| c s o e t g d m p 
+
+| a p 
+| j r k h l f n i q b 
+| c s o e t g d m 
+
+| a p m 
+| j r k h l f n i q b 
+| c s o e t g d 
+
+| a p m 
+| j r k h l f n i q 
+| c s o e t g d b 
+
+| a p 
+| j r k h l f n i q m 
+| c s o e t g d b 
+
+| a 
+| j r k h l f n i q m p 
+| c s o e t g d b 
+
+| a b 
+| j r k h l f n i q m p 
+| c s o e t g d 
+
+| a b 
+| j r k h l f n i q m p d 
+| c s o e t g 
+
+| a b 
+| j r k h l f n i q m p d g 
+| c s o e t 
+
+| a b 
+| j r k h l f n i q m p d g t 
+| c s o e 
+
+| a b 
+| j r k h l f n i q m p d g t e 
+| c s o 
+
+| a b 
+| j r k h l f n i q m p d g t e o 
+| c s 
+
+| a b 
+| j r k h l f n i q m p d g t e o s 
+| c 
+
+| a b c 
+| j r k h l f n i q m p d g t e o s 
+| 
+
+| a b c 
+| j r k h l f n i q m p d g t e o 
+| s 
+
+| a b c 
+| j r k h l f n i q m p d g t e 
+| s o 
+
+| a b c 
+| j r k h l f n i q m p d g t 
+| s o e 
+
+| a b c 
+| j r k h l f n i q m p d g 
+| s o e t 
+
+| a b c 
+| j r k h l f n i q m p d 
+| s o e t g 
+
+| a b c d 
+| j r k h l f n i q m p 
+| s o e t g 
+
+| a b c d 
+| j r k h l f n i q m p g 
+| s o e t 
+
+| a b c d 
+| j r k h l f n i q m p g t 
+| s o e 
+
+| a b c d e 
+| j r k h l f n i q m p g t 
+| s o 
+
+| a b c d e 
+| j r k h l f n i q m p g 
+| s o t 
+
+| a b c d e 
+| j r k h l f n i q m p 
+| s o t g 
+
+| a b c d e 
+| j r k h l f n i q m 
+| s o t g p 
+
+| a b c d e 
+| j r k h l f n i q 
+| s o t g p m 
+
+| a b c d e 
+| j r k h l f n i 
+| s o t g p m q 
+
+| a b c d e 
+| j r k h l f n 
+| s o t g p m q i 
+
+| a b c d e 
+| j r k h l f 
+| s o t g p m q i n 
+
+| a b c d e f 
+| j r k h l 
+| s o t g p m q i n 
+
+| a b c d e f 
+| j r k h l n 
+| s o t g p m q i 
+
+| a b c d e f 
+| j r k h l n i 
+| s o t g p m q 
+
+| a b c d e f 
+| j r k h l n i q 
+| s o t g p m 
+
+| a b c d e f 
+| j r k h l n i q m 
+| s o t g p 
+
+| a b c d e f 
+| j r k h l n i q m p 
+| s o t g 
+
+| a b c d e f g 
+| j r k h l n i q m p 
+| s o t 
+
+| a b c d e f g 
+| j r k h l n i q m 
+| s o t p 
+
+| a b c d e f g 
+| j r k h l n i q 
+| s o t p m 
+
+| a b c d e f g 
+| j r k h l n i 
+| s o t p m q 
+
+| a b c d e f g 
+| j r k h l n 
+| s o t p m q i 
+
+| a b c d e f g 
+| j r k h l 
+| s o t p m q i n 
+
+| a b c d e f g 
+| j r k h 
+| s o t p m q i n l 
+
+| a b c d e f g h 
+| j r k 
+| s o t p m q i n l 
+
+| a b c d e f g h 
+| j r k l 
+| s o t p m q i n 
+
+| a b c d e f g h 
+| j r k l n 
+| s o t p m q i 
+
+| a b c d e f g h i 
+| j r k l n 
+| s o t p m q 
+
+| a b c d e f g h i 
+| j r k l 
+| s o t p m q n 
+
+| a b c d e f g h i 
+| j r k 
+| s o t p m q n l 
+
+| a b c d e f g h i 
+| j r 
+| s o t p m q n l k 
+
+| a b c d e f g h i 
+| j 
+| s o t p m q n l k r 
+
+| a b c d e f g h i j 
+| 
+| s o t p m q n l k r 
+
+| a b c d e f g h i j 
+| r 
+| s o t p m q n l k 
+
+| a b c d e f g h i j k 
+| r 
+| s o t p m q n l 
+
+| a b c d e f g h i j k l 
+| r 
+| s o t p m q n 
+
+| a b c d e f g h i j k l 
+| r n 
+| s o t p m q 
+
+| a b c d e f g h i j k l 
+| r n q 
+| s o t p m 
+
+| a b c d e f g h i j k l m 
+| r n q 
+| s o t p 
+
+| a b c d e f g h i j k l m 
+| r n 
+| s o t p q 
+
+| a b c d e f g h i j k l m n 
+| r 
+| s o t p q 
+
+| a b c d e f g h i j k l m n 
+| r q 
+| s o t p 
+
+| a b c d e f g h i j k l m n 
+| r q p 
+| s o t 
+
+| a b c d e f g h i j k l m n 
+| r q p t 
+| s o 
+
+| a b c d e f g h i j k l m n o 
+| r q p t 
+| s 
+
+| a b c d e f g h i j k l m n o 
+| r q p 
+| s t 
+
+| a b c d e f g h i j k l m n o p 
+| r q 
+| s t 
+
+| a b c d e f g h i j k l m n o p q 
+| r 
+| s t 
+
+| a b c d e f g h i j k l m n o p q r 
+| 
+| s t 
+
+| a b c d e f g h i j k l m n o p q r 
+| t 
+| s 
+
+| a b c d e f g h i j k l m n o p q r s 
+| t 
+| 
+
+| a b c d e f g h i j k l m n o p q r s t 
+| 
+| 
+
+Total steps taken : 84
+
+Test 4 summary
+Number of goal tests : 1177
+Maximum queue size : 4668
+Solution Path:
+| b l d s m t 
+| h f n j c 
+| o p i r g q k e a 
+
+| b l d s m 
+| h f n j c t 
+| o p i r g q k e a 
+
+| b l d s 
+| h f n j c t m 
+| o p i r g q k e a 
+
+| b l d s 
+| h f n j c t m a 
+| o p i r g q k e 
+
+| b l d 
+| h f n j c t m a 
+| o p i r g q k e s 
+
+| b l 
+| h f n j c t m a 
+| o p i r g q k e s d 
+
+| b 
+| h f n j c t m a 
+| o p i r g q k e s d l 
+
+| 
+| h f n j c t m a 
+| o p i r g q k e s d l b 
+
+| a 
+| h f n j c t m 
+| o p i r g q k e s d l b 
+
+| a b 
+| h f n j c t m 
+| o p i r g q k e s d l 
+
+| a b 
+| h f n j c t 
+| o p i r g q k e s d l m 
+
+| a b 
+| h f n j c 
+| o p i r g q k e s d l m t 
+
+| a b c 
+| h f n j 
+| o p i r g q k e s d l m t 
+
+| a b c 
+| h f n j t 
+| o p i r g q k e s d l m 
+
+| a b c 
+| h f n j t m 
+| o p i r g q k e s d l 
+
+| a b c 
+| h f n j t m l 
+| o p i r g q k e s d 
+
+| a b c d 
+| h f n j t m l 
+| o p i r g q k e s 
+
+| a b c d 
+| h f n j t m l s 
+| o p i r g q k e 
+
+| a b c d e 
+| h f n j t m l s 
+| o p i r g q k 
+
+| a b c d e s 
+| h f n j t m l 
+| o p i r g q k 
+
+| a b c d e s l 
+| h f n j t m 
+| o p i r g q k 
+
+| a b c d e s l m 
+| h f n j t 
+| o p i r g q k 
+
+| a b c d e s l m 
+| h f n j 
+| o p i r g q k t 
+
+| a b c d e s l m 
+| h f n 
+| o p i r g q k t j 
+
+| a b c d e s l m n 
+| h f 
+| o p i r g q k t j 
+
+| a b c d e s l m n 
+| h 
+| o p i r g q k t j f 
+
+| a b c d e s l m n 
+| 
+| o p i r g q k t j f h 
+
+| a b c d e s l m 
+| n 
+| o p i r g q k t j f h 
+
+| a b c d e s l 
+| n m 
+| o p i r g q k t j f h 
+
+| a b c d e s 
+| n m l 
+| o p i r g q k t j f h 
+
+| a b c d e 
+| n m l s 
+| o p i r g q k t j f h 
+
+| a b c d e 
+| n m l s h 
+| o p i r g q k t j f 
+
+| a b c d e f 
+| n m l s h 
+| o p i r g q k t j 
+
+| a b c d e f 
+| n m l s h j 
+| o p i r g q k t 
+
+| a b c d e f 
+| n m l s h j t 
+| o p i r g q k 
+
+| a b c d e f 
+| n m l s h j t k 
+| o p i r g q 
+
+| a b c d e f 
+| n m l s h j t k q 
+| o p i r g 
+
+| a b c d e f g 
+| n m l s h j t k q 
+| o p i r 
+
+| a b c d e f g 
+| n m l s h j t k 
+| o p i r q 
+
+| a b c d e f g 
+| n m l s h j t 
+| o p i r q k 
+
+| a b c d e f g 
+| n m l s h j 
+| o p i r q k t 
+
+| a b c d e f g 
+| n m l s h 
+| o p i r q k t j 
+
+| a b c d e f g h 
+| n m l s 
+| o p i r q k t j 
+
+| a b c d e f g h 
+| n m l s j 
+| o p i r q k t 
+
+| a b c d e f g h 
+| n m l s j t 
+| o p i r q k 
+
+| a b c d e f g h 
+| n m l s j t k 
+| o p i r q 
+
+| a b c d e f g h 
+| n m l s j t k q 
+| o p i r 
+
+| a b c d e f g h 
+| n m l s j t k q r 
+| o p i 
+
+| a b c d e f g h i 
+| n m l s j t k q r 
+| o p 
+
+| a b c d e f g h i 
+| n m l s j t k q 
+| o p r 
+
+| a b c d e f g h i 
+| n m l s j t k 
+| o p r q 
+
+| a b c d e f g h i 
+| n m l s j t 
+| o p r q k 
+
+| a b c d e f g h i 
+| n m l s j 
+| o p r q k t 
+
+| a b c d e f g h i j 
+| n m l s 
+| o p r q k t 
+
+| a b c d e f g h i j 
+| n m l s t 
+| o p r q k 
+
+| a b c d e f g h i j k 
+| n m l s t 
+| o p r q 
+
+| a b c d e f g h i j k 
+| n m l s 
+| o p r q t 
+
+| a b c d e f g h i j k 
+| n m l 
+| o p r q t s 
+
+| a b c d e f g h i j k l 
+| n m 
+| o p r q t s 
+
+| a b c d e f g h i j k l m 
+| n 
+| o p r q t s 
+
+| a b c d e f g h i j k l m n 
+| 
+| o p r q t s 
+
+| a b c d e f g h i j k l m n 
+| s 
+| o p r q t 
+
+| a b c d e f g h i j k l m n 
+| s t 
+| o p r q 
+
+| a b c d e f g h i j k l m n 
+| s t q 
+| o p r 
+
+| a b c d e f g h i j k l m n 
+| s t q r 
+| o p 
+
+| a b c d e f g h i j k l m n 
+| s t q r p 
+| o 
+
+| a b c d e f g h i j k l m n o 
+| s t q r p 
+| 
+
+| a b c d e f g h i j k l m n o p 
+| s t q r 
+| 
+
+| a b c d e f g h i j k l m n o p 
+| s t q 
+| r 
+
+| a b c d e f g h i j k l m n o p q 
+| s t 
+| r 
+
+| a b c d e f g h i j k l m n o p q r 
+| s t 
+| 
+
+| a b c d e f g h i j k l m n o p q r 
+| s 
+| t 
+
+| a b c d e f g h i j k l m n o p q r s 
+| 
+| t 
+
+| a b c d e f g h i j k l m n o p q r s t 
+| 
+| 
+
+Total steps taken : 73
+
+Test 5 summary
+
+Test 6 summary
+Number of goal tests : 678
+Maximum queue size : 2594
+Solution Path:
+| p b c t i s r h j 
+| a f e m g 
+| d n q l o k 
+
+| p b c t i s r h j 
+| a f e m 
+| d n q l o k g 
+
+| p b c t i s r h j 
+| a f e 
+| d n q l o k g m 
+
+| p b c t i s r h j 
+| a f 
+| d n q l o k g m e 
+
+| p b c t i s r h j 
+| a 
+| d n q l o k g m e f 
+
+| p b c t i s r h j 
+| 
+| d n q l o k g m e f a 
+
+| p b c t i s r h 
+| j 
+| d n q l o k g m e f a 
+
+| p b c t i s r 
+| j 
+| d n q l o k g m e f a h 
+
+| p b c t i s 
+| j r 
+| d n q l o k g m e f a h 
+
+| p b c t i s 
+| j r h 
+| d n q l o k g m e f a 
+
+| p b c t i 
+| j r h s 
+| d n q l o k g m e f a 
+
+| p b c t 
+| j r h s i 
+| d n q l o k g m e f a 
+
+| p b c 
+| j r h s i t 
+| d n q l o k g m e f a 
+
+| p b 
+| j r h s i t c 
+| d n q l o k g m e f a 
+
+| p 
+| j r h s i t c 
+| d n q l o k g m e f a b 
+
+| 
+| j r h s i t c p 
+| d n q l o k g m e f a b 
+
+| 
+| j r h s i t c p b 
+| d n q l o k g m e f a 
+
+| a 
+| j r h s i t c p b 
+| d n q l o k g m e f 
+
+| a b 
+| j r h s i t c p 
+| d n q l o k g m e f 
+
+| a b f 
+| j r h s i t c p 
+| d n q l o k g m e 
+
+| a b f p 
+| j r h s i t c 
+| d n q l o k g m e 
+
+| a b f p 
+| j r h s i t 
+| d n q l o k g m e c 
+
+| a b f 
+| j r h s i t p 
+| d n q l o k g m e c 
+
+| a b 
+| j r h s i t p f 
+| d n q l o k g m e c 
+
+| a b c 
+| j r h s i t p f 
+| d n q l o k g m e 
+
+| a b c 
+| j r h s i t p f e 
+| d n q l o k g m 
+
+| a b c 
+| j r h s i t p f e m 
+| d n q l o k g 
+
+| a b c 
+| j r h s i t p f e m g 
+| d n q l o k 
+
+| a b c 
+| j r h s i t p f e m g k 
+| d n q l o 
+
+| a b c 
+| j r h s i t p f e m g k o 
+| d n q l 
+
+| a b c 
+| j r h s i t p f e m g k o l 
+| d n q 
+
+| a b c 
+| j r h s i t p f e m g k o l q 
+| d n 
+
+| a b c 
+| j r h s i t p f e m g k o l q n 
+| d 
+
+| a b c d 
+| j r h s i t p f e m g k o l q n 
+| 
+
+| a b c d 
+| j r h s i t p f e m g k o l q 
+| n 
+
+| a b c d 
+| j r h s i t p f e m g k o l 
+| n q 
+
+| a b c d 
+| j r h s i t p f e m g k o 
+| n q l 
+
+| a b c d 
+| j r h s i t p f e m g k 
+| n q l o 
+
+| a b c d 
+| j r h s i t p f e m g 
+| n q l o k 
+
+| a b c d 
+| j r h s i t p f e m 
+| n q l o k g 
+
+| a b c d 
+| j r h s i t p f e 
+| n q l o k g m 
+
+| a b c d e 
+| j r h s i t p f 
+| n q l o k g m 
+
+| a b c d e f 
+| j r h s i t p 
+| n q l o k g m 
+
+| a b c d e f 
+| j r h s i t p m 
+| n q l o k g 
+
+| a b c d e f g 
+| j r h s i t p m 
+| n q l o k 
+
+| a b c d e f g 
+| j r h s i t p 
+| n q l o k m 
+
+| a b c d e f g 
+| j r h s i t 
+| n q l o k m p 
+
+| a b c d e f g 
+| j r h s i 
+| n q l o k m p t 
+
+| a b c d e f g 
+| j r h s 
+| n q l o k m p t i 
+
+| a b c d e f g 
+| j r h 
+| n q l o k m p t i s 
+
+| a b c d e f g h 
+| j r 
+| n q l o k m p t i s 
+
+| a b c d e f g h 
+| j r s 
+| n q l o k m p t i 
+
+| a b c d e f g h i 
+| j r s 
+| n q l o k m p t 
+
+| a b c d e f g h i 
+| j r 
+| n q l o k m p t s 
+
+| a b c d e f g h i 
+| j 
+| n q l o k m p t s r 
+
+| a b c d e f g h i j 
+| 
+| n q l o k m p t s r 
+
+| a b c d e f g h i j 
+| r 
+| n q l o k m p t s 
+
+| a b c d e f g h i j 
+| r s 
+| n q l o k m p t 
+
+| a b c d e f g h i j 
+| r s t 
+| n q l o k m p 
+
+| a b c d e f g h i j 
+| r s t p 
+| n q l o k m 
+
+| a b c d e f g h i j 
+| r s t p m 
+| n q l o k 
+
+| a b c d e f g h i j k 
+| r s t p m 
+| n q l o 
+
+| a b c d e f g h i j k 
+| r s t p m o 
+| n q l 
+
+| a b c d e f g h i j k l 
+| r s t p m o 
+| n q 
+
+| a b c d e f g h i j k l 
+| r s t p m 
+| n q o 
+
+| a b c d e f g h i j k l m 
+| r s t p 
+| n q o 
+
+| a b c d e f g h i j k l m 
+| r s t p o 
+| n q 
+
+| a b c d e f g h i j k l m 
+| r s t p o q 
+| n 
+
+| a b c d e f g h i j k l m n 
+| r s t p o q 
+| 
+
+| a b c d e f g h i j k l m n 
+| r s t p o 
+| q 
+
+| a b c d e f g h i j k l m n o 
+| r s t p 
+| q 
+
+| a b c d e f g h i j k l m n o p 
+| r s t 
+| q 
+
+| a b c d e f g h i j k l m n o p q 
+| r s t 
+| 
+
+| a b c d e f g h i j k l m n o p q 
+| r s 
+| t 
+
+| a b c d e f g h i j k l m n o p q 
+| r 
+| t s 
+
+| a b c d e f g h i j k l m n o p q r 
+| 
+| t s 
+
+| a b c d e f g h i j k l m n o p q r s 
+| 
+| t 
+
+| a b c d e f g h i j k l m n o p q r s t 
+| 
+| 
+
+Total steps taken : 77
+
+Test 7 summary
+Number of goal tests : 619
+Maximum queue size : 2485
+Solution Path:
+| g t i d e k f p 
+| s n h l b a 
+| c q m o r j 
+
+| g t i d e k f p 
+| s n h l b 
+| c q m o r j a 
+
+| g t i d e k f p 
+| s n h l 
+| c q m o r j a b 
+
+| g t i d e k f 
+| s n h l p 
+| c q m o r j a b 
+
+| g t i d e k 
+| s n h l p f 
+| c q m o r j a b 
+
+| g t i d e 
+| s n h l p f k 
+| c q m o r j a b 
+
+| g t i d 
+| s n h l p f k e 
+| c q m o r j a b 
+
+| g t i 
+| s n h l p f k e d 
+| c q m o r j a b 
+
+| g t 
+| s n h l p f k e d i 
+| c q m o r j a b 
+
+| g t 
+| s n h l p f k e d i b 
+| c q m o r j a 
+
+| g 
+| s n h l p f k e d i b t 
+| c q m o r j a 
+
+| 
+| s n h l p f k e d i b t g 
+| c q m o r j a 
+
+| a 
+| s n h l p f k e d i b t g 
+| c q m o r j 
+
+| a 
+| s n h l p f k e d i b t 
+| c q m o r j g 
+
+| a 
+| s n h l p f k e d i b 
+| c q m o r j g t 
+
+| a b 
+| s n h l p f k e d i 
+| c q m o r j g t 
+
+| a b t 
+| s n h l p f k e d i 
+| c q m o r j g 
+
+| a b t 
+| s n h l p f k e d i g 
+| c q m o r j 
+
+| a b t 
+| s n h l p f k e d i g j 
+| c q m o r 
+
+| a b t 
+| s n h l p f k e d i g j r 
+| c q m o 
+
+| a b t 
+| s n h l p f k e d i g j r o 
+| c q m 
+
+| a b t 
+| s n h l p f k e d i g j r o m 
+| c q 
+
+| a b t 
+| s n h l p f k e d i g j r o m q 
+| c 
+
+| a b t 
+| s n h l p f k e d i g j r o m q c 
+| 
+
+| a b 
+| s n h l p f k e d i g j r o m q c 
+| t 
+
+| a b c 
+| s n h l p f k e d i g j r o m q 
+| t 
+
+| a b c 
+| s n h l p f k e d i g j r o m 
+| t q 
+
+| a b c 
+| s n h l p f k e d i g j r o 
+| t q m 
+
+| a b c 
+| s n h l p f k e d i g j r 
+| t q m o 
+
+| a b c 
+| s n h l p f k e d i g j 
+| t q m o r 
+
+| a b c 
+| s n h l p f k e d i g 
+| t q m o r j 
+
+| a b c 
+| s n h l p f k e d i 
+| t q m o r j g 
+
+| a b c 
+| s n h l p f k e d 
+| t q m o r j g i 
+
+| a b c d 
+| s n h l p f k e 
+| t q m o r j g i 
+
+| a b c d e 
+| s n h l p f k 
+| t q m o r j g i 
+
+| a b c d e 
+| s n h l p f 
+| t q m o r j g i k 
+
+| a b c d e f 
+| s n h l p 
+| t q m o r j g i k 
+
+| a b c d e f 
+| s n h l p k 
+| t q m o r j g i 
+
+| a b c d e f 
+| s n h l p k i 
+| t q m o r j g 
+
+| a b c d e f g 
+| s n h l p k i 
+| t q m o r j 
+
+| a b c d e f g 
+| s n h l p k 
+| t q m o r j i 
+
+| a b c d e f g 
+| s n h l p 
+| t q m o r j i k 
+
+| a b c d e f g 
+| s n h l 
+| t q m o r j i k p 
+
+| a b c d e f g 
+| s n h 
+| t q m o r j i k p l 
+
+| a b c d e f g h 
+| s n 
+| t q m o r j i k p l 
+
+| a b c d e f g h 
+| s n l 
+| t q m o r j i k p 
+
+| a b c d e f g h 
+| s n l p 
+| t q m o r j i k 
+
+| a b c d e f g h 
+| s n l p k 
+| t q m o r j i 
+
+| a b c d e f g h i 
+| s n l p k 
+| t q m o r j 
+
+| a b c d e f g h i j 
+| s n l p k 
+| t q m o r 
+
+| a b c d e f g h i j k 
+| s n l p 
+| t q m o r 
+
+| a b c d e f g h i j k 
+| s n l 
+| t q m o r p 
+
+| a b c d e f g h i j k l 
+| s n 
+| t q m o r p 
+
+| a b c d e f g h i j k l 
+| s n p 
+| t q m o r 
+
+| a b c d e f g h i j k l 
+| s n p r 
+| t q m o 
+
+| a b c d e f g h i j k l 
+| s n p r o 
+| t q m 
+
+| a b c d e f g h i j k l m 
+| s n p r o 
+| t q 
+
+| a b c d e f g h i j k l m 
+| s n p r 
+| t q o 
+
+| a b c d e f g h i j k l m 
+| s n p 
+| t q o r 
+
+| a b c d e f g h i j k l m 
+| s n 
+| t q o r p 
+
+| a b c d e f g h i j k l m n 
+| s 
+| t q o r p 
+
+| a b c d e f g h i j k l m n 
+| s p 
+| t q o r 
+
+| a b c d e f g h i j k l m n 
+| s p r 
+| t q o 
+
+| a b c d e f g h i j k l m n o 
+| s p r 
+| t q 
+
+| a b c d e f g h i j k l m n o 
+| s p 
+| t q r 
+
+| a b c d e f g h i j k l m n o p 
+| s 
+| t q r 
+
+| a b c d e f g h i j k l m n o p 
+| s r 
+| t q 
+
+| a b c d e f g h i j k l m n o p q 
+| s r 
+| t 
+
+| a b c d e f g h i j k l m n o p q r 
+| s 
+| t 
+
+| a b c d e f g h i j k l m n o p q r s 
+| 
+| t 
+
+| a b c d e f g h i j k l m n o p q r s t 
+| 
+| 
+
+Total steps taken : 70
+
+Test 8 summary
+
+Test 9 summary
+Number of goal tests : 184
+Maximum queue size : 840
+Solution Path:
+| m g h o b r i f d s a q 
+| n c 
+| l k j p t e 
+
+| m g h o b r i f d s a 
+| n c 
+| l k j p t e q 
+
+| m g h o b r i f d s 
+| n c a 
+| l k j p t e q 
+
+| m g h o b r i f d 
+| n c a 
+| l k j p t e q s 
+
+| m g h o b r i f 
+| n c a 
+| l k j p t e q s d 
+
+| m g h o b r i 
+| n c a 
+| l k j p t e q s d f 
+
+| m g h o b r 
+| n c a 
+| l k j p t e q s d f i 
+
+| m g h o b 
+| n c a 
+| l k j p t e q s d f i r 
+
+| m g h o 
+| n c a 
+| l k j p t e q s d f i r b 
+
+| m g h 
+| n c a 
+| l k j p t e q s d f i r b o 
+
+| m g 
+| n c a 
+| l k j p t e q s d f i r b o h 
+
+| m g 
+| n c 
+| l k j p t e q s d f i r b o h a 
+
+| m 
+| n c g 
+| l k j p t e q s d f i r b o h a 
+
+| 
+| n c g m 
+| l k j p t e q s d f i r b o h a 
+
+| a 
+| n c g m 
+| l k j p t e q s d f i r b o h 
+
+| a 
+| n c g m h 
+| l k j p t e q s d f i r b o 
+
+| a 
+| n c g m h o 
+| l k j p t e q s d f i r b 
+
+| a b 
+| n c g m h o 
+| l k j p t e q s d f i r 
+
+| a b 
+| n c g m h 
+| l k j p t e q s d f i r o 
+
+| a b 
+| n c g m 
+| l k j p t e q s d f i r o h 
+
+| a b 
+| n c g 
+| l k j p t e q s d f i r o h m 
+
+| a b 
+| n c 
+| l k j p t e q s d f i r o h m g 
+
+| a b c 
+| n 
+| l k j p t e q s d f i r o h m g 
+
+| a b c 
+| n g 
+| l k j p t e q s d f i r o h m 
+
+| a b c 
+| n g m 
+| l k j p t e q s d f i r o h 
+
+| a b c 
+| n g m h 
+| l k j p t e q s d f i r o 
+
+| a b c 
+| n g m h o 
+| l k j p t e q s d f i r 
+
+| a b c 
+| n g m h o r 
+| l k j p t e q s d f i 
+
+| a b c 
+| n g m h o r i 
+| l k j p t e q s d f 
+
+| a b c 
+| n g m h o r i f 
+| l k j p t e q s d 
+
+| a b c d 
+| n g m h o r i f 
+| l k j p t e q s 
+
+| a b c d 
+| n g m h o r i f s 
+| l k j p t e q 
+
+| a b c d 
+| n g m h o r i f s q 
+| l k j p t e 
+
+| a b c d e 
+| n g m h o r i f s q 
+| l k j p t 
+
+| a b c d e 
+| n g m h o r i f s 
+| l k j p t q 
+
+| a b c d e 
+| n g m h o r i f 
+| l k j p t q s 
+
+| a b c d e f 
+| n g m h o r i 
+| l k j p t q s 
+
+| a b c d e f 
+| n g m h o r 
+| l k j p t q s i 
+
+| a b c d e f 
+| n g m h o 
+| l k j p t q s i r 
+
+| a b c d e f 
+| n g m h 
+| l k j p t q s i r o 
+
+| a b c d e f 
+| n g m 
+| l k j p t q s i r o h 
+
+| a b c d e f 
+| n g 
+| l k j p t q s i r o h m 
+
+| a b c d e f g 
+| n 
+| l k j p t q s i r o h m 
+
+| a b c d e f g 
+| n m 
+| l k j p t q s i r o h 
+
+| a b c d e f g h 
+| n m 
+| l k j p t q s i r o 
+
+| a b c d e f g h 
+| n m o 
+| l k j p t q s i r 
+
+| a b c d e f g h 
+| n m o r 
+| l k j p t q s i 
+
+| a b c d e f g h i 
+| n m o r 
+| l k j p t q s 
+
+| a b c d e f g h i 
+| n m o r s 
+| l k j p t q 
+
+| a b c d e f g h i 
+| n m o r s q 
+| l k j p t 
+
+| a b c d e f g h i 
+| n m o r s q t 
+| l k j p 
+
+| a b c d e f g h i 
+| n m o r s q t p 
+| l k j 
+
+| a b c d e f g h i j 
+| n m o r s q t p 
+| l k 
+
+| a b c d e f g h i j k 
+| n m o r s q t p 
+| l 
+
+| a b c d e f g h i j k l 
+| n m o r s q t p 
+| 
+
+| a b c d e f g h i j k l 
+| n m o r s q t 
+| p 
+
+| a b c d e f g h i j k l 
+| n m o r s q 
+| p t 
+
+| a b c d e f g h i j k l 
+| n m o r s 
+| p t q 
+
+| a b c d e f g h i j k l 
+| n m o r 
+| p t q s 
+
+| a b c d e f g h i j k l 
+| n m o 
+| p t q s r 
+
+| a b c d e f g h i j k l 
+| n m 
+| p t q s r o 
+
+| a b c d e f g h i j k l m 
+| n 
+| p t q s r o 
+
+| a b c d e f g h i j k l m n 
+| 
+| p t q s r o 
+
+| a b c d e f g h i j k l m n o 
+| 
+| p t q s r 
+
+| a b c d e f g h i j k l m n o 
+| r 
+| p t q s 
+
+| a b c d e f g h i j k l m n o 
+| r s 
+| p t q 
+
+| a b c d e f g h i j k l m n o 
+| r s q 
+| p t 
+
+| a b c d e f g h i j k l m n o 
+| r s q t 
+| p 
+
+| a b c d e f g h i j k l m n o p 
+| r s q t 
+| 
+
+| a b c d e f g h i j k l m n o p 
+| r s q 
+| t 
+
+| a b c d e f g h i j k l m n o p q 
+| r s 
+| t 
+
+| a b c d e f g h i j k l m n o p q 
+| r 
+| t s 
+
+| a b c d e f g h i j k l m n o p q r 
+| 
+| t s 
+
+| a b c d e f g h i j k l m n o p q r s 
+| 
+| t 
+
+| a b c d e f g h i j k l m n o p q r s t 
+| 
+| 
+
+Total steps taken : 74
+
+Test 10 summary
+Number of goal tests : 2444
+Maximum queue size : 9808
+Solution Path:
+| l f t g j p m h 
+| n i b e k c a 
+| r q s d o 
+
+| l f t g j p m 
+| n i b e k c a 
+| r q s d o h 
+
+| l f t g j p 
+| n i b e k c a 
+| r q s d o h m 
+
+| l f t g j 
+| n i b e k c a 
+| r q s d o h m p 
+
+| l f t g 
+| n i b e k c a 
+| r q s d o h m p j 
+
+| l f t 
+| n i b e k c a 
+| r q s d o h m p j g 
+
+| l f 
+| n i b e k c a 
+| r q s d o h m p j g t 
+
+| l f 
+| n i b e k c 
+| r q s d o h m p j g t a 
+
+| l f 
+| n i b e k 
+| r q s d o h m p j g t a c 
+
+| l 
+| n i b e k f 
+| r q s d o h m p j g t a c 
+
+| 
+| n i b e k f l 
+| r q s d o h m p j g t a c 
+
+| 
+| n i b e k f l c 
+| r q s d o h m p j g t a 
+
+| a 
+| n i b e k f l c 
+| r q s d o h m p j g t 
+
+| a 
+| n i b e k f l 
+| r q s d o h m p j g t c 
+
+| a 
+| n i b e k f 
+| r q s d o h m p j g t c l 
+
+| a 
+| n i b e k 
+| r q s d o h m p j g t c l f 
+
+| a 
+| n i b e 
+| r q s d o h m p j g t c l f k 
+
+| a 
+| n i b 
+| r q s d o h m p j g t c l f k e 
+
+| a b 
+| n i 
+| r q s d o h m p j g t c l f k e 
+
+| a b e 
+| n i 
+| r q s d o h m p j g t c l f k 
+
+| a b e 
+| n i k 
+| r q s d o h m p j g t c l f 
+
+| a b e 
+| n i k f 
+| r q s d o h m p j g t c l 
+
+| a b e 
+| n i k f l 
+| r q s d o h m p j g t c 
+
+| a b 
+| n i k f l e 
+| r q s d o h m p j g t c 
+
+| a b c 
+| n i k f l e 
+| r q s d o h m p j g t 
+
+| a b c 
+| n i k f l e t 
+| r q s d o h m p j g 
+
+| a b c 
+| n i k f l e t g 
+| r q s d o h m p j 
+
+| a b c 
+| n i k f l e t g j 
+| r q s d o h m p 
+
+| a b c 
+| n i k f l e t g j p 
+| r q s d o h m 
+
+| a b c 
+| n i k f l e t g j p m 
+| r q s d o h 
+
+| a b c 
+| n i k f l e t g j p m h 
+| r q s d o 
+
+| a b c 
+| n i k f l e t g j p m h o 
+| r q s d 
+
+| a b c d 
+| n i k f l e t g j p m h o 
+| r q s 
+
+| a b c d 
+| n i k f l e t g j p m h 
+| r q s o 
+
+| a b c d 
+| n i k f l e t g j p m 
+| r q s o h 
+
+| a b c d 
+| n i k f l e t g j p 
+| r q s o h m 
+
+| a b c d 
+| n i k f l e t g j 
+| r q s o h m p 
+
+| a b c d 
+| n i k f l e t g 
+| r q s o h m p j 
+
+| a b c d 
+| n i k f l e t 
+| r q s o h m p j g 
+
+| a b c d 
+| n i k f l e 
+| r q s o h m p j g t 
+
+| a b c d e 
+| n i k f l 
+| r q s o h m p j g t 
+
+| a b c d e 
+| n i k f 
+| r q s o h m p j g t l 
+
+| a b c d e f 
+| n i k 
+| r q s o h m p j g t l 
+
+| a b c d e f 
+| n i k l 
+| r q s o h m p j g t 
+
+| a b c d e f 
+| n i k l t 
+| r q s o h m p j g 
+
+| a b c d e f g 
+| n i k l t 
+| r q s o h m p j 
+
+| a b c d e f g 
+| n i k l t j 
+| r q s o h m p 
+
+| a b c d e f g 
+| n i k l t j p 
+| r q s o h m 
+
+| a b c d e f g 
+| n i k l t j p m 
+| r q s o h 
+
+| a b c d e f g h 
+| n i k l t j p m 
+| r q s o 
+
+| a b c d e f g h 
+| n i k l t j p 
+| r q s o m 
+
+| a b c d e f g h 
+| n i k l t j 
+| r q s o m p 
+
+| a b c d e f g h 
+| n i k l t 
+| r q s o m p j 
+
+| a b c d e f g h 
+| n i k l 
+| r q s o m p j t 
+
+| a b c d e f g h 
+| n i k 
+| r q s o m p j t l 
+
+| a b c d e f g h 
+| n i 
+| r q s o m p j t l k 
+
+| a b c d e f g h i 
+| n 
+| r q s o m p j t l k 
+
+| a b c d e f g h i 
+| n k 
+| r q s o m p j t l 
+
+| a b c d e f g h i 
+| n k l 
+| r q s o m p j t 
+
+| a b c d e f g h i 
+| n k l t 
+| r q s o m p j 
+
+| a b c d e f g h i j 
+| n k l t 
+| r q s o m p 
+
+| a b c d e f g h i j 
+| n k l 
+| r q s o m p t 
+
+| a b c d e f g h i j 
+| n k 
+| r q s o m p t l 
+
+| a b c d e f g h i j k 
+| n 
+| r q s o m p t l 
+
+| a b c d e f g h i j k l 
+| n 
+| r q s o m p t 
+
+| a b c d e f g h i j k l 
+| n t 
+| r q s o m p 
+
+| a b c d e f g h i j k l 
+| n t p 
+| r q s o m 
+
+| a b c d e f g h i j k l m 
+| n t p 
+| r q s o 
+
+| a b c d e f g h i j k l m 
+| n t 
+| r q s o p 
+
+| a b c d e f g h i j k l m 
+| n 
+| r q s o p t 
+
+| a b c d e f g h i j k l m n 
+| 
+| r q s o p t 
+
+| a b c d e f g h i j k l m n 
+| t 
+| r q s o p 
+
+| a b c d e f g h i j k l m n 
+| t p 
+| r q s o 
+
+| a b c d e f g h i j k l m n o 
+| t p 
+| r q s 
+
+| a b c d e f g h i j k l m n o p 
+| t 
+| r q s 
+
+| a b c d e f g h i j k l m n o p 
+| t s 
+| r q 
+
+| a b c d e f g h i j k l m n o p q 
+| t s 
+| r 
+
+| a b c d e f g h i j k l m n o p q r 
+| t s 
+| 
+
+| a b c d e f g h i j k l m n o p q r s 
+| t 
+| 
+
+| a b c d e f g h i j k l m n o p q r s t 
+| 
+| 
+
+Total steps taken : 79
+
+Running tests for 20 blocks with 5 stacks ...
+Test 1 summary
+Number of goal tests : 63
+Maximum queue size : 1106
+Solution Path:
+| n j c 
+| k r 
+| t o 
+| a d m p i f q 
+| l s b h g e 
+
+| n j 
+| k r c 
+| t o 
+| a d m p i f q 
+| l s b h g e 
+
+| n 
+| k r c 
+| t o j 
+| a d m p i f q 
+| l s b h g e 
+
+| n 
+| k r c q 
+| t o j 
+| a d m p i f 
+| l s b h g e 
+
+| n 
+| k r c q 
+| t o j f 
+| a d m p i 
+| l s b h g e 
+
+| n 
+| k r c q 
+| t o j f i 
+| a d m p 
+| l s b h g e 
+
+| n 
+| k r c q 
+| t o j f i e 
+| a d m p 
+| l s b h g 
+
+| n 
+| k r c q p 
+| t o j f i e 
+| a d m 
+| l s b h g 
+
+| n 
+| k r c q p m 
+| t o j f i e 
+| a d 
+| l s b h g 
+
+| n 
+| k r c q p m 
+| t o j f i e d 
+| a 
+| l s b h g 
+
+| n 
+| k r c q p m a 
+| t o j f i e d 
+| 
+| l s b h g 
+
+| 
+| k r c q p m a 
+| t o j f i e d 
+| n 
+| l s b h g 
+
+| a 
+| k r c q p m 
+| t o j f i e d 
+| n 
+| l s b h g 
+
+| a 
+| k r c q p m 
+| t o j f i e d 
+| n g 
+| l s b h 
+
+| a 
+| k r c q p m h 
+| t o j f i e d 
+| n g 
+| l s b 
+
+| a b 
+| k r c q p m h 
+| t o j f i e d 
+| n g 
+| l s 
+
+| a b 
+| k r c q p m 
+| t o j f i e d 
+| n g 
+| l s h 
+
+| a b 
+| k r c q p 
+| t o j f i e d 
+| n g m 
+| l s h 
+
+| a b 
+| k r c q 
+| t o j f i e d 
+| n g m p 
+| l s h 
+
+| a b 
+| k r c q 
+| t o j f i e 
+| n g m p d 
+| l s h 
+
+| a b 
+| k r c 
+| t o j f i e q 
+| n g m p d 
+| l s h 
+
+| a b c 
+| k r 
+| t o j f i e q 
+| n g m p d 
+| l s h 
+
+| a b c d 
+| k r 
+| t o j f i e q 
+| n g m p 
+| l s h 
+
+| a b c d 
+| k r q 
+| t o j f i e 
+| n g m p 
+| l s h 
+
+| a b c d e 
+| k r q 
+| t o j f i 
+| n g m p 
+| l s h 
+
+| a b c d e 
+| k r q i 
+| t o j f 
+| n g m p 
+| l s h 
+
+| a b c d e f 
+| k r q i 
+| t o j 
+| n g m p 
+| l s h 
+
+| a b c d e f 
+| k r q i p 
+| t o j 
+| n g m 
+| l s h 
+
+| a b c d e f 
+| k r q i p m 
+| t o j 
+| n g 
+| l s h 
+
+| a b c d e f g 
+| k r q i p m 
+| t o j 
+| n 
+| l s h 
+
+| a b c d e f g h 
+| k r q i p m 
+| t o j 
+| n 
+| l s 
+
+| a b c d e f g h 
+| k r q i p 
+| t o j 
+| n m 
+| l s 
+
+| a b c d e f g h 
+| k r q i 
+| t o j p 
+| n m 
+| l s 
+
+| a b c d e f g h i 
+| k r q 
+| t o j p 
+| n m 
+| l s 
+
+| a b c d e f g h i 
+| k r q p 
+| t o j 
+| n m 
+| l s 
+
+| a b c d e f g h i j 
+| k r q p 
+| t o 
+| n m 
+| l s 
+
+| a b c d e f g h i j 
+| k r q 
+| t o p 
+| n m 
+| l s 
+
+| a b c d e f g h i j 
+| k r 
+| t o p q 
+| n m 
+| l s 
+
+| a b c d e f g h i j 
+| k r 
+| t o p q m 
+| n 
+| l s 
+
+| a b c d e f g h i j 
+| k 
+| t o p q m r 
+| n 
+| l s 
+
+| a b c d e f g h i j k 
+| 
+| t o p q m r 
+| n 
+| l s 
+
+| a b c d e f g h i j k 
+| s 
+| t o p q m r 
+| n 
+| l 
+
+| a b c d e f g h i j k l 
+| s 
+| t o p q m r 
+| n 
+| 
+
+| a b c d e f g h i j k l 
+| s r 
+| t o p q m 
+| n 
+| 
+
+| a b c d e f g h i j k l m 
+| s r 
+| t o p q 
+| n 
+| 
+
+| a b c d e f g h i j k l m n 
+| s r 
+| t o p q 
+| 
+| 
+
+| a b c d e f g h i j k l m n 
+| s r q 
+| t o p 
+| 
+| 
+
+| a b c d e f g h i j k l m n 
+| s r q p 
+| t o 
+| 
+| 
+
+| a b c d e f g h i j k l m n o 
+| s r q p 
+| t 
+| 
+| 
+
+| a b c d e f g h i j k l m n o p 
+| s r q 
+| t 
+| 
+| 
+
+| a b c d e f g h i j k l m n o p q 
+| s r 
+| t 
+| 
+| 
+
+| a b c d e f g h i j k l m n o p q r 
+| s 
+| t 
+| 
+| 
+
+| a b c d e f g h i j k l m n o p q r s 
+| 
+| t 
+| 
+| 
+
+| a b c d e f g h i j k l m n o p q r s t 
+| 
+| 
+| 
+| 
+
+Total steps taken : 53
+
+Test 2 summary
+Number of goal tests : 77
+Maximum queue size : 1361
+Solution Path:
+| h e c s m d 
+| g l p i r 
+| a f j 
+| q n 
+| k o b t 
+
+| h e c s m 
+| g l p i r d 
+| a f j 
+| q n 
+| k o b t 
+
+| h e c s m 
+| g l p i r d 
+| a f 
+| q n j 
+| k o b t 
+
+| h e c s m 
+| g l p i r d 
+| a 
+| q n j f 
+| k o b t 
+
+| h e c s m 
+| g l p i r d 
+| 
+| q n j f 
+| k o b t a 
+
+| h e c s 
+| g l p i r d 
+| m 
+| q n j f 
+| k o b t a 
+
+| h e c 
+| g l p i r d s 
+| m 
+| q n j f 
+| k o b t a 
+
+| h e 
+| g l p i r d s c 
+| m 
+| q n j f 
+| k o b t a 
+
+| h 
+| g l p i r d s c 
+| m 
+| q n j f e 
+| k o b t a 
+
+| 
+| g l p i r d s c 
+| m h 
+| q n j f e 
+| k o b t a 
+
+| a 
+| g l p i r d s c 
+| m h 
+| q n j f e 
+| k o b t 
+
+| a 
+| g l p i r d s c t 
+| m h 
+| q n j f e 
+| k o b 
+
+| a b 
+| g l p i r d s c t 
+| m h 
+| q n j f e 
+| k o 
+
+| a b 
+| g l p i r d s c 
+| m h t 
+| q n j f e 
+| k o 
+
+| a b c 
+| g l p i r d s 
+| m h t 
+| q n j f e 
+| k o 
+
+| a b c 
+| g l p i r d 
+| m h t s 
+| q n j f e 
+| k o 
+
+| a b c d 
+| g l p i r 
+| m h t s 
+| q n j f e 
+| k o 
+
+| a b c d e 
+| g l p i r 
+| m h t s 
+| q n j f 
+| k o 
+
+| a b c d e f 
+| g l p i r 
+| m h t s 
+| q n j 
+| k o 
+
+| a b c d e f 
+| g l p i 
+| m h t s r 
+| q n j 
+| k o 
+
+| a b c d e f 
+| g l p 
+| m h t s r 
+| q n j 
+| k o i 
+
+| a b c d e f 
+| g l 
+| m h t s r p 
+| q n j 
+| k o i 
+
+| a b c d e f 
+| g 
+| m h t s r p l 
+| q n j 
+| k o i 
+
+| a b c d e f g 
+| 
+| m h t s r p l 
+| q n j 
+| k o i 
+
+| a b c d e f g 
+| l 
+| m h t s r p 
+| q n j 
+| k o i 
+
+| a b c d e f g 
+| l 
+| m h t s r 
+| q n j 
+| k o i p 
+
+| a b c d e f g 
+| l r 
+| m h t s 
+| q n j 
+| k o i p 
+
+| a b c d e f g 
+| l r s 
+| m h t 
+| q n j 
+| k o i p 
+
+| a b c d e f g 
+| l r s j 
+| m h t 
+| q n 
+| k o i p 
+
+| a b c d e f g 
+| l r s j t 
+| m h 
+| q n 
+| k o i p 
+
+| a b c d e f g h 
+| l r s j t 
+| m 
+| q n 
+| k o i p 
+
+| a b c d e f g h 
+| l r s j t p 
+| m 
+| q n 
+| k o i 
+
+| a b c d e f g h i 
+| l r s j t p 
+| m 
+| q n 
+| k o 
+
+| a b c d e f g h i 
+| l r s j t 
+| m p 
+| q n 
+| k o 
+
+| a b c d e f g h i 
+| l r s j 
+| m p t 
+| q n 
+| k o 
+
+| a b c d e f g h i j 
+| l r s 
+| m p t 
+| q n 
+| k o 
+
+| a b c d e f g h i j 
+| l r s o 
+| m p t 
+| q n 
+| k 
+
+| a b c d e f g h i j k 
+| l r s o 
+| m p t 
+| q n 
+| 
+
+| a b c d e f g h i j k 
+| l r s 
+| m p t 
+| q n 
+| o 
+
+| a b c d e f g h i j k 
+| l r 
+| m p t s 
+| q n 
+| o 
+
+| a b c d e f g h i j k 
+| l 
+| m p t s r 
+| q n 
+| o 
+
+| a b c d e f g h i j k l 
+| 
+| m p t s r 
+| q n 
+| o 
+
+| a b c d e f g h i j k l 
+| r 
+| m p t s 
+| q n 
+| o 
+
+| a b c d e f g h i j k l 
+| r s 
+| m p t 
+| q n 
+| o 
+
+| a b c d e f g h i j k l 
+| r s t 
+| m p 
+| q n 
+| o 
+
+| a b c d e f g h i j k l 
+| r s t p 
+| m 
+| q n 
+| o 
+
+| a b c d e f g h i j k l m 
+| r s t p 
+| 
+| q n 
+| o 
+
+| a b c d e f g h i j k l m n 
+| r s t p 
+| 
+| q 
+| o 
+
+| a b c d e f g h i j k l m n o 
+| r s t p 
+| 
+| q 
+| 
+
+| a b c d e f g h i j k l m n o p 
+| r s t 
+| 
+| q 
+| 
+
+| a b c d e f g h i j k l m n o p q 
+| r s t 
+| 
+| 
+| 
+
+| a b c d e f g h i j k l m n o p q 
+| r s 
+| t 
+| 
+| 
+
+| a b c d e f g h i j k l m n o p q 
+| r 
+| t s 
+| 
+| 
+
+| a b c d e f g h i j k l m n o p q r 
+| 
+| t s 
+| 
+| 
+
+| a b c d e f g h i j k l m n o p q r s 
+| 
+| t 
+| 
+| 
+
+| a b c d e f g h i j k l m n o p q r s t 
+| 
+| 
+| 
+| 
+
+Total steps taken : 55
+
+Test 3 summary
+Number of goal tests : 60
+Maximum queue size : 1085
+Solution Path:
+| h t b p 
+| s i e l 
+| o g q k j r 
+| 
+| f a c n d m 
+
+| h t b p 
+| s i e l 
+| o g q k j r 
+| m 
+| f a c n d 
+
+| h t b p 
+| s i e l 
+| o g q k j r d 
+| m 
+| f a c n 
+
+| h t b p 
+| s i e l n 
+| o g q k j r d 
+| m 
+| f a c 
+
+| h t b p 
+| s i e l n c 
+| o g q k j r d 
+| m 
+| f a 
+
+| h t b 
+| s i e l n c p 
+| o g q k j r d 
+| m 
+| f a 
+
+| h t 
+| s i e l n c p b 
+| o g q k j r d 
+| m 
+| f a 
+
+| h 
+| s i e l n c p b t 
+| o g q k j r d 
+| m 
+| f a 
+
+| 
+| s i e l n c p b t 
+| o g q k j r d 
+| m h 
+| f a 
+
+| a 
+| s i e l n c p b t 
+| o g q k j r d 
+| m h 
+| f 
+
+| a 
+| s i e l n c p b 
+| o g q k j r d t 
+| m h 
+| f 
+
+| a b 
+| s i e l n c p 
+| o g q k j r d t 
+| m h 
+| f 
+
+| a b 
+| s i e l n c 
+| o g q k j r d t p 
+| m h 
+| f 
+
+| a b c 
+| s i e l n 
+| o g q k j r d t p 
+| m h 
+| f 
+
+| a b c 
+| s i e l n p 
+| o g q k j r d t 
+| m h 
+| f 
+
+| a b c 
+| s i e l n p t 
+| o g q k j r d 
+| m h 
+| f 
+
+| a b c d 
+| s i e l n p t 
+| o g q k j r 
+| m h 
+| f 
+
+| a b c d 
+| s i e l n p t 
+| o g q k j r f 
+| m h 
+| 
+
+| a b c d 
+| s i e l n p 
+| o g q k j r f 
+| m h 
+| t 
+
+| a b c d 
+| s i e l n 
+| o g q k j r f 
+| m h 
+| t p 
+
+| a b c d 
+| s i e l 
+| o g q k j r f 
+| m h 
+| t p n 
+
+| a b c d 
+| s i e 
+| o g q k j r f 
+| m h 
+| t p n l 
+
+| a b c d e 
+| s i 
+| o g q k j r f 
+| m h 
+| t p n l 
+
+| a b c d e f 
+| s i 
+| o g q k j r 
+| m h 
+| t p n l 
+
+| a b c d e f 
+| s i 
+| o g q k j 
+| m h r 
+| t p n l 
+
+| a b c d e f 
+| s i 
+| o g q k 
+| m h r 
+| t p n l j 
+
+| a b c d e f 
+| s i k 
+| o g q 
+| m h r 
+| t p n l j 
+
+| a b c d e f 
+| s i k q 
+| o g 
+| m h r 
+| t p n l j 
+
+| a b c d e f g 
+| s i k q 
+| o 
+| m h r 
+| t p n l j 
+
+| a b c d e f g 
+| s i k q r 
+| o 
+| m h 
+| t p n l j 
+
+| a b c d e f g h 
+| s i k q r 
+| o 
+| m 
+| t p n l j 
+
+| a b c d e f g h 
+| s i k q 
+| o r 
+| m 
+| t p n l j 
+
+| a b c d e f g h 
+| s i k 
+| o r q 
+| m 
+| t p n l j 
+
+| a b c d e f g h 
+| s i 
+| o r q k 
+| m 
+| t p n l j 
+
+| a b c d e f g h i 
+| s 
+| o r q k 
+| m 
+| t p n l j 
+
+| a b c d e f g h i j 
+| s 
+| o r q k 
+| m 
+| t p n l 
+
+| a b c d e f g h i j k 
+| s 
+| o r q 
+| m 
+| t p n l 
+
+| a b c d e f g h i j k l 
+| s 
+| o r q 
+| m 
+| t p n 
+
+| a b c d e f g h i j k l m 
+| s 
+| o r q 
+| 
+| t p n 
+
+| a b c d e f g h i j k l m n 
+| s 
+| o r q 
+| 
+| t p 
+
+| a b c d e f g h i j k l m n 
+| s q 
+| o r 
+| 
+| t p 
+
+| a b c d e f g h i j k l m n 
+| s q 
+| o 
+| r 
+| t p 
+
+| a b c d e f g h i j k l m n o 
+| s q 
+| 
+| r 
+| t p 
+
+| a b c d e f g h i j k l m n o p 
+| s q 
+| 
+| r 
+| t 
+
+| a b c d e f g h i j k l m n o p q 
+| s 
+| 
+| r 
+| t 
+
+| a b c d e f g h i j k l m n o p q r 
+| s 
+| 
+| 
+| t 
+
+| a b c d e f g h i j k l m n o p q r s 
+| 
+| 
+| 
+| t 
+
+| a b c d e f g h i j k l m n o p q r s t 
+| 
+| 
+| 
+| 
+
+Total steps taken : 47
+
+Test 4 summary
+Number of goal tests : 78
+Maximum queue size : 1384
+Solution Path:
+| i 
+| q j n 
+| d c p e 
+| h b r k t o 
+| l a s m g f 
+
+| i 
+| q j n f 
+| d c p e 
+| h b r k t o 
+| l a s m g 
+
+| i 
+| q j n f g 
+| d c p e 
+| h b r k t o 
+| l a s m 
+
+| i 
+| q j n f g e 
+| d c p 
+| h b r k t o 
+| l a s m 
+
+| i 
+| q j n f g e m 
+| d c p 
+| h b r k t o 
+| l a s 
+
+| i 
+| q j n f g e m s 
+| d c p 
+| h b r k t o 
+| l a 
+
+| i 
+| q j n f g e m s 
+| d c p 
+| h b r k t o a 
+| l 
+
+| 
+| q j n f g e m s 
+| d c p 
+| h b r k t o a 
+| l i 
+
+| 
+| q j n f g e m s p 
+| d c 
+| h b r k t o a 
+| l i 
+
+| 
+| q j n f g e m s p c 
+| d 
+| h b r k t o a 
+| l i 
+
+| 
+| q j n f g e m s p c 
+| 
+| h b r k t o a 
+| l i d 
+
+| a 
+| q j n f g e m s p c 
+| 
+| h b r k t o 
+| l i d 
+
+| a 
+| q j n f g e m s p c 
+| o 
+| h b r k t 
+| l i d 
+
+| a 
+| q j n f g e m s p c t 
+| o 
+| h b r k 
+| l i d 
+
+| a 
+| q j n f g e m s p c t 
+| o k 
+| h b r 
+| l i d 
+
+| a 
+| q j n f g e m s p c t r 
+| o k 
+| h b 
+| l i d 
+
+| a b 
+| q j n f g e m s p c t r 
+| o k 
+| h 
+| l i d 
+
+| a b 
+| q j n f g e m s p c t 
+| o k r 
+| h 
+| l i d 
+
+| a b 
+| q j n f g e m s p c 
+| o k r t 
+| h 
+| l i d 
+
+| a b c 
+| q j n f g e m s p 
+| o k r t 
+| h 
+| l i d 
+
+| a b c d 
+| q j n f g e m s p 
+| o k r t 
+| h 
+| l i 
+
+| a b c d 
+| q j n f g e m s p 
+| o k r t h 
+| 
+| l i 
+
+| a b c d 
+| q j n f g e m s 
+| o k r t h 
+| p 
+| l i 
+
+| a b c d 
+| q j n f g e m 
+| o k r t h s 
+| p 
+| l i 
+
+| a b c d 
+| q j n f g e 
+| o k r t h s 
+| p m 
+| l i 
+
+| a b c d e 
+| q j n f g 
+| o k r t h s 
+| p m 
+| l i 
+
+| a b c d e 
+| q j n f 
+| o k r t h s g 
+| p m 
+| l i 
+
+| a b c d e f 
+| q j n 
+| o k r t h s g 
+| p m 
+| l i 
+
+| a b c d e f g 
+| q j n 
+| o k r t h s 
+| p m 
+| l i 
+
+| a b c d e f g 
+| q j n s 
+| o k r t h 
+| p m 
+| l i 
+
+| a b c d e f g h 
+| q j n s 
+| o k r t 
+| p m 
+| l i 
+
+| a b c d e f g h i 
+| q j n s 
+| o k r t 
+| p m 
+| l 
+
+| a b c d e f g h i 
+| q j n 
+| o k r t s 
+| p m 
+| l 
+
+| a b c d e f g h i 
+| q j 
+| o k r t s n 
+| p m 
+| l 
+
+| a b c d e f g h i j 
+| q 
+| o k r t s n 
+| p m 
+| l 
+
+| a b c d e f g h i j 
+| q n 
+| o k r t s 
+| p m 
+| l 
+
+| a b c d e f g h i j 
+| q n s 
+| o k r t 
+| p m 
+| l 
+
+| a b c d e f g h i j 
+| q n s t 
+| o k r 
+| p m 
+| l 
+
+| a b c d e f g h i j 
+| q n s t l 
+| o k r 
+| p m 
+| 
+
+| a b c d e f g h i j 
+| q n s t l 
+| o k 
+| p m 
+| r 
+
+| a b c d e f g h i j k 
+| q n s t l 
+| o 
+| p m 
+| r 
+
+| a b c d e f g h i j k l 
+| q n s t 
+| o 
+| p m 
+| r 
+
+| a b c d e f g h i j k l m 
+| q n s t 
+| o 
+| p 
+| r 
+
+| a b c d e f g h i j k l m 
+| q n s 
+| o t 
+| p 
+| r 
+
+| a b c d e f g h i j k l m 
+| q n 
+| o t s 
+| p 
+| r 
+
+| a b c d e f g h i j k l m n 
+| q 
+| o t s 
+| p 
+| r 
+
+| a b c d e f g h i j k l m n 
+| q s 
+| o t 
+| p 
+| r 
+
+| a b c d e f g h i j k l m n 
+| q s t 
+| o 
+| p 
+| r 
+
+| a b c d e f g h i j k l m n o 
+| q s t 
+| 
+| p 
+| r 
+
+| a b c d e f g h i j k l m n o p 
+| q s t 
+| 
+| 
+| r 
+
+| a b c d e f g h i j k l m n o p 
+| q s 
+| t 
+| 
+| r 
+
+| a b c d e f g h i j k l m n o p 
+| q 
+| t s 
+| 
+| r 
+
+| a b c d e f g h i j k l m n o p q 
+| 
+| t s 
+| 
+| r 
+
+| a b c d e f g h i j k l m n o p q r 
+| 
+| t s 
+| 
+| 
+
+| a b c d e f g h i j k l m n o p q r s 
+| 
+| t 
+| 
+| 
+
+| a b c d e f g h i j k l m n o p q r s t 
+| 
+| 
+| 
+| 
+
+Total steps taken : 55
+
+Test 5 summary
+Number of goal tests : 58
+Maximum queue size : 1023
+Solution Path:
+| s l f p 
+| m d t 
+| h a c 
+| i o 
+| g j e k n b r q 
+
+| s l f p 
+| m d t c 
+| h a 
+| i o 
+| g j e k n b r q 
+
+| s l f p 
+| m d t c 
+| h 
+| i o 
+| g j e k n b r q a 
+
+| s l f p 
+| m d t c 
+| 
+| i o h 
+| g j e k n b r q a 
+
+| s l f 
+| m d t c 
+| p 
+| i o h 
+| g j e k n b r q a 
+
+| s l 
+| m d t c 
+| p 
+| i o h f 
+| g j e k n b r q a 
+
+| s 
+| m d t c 
+| p l 
+| i o h f 
+| g j e k n b r q a 
+
+| 
+| m d t c s 
+| p l 
+| i o h f 
+| g j e k n b r q a 
+
+| a 
+| m d t c s 
+| p l 
+| i o h f 
+| g j e k n b r q 
+
+| a 
+| m d t c s q 
+| p l 
+| i o h f 
+| g j e k n b r 
+
+| a 
+| m d t c s q r 
+| p l 
+| i o h f 
+| g j e k n b 
+
+| a b 
+| m d t c s q r 
+| p l 
+| i o h f 
+| g j e k n 
+
+| a b 
+| m d t c s q 
+| p l r 
+| i o h f 
+| g j e k n 
+
+| a b 
+| m d t c s 
+| p l r q 
+| i o h f 
+| g j e k n 
+
+| a b 
+| m d t c s 
+| p l r q f 
+| i o h 
+| g j e k n 
+
+| a b 
+| m d t c 
+| p l r q f s 
+| i o h 
+| g j e k n 
+
+| a b c 
+| m d t 
+| p l r q f s 
+| i o h 
+| g j e k n 
+
+| a b c 
+| m d 
+| p l r q f s t 
+| i o h 
+| g j e k n 
+
+| a b c d 
+| m 
+| p l r q f s t 
+| i o h 
+| g j e k n 
+
+| a b c d 
+| m n 
+| p l r q f s t 
+| i o h 
+| g j e k 
+
+| a b c d 
+| m n k 
+| p l r q f s t 
+| i o h 
+| g j e 
+
+| a b c d e 
+| m n k 
+| p l r q f s t 
+| i o h 
+| g j 
+
+| a b c d e 
+| m n k t 
+| p l r q f s 
+| i o h 
+| g j 
+
+| a b c d e 
+| m n k t j 
+| p l r q f s 
+| i o h 
+| g 
+
+| a b c d e 
+| m n k t j s 
+| p l r q f 
+| i o h 
+| g 
+
+| a b c d e f 
+| m n k t j s 
+| p l r q 
+| i o h 
+| g 
+
+| a b c d e f g 
+| m n k t j s 
+| p l r q 
+| i o h 
+| 
+
+| a b c d e f g h 
+| m n k t j s 
+| p l r q 
+| i o 
+| 
+
+| a b c d e f g h 
+| m n k t j s 
+| p l r q 
+| i 
+| o 
+
+| a b c d e f g h i 
+| m n k t j s 
+| p l r q 
+| 
+| o 
+
+| a b c d e f g h i 
+| m n k t j 
+| p l r q 
+| s 
+| o 
+
+| a b c d e f g h i j 
+| m n k t 
+| p l r q 
+| s 
+| o 
+
+| a b c d e f g h i j 
+| m n k 
+| p l r q t 
+| s 
+| o 
+
+| a b c d e f g h i j k 
+| m n 
+| p l r q t 
+| s 
+| o 
+
+| a b c d e f g h i j k 
+| m n t 
+| p l r q 
+| s 
+| o 
+
+| a b c d e f g h i j k 
+| m n t 
+| p l r 
+| s q 
+| o 
+
+| a b c d e f g h i j k 
+| m n t r 
+| p l 
+| s q 
+| o 
+
+| a b c d e f g h i j k l 
+| m n t r 
+| p 
+| s q 
+| o 
+
+| a b c d e f g h i j k l 
+| m n t 
+| p r 
+| s q 
+| o 
+
+| a b c d e f g h i j k l 
+| m n 
+| p r t 
+| s q 
+| o 
+
+| a b c d e f g h i j k l 
+| m 
+| p r t n 
+| s q 
+| o 
+
+| a b c d e f g h i j k l m 
+| 
+| p r t n 
+| s q 
+| o 
+
+| a b c d e f g h i j k l m n 
+| 
+| p r t 
+| s q 
+| o 
+
+| a b c d e f g h i j k l m n o 
+| 
+| p r t 
+| s q 
+| 
+
+| a b c d e f g h i j k l m n o 
+| t 
+| p r 
+| s q 
+| 
+
+| a b c d e f g h i j k l m n o 
+| t r 
+| p 
+| s q 
+| 
+
+| a b c d e f g h i j k l m n o p 
+| t r 
+| 
+| s q 
+| 
+
+| a b c d e f g h i j k l m n o p q 
+| t r 
+| 
+| s 
+| 
+
+| a b c d e f g h i j k l m n o p q r 
+| t 
+| 
+| s 
+| 
+
+| a b c d e f g h i j k l m n o p q r s 
+| t 
+| 
+| 
+| 
+
+| a b c d e f g h i j k l m n o p q r s t 
+| 
+| 
+| 
+| 
+
+Total steps taken : 50
+
+Test 6 summary
+
+Test 7 summary
+Number of goal tests : 109
+Maximum queue size : 1942
+Solution Path:
+| e f j t 
+| a r h 
+| s b n q 
+| k l g 
+| c i p d o m 
+
+| e f j t 
+| a r 
+| s b n q h 
+| k l g 
+| c i p d o m 
+
+| e f j t 
+| a 
+| s b n q h r 
+| k l g 
+| c i p d o m 
+
+| e f j t 
+| 
+| s b n q h r 
+| k l g 
+| c i p d o m a 
+
+| e f j 
+| t 
+| s b n q h r 
+| k l g 
+| c i p d o m a 
+
+| e f j 
+| t r 
+| s b n q h 
+| k l g 
+| c i p d o m a 
+
+| e f 
+| t r j 
+| s b n q h 
+| k l g 
+| c i p d o m a 
+
+| e 
+| t r j 
+| s b n q h 
+| k l g f 
+| c i p d o m a 
+
+| 
+| t r j 
+| s b n q h 
+| k l g f e 
+| c i p d o m a 
+
+| 
+| t r j h 
+| s b n q 
+| k l g f e 
+| c i p d o m a 
+
+| a 
+| t r j h 
+| s b n q 
+| k l g f e 
+| c i p d o m 
+
+| a 
+| t r j h q 
+| s b n 
+| k l g f e 
+| c i p d o m 
+
+| a 
+| t r j h q n 
+| s b 
+| k l g f e 
+| c i p d o m 
+
+| a 
+| t r j h q n 
+| s 
+| k l g f e 
+| c i p d o m b 
+
+| a 
+| t r j h q n e 
+| s 
+| k l g f 
+| c i p d o m b 
+
+| a b 
+| t r j h q n e 
+| s 
+| k l g f 
+| c i p d o m 
+
+| a b 
+| t r j h q n e 
+| s m 
+| k l g f 
+| c i p d o 
+
+| a b 
+| t r j h q n e o 
+| s m 
+| k l g f 
+| c i p d 
+
+| a b 
+| t r j h q n e o d 
+| s m 
+| k l g f 
+| c i p 
+
+| a b 
+| t r j h q n e o d p 
+| s m 
+| k l g f 
+| c i 
+
+| a b 
+| t r j h q n e o d p 
+| s m i 
+| k l g f 
+| c 
+
+| a b c 
+| t r j h q n e o d p 
+| s m i 
+| k l g f 
+| 
+
+| a b c 
+| t r j h q n e o d 
+| s m i 
+| k l g f 
+| p 
+
+| a b c d 
+| t r j h q n e o 
+| s m i 
+| k l g f 
+| p 
+
+| a b c d 
+| t r j h q n e 
+| s m i 
+| k l g f 
+| p o 
+
+| a b c d e 
+| t r j h q n 
+| s m i 
+| k l g f 
+| p o 
+
+| a b c d e f 
+| t r j h q n 
+| s m i 
+| k l g 
+| p o 
+
+| a b c d e f g 
+| t r j h q n 
+| s m i 
+| k l 
+| p o 
+
+| a b c d e f g 
+| t r j h q 
+| s m i 
+| k l 
+| p o n 
+
+| a b c d e f g 
+| t r j h 
+| s m i q 
+| k l 
+| p o n 
+
+| a b c d e f g h 
+| t r j 
+| s m i q 
+| k l 
+| p o n 
+
+| a b c d e f g h 
+| t r 
+| s m i q 
+| k l j 
+| p o n 
+
+| a b c d e f g h 
+| t r q 
+| s m i 
+| k l j 
+| p o n 
+
+| a b c d e f g h i 
+| t r q 
+| s m 
+| k l j 
+| p o n 
+
+| a b c d e f g h i j 
+| t r q 
+| s m 
+| k l 
+| p o n 
+
+| a b c d e f g h i j 
+| t r q l 
+| s m 
+| k 
+| p o n 
+
+| a b c d e f g h i j k 
+| t r q l 
+| s m 
+| 
+| p o n 
+
+| a b c d e f g h i j k l 
+| t r q 
+| s m 
+| 
+| p o n 
+
+| a b c d e f g h i j k l m 
+| t r q 
+| s 
+| 
+| p o n 
+
+| a b c d e f g h i j k l m n 
+| t r q 
+| s 
+| 
+| p o 
+
+| a b c d e f g h i j k l m n o 
+| t r q 
+| s 
+| 
+| p 
+
+| a b c d e f g h i j k l m n o p 
+| t r q 
+| s 
+| 
+| 
+
+| a b c d e f g h i j k l m n o p q 
+| t r 
+| s 
+| 
+| 
+
+| a b c d e f g h i j k l m n o p q r 
+| t 
+| s 
+| 
+| 
+
+| a b c d e f g h i j k l m n o p q r s 
+| t 
+| 
+| 
+| 
+
+| a b c d e f g h i j k l m n o p q r s t 
+| 
+| 
+| 
+| 
+
+Total steps taken : 45
+
+Test 8 summary
+Number of goal tests : 154
+Maximum queue size : 2834
+Solution Path:
+| b n o p 
+| m c d 
+| i f q e 
+| h t a j r 
+| l g s k 
+
+| b n o p 
+| m c 
+| i f q e 
+| h t a j r 
+| l g s k d 
+
+| b n o p 
+| m c 
+| i f q e 
+| h t a j 
+| l g s k d r 
+
+| b n o p 
+| m 
+| i f q e 
+| h t a j 
+| l g s k d r c 
+
+| b n o 
+| m p 
+| i f q e 
+| h t a j 
+| l g s k d r c 
+
+| b n o 
+| m p j 
+| i f q e 
+| h t a 
+| l g s k d r c 
+
+| b n 
+| m p j o 
+| i f q e 
+| h t a 
+| l g s k d r c 
+
+| b 
+| m p j o n 
+| i f q e 
+| h t a 
+| l g s k d r c 
+
+| 
+| m p j o n b 
+| i f q e 
+| h t a 
+| l g s k d r c 
+
+| a 
+| m p j o n b 
+| i f q e 
+| h t 
+| l g s k d r c 
+
+| a b 
+| m p j o n 
+| i f q e 
+| h t 
+| l g s k d r c 
+
+| a b c 
+| m p j o n 
+| i f q e 
+| h t 
+| l g s k d r 
+
+| a b c 
+| m p j o n r 
+| i f q e 
+| h t 
+| l g s k d 
+
+| a b c d 
+| m p j o n r 
+| i f q e 
+| h t 
+| l g s k 
+
+| a b c d e 
+| m p j o n r 
+| i f q 
+| h t 
+| l g s k 
+
+| a b c d e 
+| m p j o n r q 
+| i f 
+| h t 
+| l g s k 
+
+| a b c d e f 
+| m p j o n r q 
+| i 
+| h t 
+| l g s k 
+
+| a b c d e f 
+| m p j o n r q i 
+| 
+| h t 
+| l g s k 
+
+| a b c d e f 
+| m p j o n r q i 
+| k 
+| h t 
+| l g s 
+
+| a b c d e f 
+| m p j o n r q i s 
+| k 
+| h t 
+| l g 
+
+| a b c d e f g 
+| m p j o n r q i s 
+| k 
+| h t 
+| l 
+
+| a b c d e f g 
+| m p j o n r q i s t 
+| k 
+| h 
+| l 
+
+| a b c d e f g h 
+| m p j o n r q i s t 
+| k 
+| 
+| l 
+
+| a b c d e f g h 
+| m p j o n r q i s 
+| k 
+| t 
+| l 
+
+| a b c d e f g h 
+| m p j o n r q i 
+| k 
+| t s 
+| l 
+
+| a b c d e f g h i 
+| m p j o n r q 
+| k 
+| t s 
+| l 
+
+| a b c d e f g h i 
+| m p j o n r 
+| k 
+| t s q 
+| l 
+
+| a b c d e f g h i 
+| m p j o n 
+| k r 
+| t s q 
+| l 
+
+| a b c d e f g h i 
+| m p j o 
+| k r 
+| t s q n 
+| l 
+
+| a b c d e f g h i 
+| m p j 
+| k r o 
+| t s q n 
+| l 
+
+| a b c d e f g h i j 
+| m p 
+| k r o 
+| t s q n 
+| l 
+
+| a b c d e f g h i j 
+| m p o 
+| k r 
+| t s q n 
+| l 
+
+| a b c d e f g h i j 
+| m p o l 
+| k r 
+| t s q n 
+| 
+
+| a b c d e f g h i j 
+| m p o l 
+| k 
+| t s q n 
+| r 
+
+| a b c d e f g h i j k 
+| m p o l 
+| 
+| t s q n 
+| r 
+
+| a b c d e f g h i j k l 
+| m p o 
+| 
+| t s q n 
+| r 
+
+| a b c d e f g h i j k l 
+| m p 
+| o 
+| t s q n 
+| r 
+
+| a b c d e f g h i j k l 
+| m 
+| o 
+| t s q n 
+| r p 
+
+| a b c d e f g h i j k l m 
+| 
+| o 
+| t s q n 
+| r p 
+
+| a b c d e f g h i j k l m n 
+| 
+| o 
+| t s q 
+| r p 
+
+| a b c d e f g h i j k l m n o 
+| 
+| 
+| t s q 
+| r p 
+
+| a b c d e f g h i j k l m n o p 
+| 
+| 
+| t s q 
+| r 
+
+| a b c d e f g h i j k l m n o p q 
+| 
+| 
+| t s 
+| r 
+
+| a b c d e f g h i j k l m n o p q r 
+| 
+| 
+| t s 
+| 
+
+| a b c d e f g h i j k l m n o p q r s 
+| 
+| 
+| t 
+| 
+
+| a b c d e f g h i j k l m n o p q r s t 
+| 
+| 
+| 
+| 
+
+Total steps taken : 45
+
+Test 9 summary
+Number of goal tests : 106
+Maximum queue size : 1947
+Solution Path:
+| r j f m 
+| b l i e a p 
+| c o h g 
+| t k s 
+| q n d 
+
+| r j f m 
+| b l i e a p 
+| c o h 
+| t k s g 
+| q n d 
+
+| r j f m 
+| b l i e a 
+| c o h 
+| t k s g p 
+| q n d 
+
+| r j f m 
+| b l i e a 
+| c o h 
+| t k s g p d 
+| q n 
+
+| r j f 
+| b l i e a 
+| c o h 
+| t k s g p d 
+| q n m 
+
+| r j f 
+| b l i e a 
+| c o 
+| t k s g p d 
+| q n m h 
+
+| r j f 
+| b l i e a 
+| c 
+| t k s g p d 
+| q n m h o 
+
+| r j 
+| b l i e a 
+| c 
+| t k s g p d 
+| q n m h o f 
+
+| r 
+| b l i e a 
+| c 
+| t k s g p d j 
+| q n m h o f 
+
+| r 
+| b l i e a 
+| 
+| t k s g p d j c 
+| q n m h o f 
+
+| 
+| b l i e a 
+| r 
+| t k s g p d j c 
+| q n m h o f 
+
+| a 
+| b l i e 
+| r 
+| t k s g p d j c 
+| q n m h o f 
+
+| a 
+| b l i 
+| r 
+| t k s g p d j c 
+| q n m h o f e 
+
+| a 
+| b l 
+| r i 
+| t k s g p d j c 
+| q n m h o f e 
+
+| a 
+| b 
+| r i l 
+| t k s g p d j c 
+| q n m h o f e 
+
+| a b 
+| 
+| r i l 
+| t k s g p d j c 
+| q n m h o f e 
+
+| a b c 
+| 
+| r i l 
+| t k s g p d j 
+| q n m h o f e 
+
+| a b c 
+| j 
+| r i l 
+| t k s g p d 
+| q n m h o f e 
+
+| a b c d 
+| j 
+| r i l 
+| t k s g p 
+| q n m h o f e 
+
+| a b c d e 
+| j 
+| r i l 
+| t k s g p 
+| q n m h o f 
+
+| a b c d e f 
+| j 
+| r i l 
+| t k s g p 
+| q n m h o 
+
+| a b c d e f 
+| j p 
+| r i l 
+| t k s g 
+| q n m h o 
+
+| a b c d e f g 
+| j p 
+| r i l 
+| t k s 
+| q n m h o 
+
+| a b c d e f g 
+| j p o 
+| r i l 
+| t k s 
+| q n m h 
+
+| a b c d e f g h 
+| j p o 
+| r i l 
+| t k s 
+| q n m 
+
+| a b c d e f g h 
+| j p o 
+| r i 
+| t k s 
+| q n m l 
+
+| a b c d e f g h i 
+| j p o 
+| r 
+| t k s 
+| q n m l 
+
+| a b c d e f g h i 
+| j p 
+| r o 
+| t k s 
+| q n m l 
+
+| a b c d e f g h i 
+| j 
+| r o p 
+| t k s 
+| q n m l 
+
+| a b c d e f g h i j 
+| 
+| r o p 
+| t k s 
+| q n m l 
+
+| a b c d e f g h i j 
+| s 
+| r o p 
+| t k 
+| q n m l 
+
+| a b c d e f g h i j k 
+| s 
+| r o p 
+| t 
+| q n m l 
+
+| a b c d e f g h i j k l 
+| s 
+| r o p 
+| t 
+| q n m 
+
+| a b c d e f g h i j k l m 
+| s 
+| r o p 
+| t 
+| q n 
+
+| a b c d e f g h i j k l m n 
+| s 
+| r o p 
+| t 
+| q 
+
+| a b c d e f g h i j k l m n 
+| s p 
+| r o 
+| t 
+| q 
+
+| a b c d e f g h i j k l m n o 
+| s p 
+| r 
+| t 
+| q 
+
+| a b c d e f g h i j k l m n o p 
+| s 
+| r 
+| t 
+| q 
+
+| a b c d e f g h i j k l m n o p q 
+| s 
+| r 
+| t 
+| 
+
+| a b c d e f g h i j k l m n o p q r 
+| s 
+| 
+| t 
+| 
+
+| a b c d e f g h i j k l m n o p q r s 
+| 
+| 
+| t 
+| 
+
+| a b c d e f g h i j k l m n o p q r s t 
+| 
+| 
+| 
+| 
+
+Total steps taken : 41
+
+Test 10 summary
+Number of goal tests : 48
+Maximum queue size : 837
+Solution Path:
+| j r g p 
+| e c o l 
+| t k n h i m 
+| a 
+| d q s b f 
+
+| j r g p 
+| e c o l 
+| t k n h i m f 
+| a 
+| d q s b 
+
+| j r g p 
+| e c o l a 
+| t k n h i m f 
+| 
+| d q s b 
+
+| j r g 
+| e c o l a 
+| t k n h i m f 
+| p 
+| d q s b 
+
+| j r 
+| e c o l a 
+| t k n h i m f 
+| p g 
+| d q s b 
+
+| j 
+| e c o l a 
+| t k n h i m f 
+| p g r 
+| d q s b 
+
+| 
+| e c o l a 
+| t k n h i m f 
+| p g r j 
+| d q s b 
+
+| a 
+| e c o l 
+| t k n h i m f 
+| p g r j 
+| d q s b 
+
+| a b 
+| e c o l 
+| t k n h i m f 
+| p g r j 
+| d q s 
+
+| a b 
+| e c o 
+| t k n h i m f l 
+| p g r j 
+| d q s 
+
+| a b 
+| e c 
+| t k n h i m f l o 
+| p g r j 
+| d q s 
+
+| a b c 
+| e 
+| t k n h i m f l o 
+| p g r j 
+| d q s 
+
+| a b c 
+| 
+| t k n h i m f l o e 
+| p g r j 
+| d q s 
+
+| a b c 
+| s 
+| t k n h i m f l o e 
+| p g r j 
+| d q 
+
+| a b c 
+| s q 
+| t k n h i m f l o e 
+| p g r j 
+| d 
+
+| a b c d 
+| s q 
+| t k n h i m f l o e 
+| p g r j 
+| 
+
+| a b c d e 
+| s q 
+| t k n h i m f l o 
+| p g r j 
+| 
+
+| a b c d e 
+| s q o 
+| t k n h i m f l 
+| p g r j 
+| 
+
+| a b c d e 
+| s q o l 
+| t k n h i m f 
+| p g r j 
+| 
+
+| a b c d e f 
+| s q o l 
+| t k n h i m 
+| p g r j 
+| 
+
+| a b c d e f 
+| s q o l j 
+| t k n h i m 
+| p g r 
+| 
+
+| a b c d e f 
+| s q o l j 
+| t k n h i m 
+| p g 
+| r 
+
+| a b c d e f g 
+| s q o l j 
+| t k n h i m 
+| p 
+| r 
+
+| a b c d e f g 
+| s q o l j 
+| t k n h i 
+| p m 
+| r 
+
+| a b c d e f g 
+| s q o l j i 
+| t k n h 
+| p m 
+| r 
+
+| a b c d e f g h 
+| s q o l j i 
+| t k n 
+| p m 
+| r 
+
+| a b c d e f g h i 
+| s q o l j 
+| t k n 
+| p m 
+| r 
+
+| a b c d e f g h i j 
+| s q o l 
+| t k n 
+| p m 
+| r 
+
+| a b c d e f g h i j 
+| s q o l 
+| t k 
+| p m 
+| r n 
+
+| a b c d e f g h i j k 
+| s q o l 
+| t 
+| p m 
+| r n 
+
+| a b c d e f g h i j k l 
+| s q o 
+| t 
+| p m 
+| r n 
+
+| a b c d e f g h i j k l m 
+| s q o 
+| t 
+| p 
+| r n 
+
+| a b c d e f g h i j k l m n 
+| s q o 
+| t 
+| p 
+| r 
+
+| a b c d e f g h i j k l m n o 
+| s q 
+| t 
+| p 
+| r 
+
+| a b c d e f g h i j k l m n o p 
+| s q 
+| t 
+| 
+| r 
+
+| a b c d e f g h i j k l m n o p q 
+| s 
+| t 
+| 
+| r 
+
+| a b c d e f g h i j k l m n o p q r 
+| s 
+| t 
+| 
+| 
+
+| a b c d e f g h i j k l m n o p q r s 
+| 
+| t 
+| 
+| 
+
+| a b c d e f g h i j k l m n o p q r s t 
+| 
+| 
+| 
+| 
+
+Total steps taken : 38
+
+Running tests for 20 blocks with 7 stacks ...
+Test 1 summary
+Number of goal tests : 30
+Maximum queue size : 1015
+Solution Path:
+| f 
+| d n k c 
+| b a 
+| o p 
+| h e l i 
+| j r q t 
+| m s g 
+
+| 
+| d n k c 
+| b a 
+| o p 
+| h e l i 
+| j r q t f 
+| m s g 
+
+| a 
+| d n k c 
+| b 
+| o p 
+| h e l i 
+| j r q t f 
+| m s g 
+
+| a b 
+| d n k c 
+| 
+| o p 
+| h e l i 
+| j r q t f 
+| m s g 
+
+| a b c 
+| d n k 
+| 
+| o p 
+| h e l i 
+| j r q t f 
+| m s g 
+
+| a b c 
+| d n 
+| 
+| o p k 
+| h e l i 
+| j r q t f 
+| m s g 
+
+| a b c 
+| d 
+| n 
+| o p k 
+| h e l i 
+| j r q t f 
+| m s g 
+
+| a b c d 
+| 
+| n 
+| o p k 
+| h e l i 
+| j r q t f 
+| m s g 
+
+| a b c d 
+| i 
+| n 
+| o p k 
+| h e l 
+| j r q t f 
+| m s g 
+
+| a b c d 
+| i 
+| n l 
+| o p k 
+| h e 
+| j r q t f 
+| m s g 
+
+| a b c d e 
+| i 
+| n l 
+| o p k 
+| h 
+| j r q t f 
+| m s g 
+
+| a b c d e f 
+| i 
+| n l 
+| o p k 
+| h 
+| j r q t 
+| m s g 
+
+| a b c d e f g 
+| i 
+| n l 
+| o p k 
+| h 
+| j r q t 
+| m s 
+
+| a b c d e f g h 
+| i 
+| n l 
+| o p k 
+| 
+| j r q t 
+| m s 
+
+| a b c d e f g h i 
+| 
+| n l 
+| o p k 
+| 
+| j r q t 
+| m s 
+
+| a b c d e f g h i 
+| t 
+| n l 
+| o p k 
+| 
+| j r q 
+| m s 
+
+| a b c d e f g h i 
+| t q 
+| n l 
+| o p k 
+| 
+| j r 
+| m s 
+
+| a b c d e f g h i 
+| t q 
+| n l 
+| o p k 
+| r 
+| j 
+| m s 
+
+| a b c d e f g h i j 
+| t q 
+| n l 
+| o p k 
+| r 
+| 
+| m s 
+
+| a b c d e f g h i j k 
+| t q 
+| n l 
+| o p 
+| r 
+| 
+| m s 
+
+| a b c d e f g h i j k l 
+| t q 
+| n 
+| o p 
+| r 
+| 
+| m s 
+
+| a b c d e f g h i j k l 
+| t q 
+| n 
+| o p 
+| r 
+| s 
+| m 
+
+| a b c d e f g h i j k l m 
+| t q 
+| n 
+| o p 
+| r 
+| s 
+| 
+
+| a b c d e f g h i j k l m n 
+| t q 
+| 
+| o p 
+| r 
+| s 
+| 
+
+| a b c d e f g h i j k l m n 
+| t q p 
+| 
+| o 
+| r 
+| s 
+| 
+
+| a b c d e f g h i j k l m n o 
+| t q p 
+| 
+| 
+| r 
+| s 
+| 
+
+| a b c d e f g h i j k l m n o p 
+| t q 
+| 
+| 
+| r 
+| s 
+| 
+
+| a b c d e f g h i j k l m n o p q 
+| t 
+| 
+| 
+| r 
+| s 
+| 
+
+| a b c d e f g h i j k l m n o p q r 
+| t 
+| 
+| 
+| 
+| s 
+| 
+
+| a b c d e f g h i j k l m n o p q r s 
+| t 
+| 
+| 
+| 
+| 
+| 
+
+| a b c d e f g h i j k l m n o p q r s t 
+| 
+| 
+| 
+| 
+| 
+| 
+
+Total steps taken : 30
+
+Test 2 summary
+Number of goal tests : 37
+Maximum queue size : 1362
+Solution Path:
+| a o 
+| t l f r 
+| p c q h 
+| k b 
+| s d j e 
+| g i 
+| n m 
+
+| a o 
+| t l f r 
+| p c q h b 
+| k 
+| s d j e 
+| g i 
+| n m 
+
+| a o 
+| t l f r e 
+| p c q h b 
+| k 
+| s d j 
+| g i 
+| n m 
+
+| a o 
+| t l f r e 
+| p c q h b 
+| k 
+| s d 
+| g i 
+| n m j 
+
+| a o 
+| t l f r e 
+| p c q h b 
+| k 
+| s 
+| g i d 
+| n m j 
+
+| a 
+| t l f r e 
+| p c q h b 
+| k 
+| s o 
+| g i d 
+| n m j 
+
+| a b 
+| t l f r e 
+| p c q h 
+| k 
+| s o 
+| g i d 
+| n m j 
+
+| a b 
+| t l f r e 
+| p c q 
+| k h 
+| s o 
+| g i d 
+| n m j 
+
+| a b 
+| t l f r e q 
+| p c 
+| k h 
+| s o 
+| g i d 
+| n m j 
+
+| a b c 
+| t l f r e q 
+| p 
+| k h 
+| s o 
+| g i d 
+| n m j 
+
+| a b c d 
+| t l f r e q 
+| p 
+| k h 
+| s o 
+| g i 
+| n m j 
+
+| a b c d 
+| t l f r e 
+| p q 
+| k h 
+| s o 
+| g i 
+| n m j 
+
+| a b c d e 
+| t l f r 
+| p q 
+| k h 
+| s o 
+| g i 
+| n m j 
+
+| a b c d e 
+| t l f r 
+| p q i 
+| k h 
+| s o 
+| g 
+| n m j 
+
+| a b c d e 
+| t l f 
+| p q i r 
+| k h 
+| s o 
+| g 
+| n m j 
+
+| a b c d e f 
+| t l 
+| p q i r 
+| k h 
+| s o 
+| g 
+| n m j 
+
+| a b c d e f g 
+| t l 
+| p q i r 
+| k h 
+| s o 
+| 
+| n m j 
+
+| a b c d e f g h 
+| t l 
+| p q i r 
+| k 
+| s o 
+| 
+| n m j 
+
+| a b c d e f g h 
+| t l 
+| p q i 
+| k 
+| s o 
+| r 
+| n m j 
+
+| a b c d e f g h i 
+| t l 
+| p q 
+| k 
+| s o 
+| r 
+| n m j 
+
+| a b c d e f g h i j 
+| t l 
+| p q 
+| k 
+| s o 
+| r 
+| n m 
+
+| a b c d e f g h i j k 
+| t l 
+| p q 
+| 
+| s o 
+| r 
+| n m 
+
+| a b c d e f g h i j k l 
+| t 
+| p q 
+| 
+| s o 
+| r 
+| n m 
+
+| a b c d e f g h i j k l m 
+| t 
+| p q 
+| 
+| s o 
+| r 
+| n 
+
+| a b c d e f g h i j k l m n 
+| t 
+| p q 
+| 
+| s o 
+| r 
+| 
+
+| a b c d e f g h i j k l m n o 
+| t 
+| p q 
+| 
+| s 
+| r 
+| 
+
+| a b c d e f g h i j k l m n o 
+| t q 
+| p 
+| 
+| s 
+| r 
+| 
+
+| a b c d e f g h i j k l m n o p 
+| t q 
+| 
+| 
+| s 
+| r 
+| 
+
+| a b c d e f g h i j k l m n o p q 
+| t 
+| 
+| 
+| s 
+| r 
+| 
+
+| a b c d e f g h i j k l m n o p q r 
+| t 
+| 
+| 
+| s 
+| 
+| 
+
+| a b c d e f g h i j k l m n o p q r s 
+| t 
+| 
+| 
+| 
+| 
+| 
+
+| a b c d e f g h i j k l m n o p q r s t 
+| 
+| 
+| 
+| 
+| 
+| 
+
+Total steps taken : 31
+
+Test 3 summary
+Number of goal tests : 33
+Maximum queue size : 1108
+Solution Path:
+| 
+| o d j 
+| a e c s g i 
+| f h 
+| l n t k 
+| r q 
+| m p b 
+
+| 
+| o d j 
+| a e c s g 
+| f h 
+| l n t k i 
+| r q 
+| m p b 
+
+| 
+| o d j 
+| a e c s 
+| f h 
+| l n t k i 
+| r q g 
+| m p b 
+
+| 
+| o d j s 
+| a e c 
+| f h 
+| l n t k i 
+| r q g 
+| m p b 
+
+| 
+| o d j s c 
+| a e 
+| f h 
+| l n t k i 
+| r q g 
+| m p b 
+
+| 
+| o d j s c 
+| a 
+| f h e 
+| l n t k i 
+| r q g 
+| m p b 
+
+| a 
+| o d j s c 
+| 
+| f h e 
+| l n t k i 
+| r q g 
+| m p b 
+
+| a b 
+| o d j s c 
+| 
+| f h e 
+| l n t k i 
+| r q g 
+| m p 
+
+| a b c 
+| o d j s 
+| 
+| f h e 
+| l n t k i 
+| r q g 
+| m p 
+
+| a b c 
+| o d j 
+| s 
+| f h e 
+| l n t k i 
+| r q g 
+| m p 
+
+| a b c 
+| o d 
+| s 
+| f h e 
+| l n t k i 
+| r q g 
+| m p j 
+
+| a b c d 
+| o 
+| s 
+| f h e 
+| l n t k i 
+| r q g 
+| m p j 
+
+| a b c d e 
+| o 
+| s 
+| f h 
+| l n t k i 
+| r q g 
+| m p j 
+
+| a b c d e 
+| o h 
+| s 
+| f 
+| l n t k i 
+| r q g 
+| m p j 
+
+| a b c d e f 
+| o h 
+| s 
+| 
+| l n t k i 
+| r q g 
+| m p j 
+
+| a b c d e f g 
+| o h 
+| s 
+| 
+| l n t k i 
+| r q 
+| m p j 
+
+| a b c d e f g h 
+| o 
+| s 
+| 
+| l n t k i 
+| r q 
+| m p j 
+
+| a b c d e f g h i 
+| o 
+| s 
+| 
+| l n t k 
+| r q 
+| m p j 
+
+| a b c d e f g h i j 
+| o 
+| s 
+| 
+| l n t k 
+| r q 
+| m p 
+
+| a b c d e f g h i j k 
+| o 
+| s 
+| 
+| l n t 
+| r q 
+| m p 
+
+| a b c d e f g h i j k 
+| o 
+| s 
+| t 
+| l n 
+| r q 
+| m p 
+
+| a b c d e f g h i j k 
+| o n 
+| s 
+| t 
+| l 
+| r q 
+| m p 
+
+| a b c d e f g h i j k l 
+| o n 
+| s 
+| t 
+| 
+| r q 
+| m p 
+
+| a b c d e f g h i j k l 
+| o n 
+| s p 
+| t 
+| 
+| r q 
+| m 
+
+| a b c d e f g h i j k l m 
+| o n 
+| s p 
+| t 
+| 
+| r q 
+| 
+
+| a b c d e f g h i j k l m n 
+| o 
+| s p 
+| t 
+| 
+| r q 
+| 
+
+| a b c d e f g h i j k l m n o 
+| 
+| s p 
+| t 
+| 
+| r q 
+| 
+
+| a b c d e f g h i j k l m n o p 
+| 
+| s 
+| t 
+| 
+| r q 
+| 
+
+| a b c d e f g h i j k l m n o p q 
+| 
+| s 
+| t 
+| 
+| r 
+| 
+
+| a b c d e f g h i j k l m n o p q r 
+| 
+| s 
+| t 
+| 
+| 
+| 
+
+| a b c d e f g h i j k l m n o p q r s 
+| 
+| 
+| t 
+| 
+| 
+| 
+
+| a b c d e f g h i j k l m n o p q r s t 
+| 
+| 
+| 
+| 
+| 
+| 
+
+Total steps taken : 31
+
+Test 4 summary
+Number of goal tests : 29
+Maximum queue size : 728
+Solution Path:
+| a e d 
+| f 
+| k h c 
+| t o l m 
+| n q r s p 
+| 
+| b g i j 
+
+| a e d 
+| f 
+| k h c 
+| t o l m 
+| n q r s p j 
+| 
+| b g i 
+
+| a e d 
+| f 
+| k h c 
+| t o l m i 
+| n q r s p j 
+| 
+| b g 
+
+| a e d 
+| f 
+| k h c 
+| t o l m i g 
+| n q r s p j 
+| 
+| b 
+
+| a e 
+| f d 
+| k h c 
+| t o l m i g 
+| n q r s p j 
+| 
+| b 
+
+| a 
+| f d 
+| k h c 
+| t o l m i g e 
+| n q r s p j 
+| 
+| b 
+
+| a b 
+| f d 
+| k h c 
+| t o l m i g e 
+| n q r s p j 
+| 
+| 
+
+| a b c 
+| f d 
+| k h 
+| t o l m i g e 
+| n q r s p j 
+| 
+| 
+
+| a b c d 
+| f 
+| k h 
+| t o l m i g e 
+| n q r s p j 
+| 
+| 
+
+| a b c d e 
+| f 
+| k h 
+| t o l m i g 
+| n q r s p j 
+| 
+| 
+
+| a b c d e f 
+| 
+| k h 
+| t o l m i g 
+| n q r s p j 
+| 
+| 
+
+| a b c d e f g 
+| 
+| k h 
+| t o l m i 
+| n q r s p j 
+| 
+| 
+
+| a b c d e f g h 
+| 
+| k 
+| t o l m i 
+| n q r s p j 
+| 
+| 
+
+| a b c d e f g h i 
+| 
+| k 
+| t o l m 
+| n q r s p j 
+| 
+| 
+
+| a b c d e f g h i j 
+| 
+| k 
+| t o l m 
+| n q r s p 
+| 
+| 
+
+| a b c d e f g h i j k 
+| 
+| 
+| t o l m 
+| n q r s p 
+| 
+| 
+
+| a b c d e f g h i j k 
+| 
+| 
+| t o l 
+| n q r s p m 
+| 
+| 
+
+| a b c d e f g h i j k l 
+| 
+| 
+| t o 
+| n q r s p m 
+| 
+| 
+
+| a b c d e f g h i j k l m 
+| 
+| 
+| t o 
+| n q r s p 
+| 
+| 
+
+| a b c d e f g h i j k l m 
+| p 
+| 
+| t o 
+| n q r s 
+| 
+| 
+
+| a b c d e f g h i j k l m 
+| p 
+| s 
+| t o 
+| n q r 
+| 
+| 
+
+| a b c d e f g h i j k l m 
+| p 
+| s r 
+| t o 
+| n q 
+| 
+| 
+
+| a b c d e f g h i j k l m 
+| p 
+| s r q 
+| t o 
+| n 
+| 
+| 
+
+| a b c d e f g h i j k l m n 
+| p 
+| s r q 
+| t o 
+| 
+| 
+| 
+
+| a b c d e f g h i j k l m n o 
+| p 
+| s r q 
+| t 
+| 
+| 
+| 
+
+| a b c d e f g h i j k l m n o p 
+| 
+| s r q 
+| t 
+| 
+| 
+| 
+
+| a b c d e f g h i j k l m n o p q 
+| 
+| s r 
+| t 
+| 
+| 
+| 
+
+| a b c d e f g h i j k l m n o p q r 
+| 
+| s 
+| t 
+| 
+| 
+| 
+
+| a b c d e f g h i j k l m n o p q r s 
+| 
+| 
+| t 
+| 
+| 
+| 
+
+| a b c d e f g h i j k l m n o p q r s t 
+| 
+| 
+| 
+| 
+| 
+| 
+
+Total steps taken : 29
+
+Test 5 summary
+Number of goal tests : 40
+Maximum queue size : 1515
+Solution Path:
+| d l t 
+| q g j h 
+| 
+| n a s b o 
+| i 
+| f p m k 
+| r e c 
+
+| d l t 
+| q g j h 
+| 
+| n a s b o 
+| i 
+| f p m k c 
+| r e 
+
+| d l t 
+| q g j h 
+| o 
+| n a s b 
+| i 
+| f p m k c 
+| r e 
+
+| d l t 
+| q g j h b 
+| o 
+| n a s 
+| i 
+| f p m k c 
+| r e 
+
+| d l t 
+| q g j h b 
+| o s 
+| n a 
+| i 
+| f p m k c 
+| r e 
+
+| d l t 
+| q g j h b 
+| o s i 
+| n a 
+| 
+| f p m k c 
+| r e 
+
+| d l 
+| q g j h b 
+| o s i 
+| n a 
+| t 
+| f p m k c 
+| r e 
+
+| d 
+| q g j h b 
+| o s i 
+| n a 
+| t l 
+| f p m k c 
+| r e 
+
+| 
+| q g j h b 
+| o s i d 
+| n a 
+| t l 
+| f p m k c 
+| r e 
+
+| a 
+| q g j h b 
+| o s i d 
+| n 
+| t l 
+| f p m k c 
+| r e 
+
+| a b 
+| q g j h 
+| o s i d 
+| n 
+| t l 
+| f p m k c 
+| r e 
+
+| a b c 
+| q g j h 
+| o s i d 
+| n 
+| t l 
+| f p m k 
+| r e 
+
+| a b c d 
+| q g j h 
+| o s i 
+| n 
+| t l 
+| f p m k 
+| r e 
+
+| a b c d e 
+| q g j h 
+| o s i 
+| n 
+| t l 
+| f p m k 
+| r 
+
+| a b c d e 
+| q g j h 
+| o s i 
+| n k 
+| t l 
+| f p m 
+| r 
+
+| a b c d e 
+| q g j h 
+| o s i 
+| n k 
+| t l 
+| f p 
+| r m 
+
+| a b c d e 
+| q g j h p 
+| o s i 
+| n k 
+| t l 
+| f 
+| r m 
+
+| a b c d e f 
+| q g j h p 
+| o s i 
+| n k 
+| t l 
+| 
+| r m 
+
+| a b c d e f 
+| q g j h 
+| o s i 
+| n k 
+| t l 
+| p 
+| r m 
+
+| a b c d e f 
+| q g j 
+| o s i h 
+| n k 
+| t l 
+| p 
+| r m 
+
+| a b c d e f 
+| q g 
+| o s i h 
+| n k j 
+| t l 
+| p 
+| r m 
+
+| a b c d e f g 
+| q 
+| o s i h 
+| n k j 
+| t l 
+| p 
+| r m 
+
+| a b c d e f g h 
+| q 
+| o s i 
+| n k j 
+| t l 
+| p 
+| r m 
+
+| a b c d e f g h i 
+| q 
+| o s 
+| n k j 
+| t l 
+| p 
+| r m 
+
+| a b c d e f g h i j 
+| q 
+| o s 
+| n k 
+| t l 
+| p 
+| r m 
+
+| a b c d e f g h i j k 
+| q 
+| o s 
+| n 
+| t l 
+| p 
+| r m 
+
+| a b c d e f g h i j k l 
+| q 
+| o s 
+| n 
+| t 
+| p 
+| r m 
+
+| a b c d e f g h i j k l m 
+| q 
+| o s 
+| n 
+| t 
+| p 
+| r 
+
+| a b c d e f g h i j k l m n 
+| q 
+| o s 
+| 
+| t 
+| p 
+| r 
+
+| a b c d e f g h i j k l m n 
+| q 
+| o 
+| s 
+| t 
+| p 
+| r 
+
+| a b c d e f g h i j k l m n o 
+| q 
+| 
+| s 
+| t 
+| p 
+| r 
+
+| a b c d e f g h i j k l m n o p 
+| q 
+| 
+| s 
+| t 
+| 
+| r 
+
+| a b c d e f g h i j k l m n o p q 
+| 
+| 
+| s 
+| t 
+| 
+| r 
+
+| a b c d e f g h i j k l m n o p q r 
+| 
+| 
+| s 
+| t 
+| 
+| 
+
+| a b c d e f g h i j k l m n o p q r s 
+| 
+| 
+| 
+| t 
+| 
+| 
+
+| a b c d e f g h i j k l m n o p q r s t 
+| 
+| 
+| 
+| 
+| 
+| 
+
+Total steps taken : 35
+
+Test 6 summary
+Number of goal tests : 39
+Maximum queue size : 1450
+Solution Path:
+| r s f l c 
+| p m d 
+| o q 
+| j e 
+| h t k 
+| n g i b 
+| a 
+
+| r s f l 
+| p m d 
+| o q 
+| j e 
+| h t k c 
+| n g i b 
+| a 
+
+| r s f 
+| p m d 
+| o q l 
+| j e 
+| h t k c 
+| n g i b 
+| a 
+
+| r s 
+| p m d 
+| o q l f 
+| j e 
+| h t k c 
+| n g i b 
+| a 
+
+| r 
+| p m d 
+| o q l f s 
+| j e 
+| h t k c 
+| n g i b 
+| a 
+
+| r 
+| p m d 
+| o q l f s a 
+| j e 
+| h t k c 
+| n g i b 
+| 
+
+| 
+| p m d 
+| o q l f s a 
+| j e 
+| h t k c 
+| n g i b 
+| r 
+
+| a 
+| p m d 
+| o q l f s 
+| j e 
+| h t k c 
+| n g i b 
+| r 
+
+| a b 
+| p m d 
+| o q l f s 
+| j e 
+| h t k c 
+| n g i 
+| r 
+
+| a b c 
+| p m d 
+| o q l f s 
+| j e 
+| h t k 
+| n g i 
+| r 
+
+| a b c d 
+| p m 
+| o q l f s 
+| j e 
+| h t k 
+| n g i 
+| r 
+
+| a b c d e 
+| p m 
+| o q l f s 
+| j 
+| h t k 
+| n g i 
+| r 
+
+| a b c d e 
+| p m s 
+| o q l f 
+| j 
+| h t k 
+| n g i 
+| r 
+
+| a b c d e f 
+| p m s 
+| o q l 
+| j 
+| h t k 
+| n g i 
+| r 
+
+| a b c d e f 
+| p m s i 
+| o q l 
+| j 
+| h t k 
+| n g 
+| r 
+
+| a b c d e f g 
+| p m s i 
+| o q l 
+| j 
+| h t k 
+| n 
+| r 
+
+| a b c d e f g 
+| p m s i 
+| o q l k 
+| j 
+| h t 
+| n 
+| r 
+
+| a b c d e f g 
+| p m s i t 
+| o q l k 
+| j 
+| h 
+| n 
+| r 
+
+| a b c d e f g h 
+| p m s i t 
+| o q l k 
+| j 
+| 
+| n 
+| r 
+
+| a b c d e f g h 
+| p m s i 
+| o q l k 
+| j 
+| t 
+| n 
+| r 
+
+| a b c d e f g h i 
+| p m s 
+| o q l k 
+| j 
+| t 
+| n 
+| r 
+
+| a b c d e f g h i j 
+| p m s 
+| o q l k 
+| 
+| t 
+| n 
+| r 
+
+| a b c d e f g h i j k 
+| p m s 
+| o q l 
+| 
+| t 
+| n 
+| r 
+
+| a b c d e f g h i j k l 
+| p m s 
+| o q 
+| 
+| t 
+| n 
+| r 
+
+| a b c d e f g h i j k l 
+| p m 
+| o q 
+| s 
+| t 
+| n 
+| r 
+
+| a b c d e f g h i j k l m 
+| p 
+| o q 
+| s 
+| t 
+| n 
+| r 
+
+| a b c d e f g h i j k l m n 
+| p 
+| o q 
+| s 
+| t 
+| 
+| r 
+
+| a b c d e f g h i j k l m n 
+| p 
+| o 
+| s q 
+| t 
+| 
+| r 
+
+| a b c d e f g h i j k l m n o 
+| p 
+| 
+| s q 
+| t 
+| 
+| r 
+
+| a b c d e f g h i j k l m n o p 
+| 
+| 
+| s q 
+| t 
+| 
+| r 
+
+| a b c d e f g h i j k l m n o p q 
+| 
+| 
+| s 
+| t 
+| 
+| r 
+
+| a b c d e f g h i j k l m n o p q r 
+| 
+| 
+| s 
+| t 
+| 
+| 
+
+| a b c d e f g h i j k l m n o p q r s 
+| 
+| 
+| 
+| t 
+| 
+| 
+
+| a b c d e f g h i j k l m n o p q r s t 
+| 
+| 
+| 
+| 
+| 
+| 
+
+Total steps taken : 33
+
+Test 7 summary
+Number of goal tests : 37
+Maximum queue size : 1326
+Solution Path:
+| k 
+| g s d h 
+| m f c l p 
+| i r e 
+| j 
+| q o a 
+| t b n 
+
+| k 
+| g s d h 
+| m f c l p a 
+| i r e 
+| j 
+| q o 
+| t b n 
+
+| 
+| g s d h 
+| m f c l p a 
+| i r e 
+| j 
+| q o k 
+| t b n 
+
+| a 
+| g s d h 
+| m f c l p 
+| i r e 
+| j 
+| q o k 
+| t b n 
+
+| a 
+| g s d 
+| m f c l p 
+| i r e 
+| j h 
+| q o k 
+| t b n 
+
+| a 
+| g s d n 
+| m f c l p 
+| i r e 
+| j h 
+| q o k 
+| t b 
+
+| a b 
+| g s d n 
+| m f c l p 
+| i r e 
+| j h 
+| q o k 
+| t 
+
+| a b 
+| g s d n 
+| m f c l 
+| i r e 
+| j h 
+| q o k 
+| t p 
+
+| a b 
+| g s d n 
+| m f c 
+| i r e 
+| j h 
+| q o k 
+| t p l 
+
+| a b c 
+| g s d n 
+| m f 
+| i r e 
+| j h 
+| q o k 
+| t p l 
+
+| a b c 
+| g s d 
+| m f n 
+| i r e 
+| j h 
+| q o k 
+| t p l 
+
+| a b c d 
+| g s 
+| m f n 
+| i r e 
+| j h 
+| q o k 
+| t p l 
+
+| a b c d e 
+| g s 
+| m f n 
+| i r 
+| j h 
+| q o k 
+| t p l 
+
+| a b c d e 
+| g s n 
+| m f 
+| i r 
+| j h 
+| q o k 
+| t p l 
+
+| a b c d e f 
+| g s n 
+| m 
+| i r 
+| j h 
+| q o k 
+| t p l 
+
+| a b c d e f 
+| g s 
+| m 
+| i r n 
+| j h 
+| q o k 
+| t p l 
+
+| a b c d e f 
+| g s 
+| m 
+| i r n h 
+| j 
+| q o k 
+| t p l 
+
+| a b c d e f 
+| g 
+| m s 
+| i r n h 
+| j 
+| q o k 
+| t p l 
+
+| a b c d e f g 
+| 
+| m s 
+| i r n h 
+| j 
+| q o k 
+| t p l 
+
+| a b c d e f g h 
+| 
+| m s 
+| i r n 
+| j 
+| q o k 
+| t p l 
+
+| a b c d e f g h 
+| n 
+| m s 
+| i r 
+| j 
+| q o k 
+| t p l 
+
+| a b c d e f g h 
+| n r 
+| m s 
+| i 
+| j 
+| q o k 
+| t p l 
+
+| a b c d e f g h i 
+| n r 
+| m s 
+| 
+| j 
+| q o k 
+| t p l 
+
+| a b c d e f g h i j 
+| n r 
+| m s 
+| 
+| 
+| q o k 
+| t p l 
+
+| a b c d e f g h i j k 
+| n r 
+| m s 
+| 
+| 
+| q o 
+| t p l 
+
+| a b c d e f g h i j k l 
+| n r 
+| m s 
+| 
+| 
+| q o 
+| t p 
+
+| a b c d e f g h i j k l 
+| n r 
+| m 
+| s 
+| 
+| q o 
+| t p 
+
+| a b c d e f g h i j k l m 
+| n r 
+| 
+| s 
+| 
+| q o 
+| t p 
+
+| a b c d e f g h i j k l m 
+| n 
+| r 
+| s 
+| 
+| q o 
+| t p 
+
+| a b c d e f g h i j k l m n 
+| 
+| r 
+| s 
+| 
+| q o 
+| t p 
+
+| a b c d e f g h i j k l m n o 
+| 
+| r 
+| s 
+| 
+| q 
+| t p 
+
+| a b c d e f g h i j k l m n o p 
+| 
+| r 
+| s 
+| 
+| q 
+| t 
+
+| a b c d e f g h i j k l m n o p q 
+| 
+| r 
+| s 
+| 
+| 
+| t 
+
+| a b c d e f g h i j k l m n o p q r 
+| 
+| 
+| s 
+| 
+| 
+| t 
+
+| a b c d e f g h i j k l m n o p q r s 
+| 
+| 
+| 
+| 
+| 
+| t 
+
+| a b c d e f g h i j k l m n o p q r s t 
+| 
+| 
+| 
+| 
+| 
+| 
+
+Total steps taken : 35
+
+Test 8 summary
+Number of goal tests : 133
+Maximum queue size : 5298
+Solution Path:
+| s d c l e p 
+| i j b 
+| k h f 
+| o 
+| m t n 
+| r 
+| q a g 
+
+| s d c l e p 
+| i j b 
+| k h f 
+| o 
+| m t n g 
+| r 
+| q a 
+
+| s d c l e 
+| i j b 
+| k h f 
+| o 
+| m t n g 
+| r p 
+| q a 
+
+| s d c l 
+| i j b 
+| k h f e 
+| o 
+| m t n g 
+| r p 
+| q a 
+
+| s d c 
+| i j b 
+| k h f e 
+| o 
+| m t n g 
+| r p l 
+| q a 
+
+| s d 
+| i j b 
+| k h f e c 
+| o 
+| m t n g 
+| r p l 
+| q a 
+
+| s 
+| i j b 
+| k h f e c 
+| o 
+| m t n g d 
+| r p l 
+| q a 
+
+| 
+| i j b 
+| k h f e c 
+| o 
+| m t n g d 
+| r p l s 
+| q a 
+
+| a 
+| i j b 
+| k h f e c 
+| o 
+| m t n g d 
+| r p l s 
+| q 
+
+| a b 
+| i j 
+| k h f e c 
+| o 
+| m t n g d 
+| r p l s 
+| q 
+
+| a b c 
+| i j 
+| k h f e 
+| o 
+| m t n g d 
+| r p l s 
+| q 
+
+| a b c d 
+| i j 
+| k h f e 
+| o 
+| m t n g 
+| r p l s 
+| q 
+
+| a b c d e 
+| i j 
+| k h f 
+| o 
+| m t n g 
+| r p l s 
+| q 
+
+| a b c d e f 
+| i j 
+| k h 
+| o 
+| m t n g 
+| r p l s 
+| q 
+
+| a b c d e f g 
+| i j 
+| k h 
+| o 
+| m t n 
+| r p l s 
+| q 
+
+| a b c d e f g h 
+| i j 
+| k 
+| o 
+| m t n 
+| r p l s 
+| q 
+
+| a b c d e f g h 
+| i 
+| k 
+| o 
+| m t n j 
+| r p l s 
+| q 
+
+| a b c d e f g h i 
+| 
+| k 
+| o 
+| m t n j 
+| r p l s 
+| q 
+
+| a b c d e f g h i j 
+| 
+| k 
+| o 
+| m t n 
+| r p l s 
+| q 
+
+| a b c d e f g h i j k 
+| 
+| 
+| o 
+| m t n 
+| r p l s 
+| q 
+
+| a b c d e f g h i j k 
+| s 
+| 
+| o 
+| m t n 
+| r p l 
+| q 
+
+| a b c d e f g h i j k l 
+| s 
+| 
+| o 
+| m t n 
+| r p 
+| q 
+
+| a b c d e f g h i j k l 
+| s n 
+| 
+| o 
+| m t 
+| r p 
+| q 
+
+| a b c d e f g h i j k l 
+| s n 
+| t 
+| o 
+| m 
+| r p 
+| q 
+
+| a b c d e f g h i j k l m 
+| s n 
+| t 
+| o 
+| 
+| r p 
+| q 
+
+| a b c d e f g h i j k l m n 
+| s 
+| t 
+| o 
+| 
+| r p 
+| q 
+
+| a b c d e f g h i j k l m n o 
+| s 
+| t 
+| 
+| 
+| r p 
+| q 
+
+| a b c d e f g h i j k l m n o p 
+| s 
+| t 
+| 
+| 
+| r 
+| q 
+
+| a b c d e f g h i j k l m n o p q 
+| s 
+| t 
+| 
+| 
+| r 
+| 
+
+| a b c d e f g h i j k l m n o p q r 
+| s 
+| t 
+| 
+| 
+| 
+| 
+
+| a b c d e f g h i j k l m n o p q r s 
+| 
+| t 
+| 
+| 
+| 
+| 
+
+| a b c d e f g h i j k l m n o p q r s t 
+| 
+| 
+| 
+| 
+| 
+| 
+
+Total steps taken : 31
+
+Test 9 summary
+Number of goal tests : 37
+Maximum queue size : 1320
+Solution Path:
+| g d 
+| e a h r 
+| s p j n 
+| 
+| f l t 
+| i o m 
+| b q c k 
+
+| g 
+| e a h r 
+| s p j n 
+| 
+| f l t d 
+| i o m 
+| b q c k 
+
+| 
+| e a h r 
+| s p j n 
+| 
+| f l t d 
+| i o m g 
+| b q c k 
+
+| 
+| e a h 
+| s p j n 
+| r 
+| f l t d 
+| i o m g 
+| b q c k 
+
+| 
+| e a 
+| s p j n h 
+| r 
+| f l t d 
+| i o m g 
+| b q c k 
+
+| a 
+| e 
+| s p j n h 
+| r 
+| f l t d 
+| i o m g 
+| b q c k 
+
+| a 
+| e 
+| s p j n h 
+| r k 
+| f l t d 
+| i o m g 
+| b q c 
+
+| a 
+| e 
+| s p j n h 
+| r k 
+| f l t d c 
+| i o m g 
+| b q 
+
+| a 
+| e q 
+| s p j n h 
+| r k 
+| f l t d c 
+| i o m g 
+| b 
+
+| a b 
+| e q 
+| s p j n h 
+| r k 
+| f l t d c 
+| i o m g 
+| 
+
+| a b c 
+| e q 
+| s p j n h 
+| r k 
+| f l t d 
+| i o m g 
+| 
+
+| a b c d 
+| e q 
+| s p j n h 
+| r k 
+| f l t 
+| i o m g 
+| 
+
+| a b c d 
+| e 
+| s p j n h 
+| r k 
+| f l t 
+| i o m g 
+| q 
+
+| a b c d e 
+| 
+| s p j n h 
+| r k 
+| f l t 
+| i o m g 
+| q 
+
+| a b c d e 
+| t 
+| s p j n h 
+| r k 
+| f l 
+| i o m g 
+| q 
+
+| a b c d e 
+| t l 
+| s p j n h 
+| r k 
+| f 
+| i o m g 
+| q 
+
+| a b c d e f 
+| t l 
+| s p j n h 
+| r k 
+| 
+| i o m g 
+| q 
+
+| a b c d e f g 
+| t l 
+| s p j n h 
+| r k 
+| 
+| i o m 
+| q 
+
+| a b c d e f g h 
+| t l 
+| s p j n 
+| r k 
+| 
+| i o m 
+| q 
+
+| a b c d e f g h 
+| t l 
+| s p j n 
+| r k 
+| m 
+| i o 
+| q 
+
+| a b c d e f g h 
+| t l 
+| s p j n 
+| r k 
+| m 
+| i 
+| q o 
+
+| a b c d e f g h i 
+| t l 
+| s p j n 
+| r k 
+| m 
+| 
+| q o 
+
+| a b c d e f g h i 
+| t l 
+| s p j 
+| r k 
+| m 
+| n 
+| q o 
+
+| a b c d e f g h i j 
+| t l 
+| s p 
+| r k 
+| m 
+| n 
+| q o 
+
+| a b c d e f g h i j k 
+| t l 
+| s p 
+| r 
+| m 
+| n 
+| q o 
+
+| a b c d e f g h i j k l 
+| t 
+| s p 
+| r 
+| m 
+| n 
+| q o 
+
+| a b c d e f g h i j k l m 
+| t 
+| s p 
+| r 
+| 
+| n 
+| q o 
+
+| a b c d e f g h i j k l m n 
+| t 
+| s p 
+| r 
+| 
+| 
+| q o 
+
+| a b c d e f g h i j k l m n o 
+| t 
+| s p 
+| r 
+| 
+| 
+| q 
+
+| a b c d e f g h i j k l m n o p 
+| t 
+| s 
+| r 
+| 
+| 
+| q 
+
+| a b c d e f g h i j k l m n o p q 
+| t 
+| s 
+| r 
+| 
+| 
+| 
+
+| a b c d e f g h i j k l m n o p q r 
+| t 
+| s 
+| 
+| 
+| 
+| 
+
+| a b c d e f g h i j k l m n o p q r s 
+| t 
+| 
+| 
+| 
+| 
+| 
+
+| a b c d e f g h i j k l m n o p q r s t 
+| 
+| 
+| 
+| 
+| 
+| 
+
+Total steps taken : 33
+
+Test 10 summary
+Number of goal tests : 35
+Maximum queue size : 1100
+Solution Path:
+| n 
+| q r t 
+| f i 
+| l p 
+| e s d 
+| m o h g 
+| b k a c j 
+
+| n 
+| q r t j 
+| f i 
+| l p 
+| e s d 
+| m o h g 
+| b k a c 
+
+| n 
+| q r t j 
+| f i 
+| l p c 
+| e s d 
+| m o h g 
+| b k a 
+
+| 
+| q r t j n 
+| f i 
+| l p c 
+| e s d 
+| m o h g 
+| b k a 
+
+| a 
+| q r t j n 
+| f i 
+| l p c 
+| e s d 
+| m o h g 
+| b k 
+
+| a 
+| q r t j n i 
+| f 
+| l p c 
+| e s d 
+| m o h g 
+| b k 
+
+| a 
+| q r t j n i k 
+| f 
+| l p c 
+| e s d 
+| m o h g 
+| b 
+
+| a b 
+| q r t j n i k 
+| f 
+| l p c 
+| e s d 
+| m o h g 
+| 
+
+| a b c 
+| q r t j n i k 
+| f 
+| l p 
+| e s d 
+| m o h g 
+| 
+
+| a b c d 
+| q r t j n i k 
+| f 
+| l p 
+| e s 
+| m o h g 
+| 
+
+| a b c d 
+| q r t j n i 
+| f 
+| l p k 
+| e s 
+| m o h g 
+| 
+
+| a b c d 
+| q r t j n i 
+| f 
+| l p k 
+| e 
+| m o h g 
+| s 
+
+| a b c d e 
+| q r t j n i 
+| f 
+| l p k 
+| 
+| m o h g 
+| s 
+
+| a b c d e f 
+| q r t j n i 
+| 
+| l p k 
+| 
+| m o h g 
+| s 
+
+| a b c d e f g 
+| q r t j n i 
+| 
+| l p k 
+| 
+| m o h 
+| s 
+
+| a b c d e f g h 
+| q r t j n i 
+| 
+| l p k 
+| 
+| m o 
+| s 
+
+| a b c d e f g h i 
+| q r t j n 
+| 
+| l p k 
+| 
+| m o 
+| s 
+
+| a b c d e f g h i 
+| q r t j 
+| n 
+| l p k 
+| 
+| m o 
+| s 
+
+| a b c d e f g h i j 
+| q r t 
+| n 
+| l p k 
+| 
+| m o 
+| s 
+
+| a b c d e f g h i j k 
+| q r t 
+| n 
+| l p 
+| 
+| m o 
+| s 
+
+| a b c d e f g h i j k 
+| q r t p 
+| n 
+| l 
+| 
+| m o 
+| s 
+
+| a b c d e f g h i j k l 
+| q r t p 
+| n 
+| 
+| 
+| m o 
+| s 
+
+| a b c d e f g h i j k l 
+| q r t p o 
+| n 
+| 
+| 
+| m 
+| s 
+
+| a b c d e f g h i j k l m 
+| q r t p o 
+| n 
+| 
+| 
+| 
+| s 
+
+| a b c d e f g h i j k l m n 
+| q r t p o 
+| 
+| 
+| 
+| 
+| s 
+
+| a b c d e f g h i j k l m n o 
+| q r t p 
+| 
+| 
+| 
+| 
+| s 
+
+| a b c d e f g h i j k l m n o p 
+| q r t 
+| 
+| 
+| 
+| 
+| s 
+
+| a b c d e f g h i j k l m n o p 
+| q r 
+| t 
+| 
+| 
+| 
+| s 
+
+| a b c d e f g h i j k l m n o p 
+| q 
+| t r 
+| 
+| 
+| 
+| s 
+
+| a b c d e f g h i j k l m n o p q 
+| 
+| t r 
+| 
+| 
+| 
+| s 
+
+| a b c d e f g h i j k l m n o p q r 
+| 
+| t 
+| 
+| 
+| 
+| s 
+
+| a b c d e f g h i j k l m n o p q r s 
+| 
+| t 
+| 
+| 
+| 
+| 
+
+| a b c d e f g h i j k l m n o p q r s t 
+| 
+| 
+| 
+| 
+| 
+| 
+
+Total steps taken : 32
+
+Running tests for 20 blocks with 10 stacks ...
+Test 1 summary
+Number of goal tests : 30
+Maximum queue size : 1825
+Solution Path:
+| k q 
+| r f 
+| a 
+| 
+| t i c 
+| m s 
+| j o h l 
+| e 
+| b p 
+| d n g 
+
+| k q 
+| r f 
+| 
+| 
+| t i c 
+| m s 
+| j o h l 
+| e 
+| b p 
+| d n g a 
+
+| k q 
+| r f 
+| 
+| 
+| t i c 
+| m s l 
+| j o h 
+| e 
+| b p 
+| d n g a 
+
+| k 
+| r f 
+| q 
+| 
+| t i c 
+| m s l 
+| j o h 
+| e 
+| b p 
+| d n g a 
+
+| 
+| r f 
+| q k 
+| 
+| t i c 
+| m s l 
+| j o h 
+| e 
+| b p 
+| d n g a 
+
+| a 
+| r f 
+| q k 
+| 
+| t i c 
+| m s l 
+| j o h 
+| e 
+| b p 
+| d n g 
+
+| a 
+| r f 
+| q k 
+| 
+| t i 
+| m s l 
+| j o h 
+| e 
+| b p 
+| d n g c 
+
+| a 
+| r f 
+| q k 
+| p 
+| t i 
+| m s l 
+| j o h 
+| e 
+| b 
+| d n g c 
+
+| a b 
+| r f 
+| q k 
+| p 
+| t i 
+| m s l 
+| j o h 
+| e 
+| 
+| d n g c 
+
+| a b c 
+| r f 
+| q k 
+| p 
+| t i 
+| m s l 
+| j o h 
+| e 
+| 
+| d n g 
+
+| a b c 
+| r f 
+| q k g 
+| p 
+| t i 
+| m s l 
+| j o h 
+| e 
+| 
+| d n 
+
+| a b c 
+| r f 
+| q k g 
+| p n 
+| t i 
+| m s l 
+| j o h 
+| e 
+| 
+| d 
+
+| a b c d 
+| r f 
+| q k g 
+| p n 
+| t i 
+| m s l 
+| j o h 
+| e 
+| 
+| 
+
+| a b c d e 
+| r f 
+| q k g 
+| p n 
+| t i 
+| m s l 
+| j o h 
+| 
+| 
+| 
+
+| a b c d e f 
+| r 
+| q k g 
+| p n 
+| t i 
+| m s l 
+| j o h 
+| 
+| 
+| 
+
+| a b c d e f g 
+| r 
+| q k 
+| p n 
+| t i 
+| m s l 
+| j o h 
+| 
+| 
+| 
+
+| a b c d e f g h 
+| r 
+| q k 
+| p n 
+| t i 
+| m s l 
+| j o 
+| 
+| 
+| 
+
+| a b c d e f g h i 
+| r 
+| q k 
+| p n 
+| t 
+| m s l 
+| j o 
+| 
+| 
+| 
+
+| a b c d e f g h i 
+| r o 
+| q k 
+| p n 
+| t 
+| m s l 
+| j 
+| 
+| 
+| 
+
+| a b c d e f g h i j 
+| r o 
+| q k 
+| p n 
+| t 
+| m s l 
+| 
+| 
+| 
+| 
+
+| a b c d e f g h i j k 
+| r o 
+| q 
+| p n 
+| t 
+| m s l 
+| 
+| 
+| 
+| 
+
+| a b c d e f g h i j k l 
+| r o 
+| q 
+| p n 
+| t 
+| m s 
+| 
+| 
+| 
+| 
+
+| a b c d e f g h i j k l 
+| r o 
+| q 
+| p n 
+| t s 
+| m 
+| 
+| 
+| 
+| 
+
+| a b c d e f g h i j k l m 
+| r o 
+| q 
+| p n 
+| t s 
+| 
+| 
+| 
+| 
+| 
+
+| a b c d e f g h i j k l m n 
+| r o 
+| q 
+| p 
+| t s 
+| 
+| 
+| 
+| 
+| 
+
+| a b c d e f g h i j k l m n o 
+| r 
+| q 
+| p 
+| t s 
+| 
+| 
+| 
+| 
+| 
+
+| a b c d e f g h i j k l m n o p 
+| r 
+| q 
+| 
+| t s 
+| 
+| 
+| 
+| 
+| 
+
+| a b c d e f g h i j k l m n o p q 
+| r 
+| 
+| 
+| t s 
+| 
+| 
+| 
+| 
+| 
+
+| a b c d e f g h i j k l m n o p q r 
+| 
+| 
+| 
+| t s 
+| 
+| 
+| 
+| 
+| 
+
+| a b c d e f g h i j k l m n o p q r s 
+| 
+| 
+| 
+| t 
+| 
+| 
+| 
+| 
+| 
+
+| a b c d e f g h i j k l m n o p q r s t 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+
+Total steps taken : 30
+
+Test 2 summary
+Number of goal tests : 33
+Maximum queue size : 2353
+Solution Path:
+| 
+| h f b 
+| g l 
+| m c s q 
+| r i 
+| e p 
+| a o n 
+| k 
+| j t 
+| d 
+
+| 
+| h f 
+| g l 
+| m c s q b 
+| r i 
+| e p 
+| a o n 
+| k 
+| j t 
+| d 
+
+| 
+| h f 
+| g l 
+| m c s q b 
+| r 
+| e p 
+| a o n 
+| k 
+| j t i 
+| d 
+
+| 
+| h f 
+| g l 
+| m c s q b 
+| r n 
+| e p 
+| a o 
+| k 
+| j t i 
+| d 
+
+| 
+| h f 
+| g l d 
+| m c s q b 
+| r n 
+| e p 
+| a o 
+| k 
+| j t i 
+| 
+
+| 
+| h f 
+| g l d 
+| m c s q b 
+| r n 
+| e p 
+| a 
+| k 
+| j t i 
+| o 
+
+| a 
+| h f 
+| g l d 
+| m c s q b 
+| r n 
+| e p 
+| 
+| k 
+| j t i 
+| o 
+
+| a b 
+| h f 
+| g l d 
+| m c s q 
+| r n 
+| e p 
+| 
+| k 
+| j t i 
+| o 
+
+| a b 
+| h f 
+| g l d 
+| m c s 
+| r n 
+| e p 
+| q 
+| k 
+| j t i 
+| o 
+
+| a b 
+| h f s 
+| g l d 
+| m c 
+| r n 
+| e p 
+| q 
+| k 
+| j t i 
+| o 
+
+| a b c 
+| h f s 
+| g l d 
+| m 
+| r n 
+| e p 
+| q 
+| k 
+| j t i 
+| o 
+
+| a b c d 
+| h f s 
+| g l 
+| m 
+| r n 
+| e p 
+| q 
+| k 
+| j t i 
+| o 
+
+| a b c d 
+| h f s 
+| g l 
+| m 
+| r n 
+| e 
+| q p 
+| k 
+| j t i 
+| o 
+
+| a b c d e 
+| h f s 
+| g l 
+| m 
+| r n 
+| 
+| q p 
+| k 
+| j t i 
+| o 
+
+| a b c d e 
+| h f 
+| g l 
+| m 
+| r n 
+| s 
+| q p 
+| k 
+| j t i 
+| o 
+
+| a b c d e f 
+| h 
+| g l 
+| m 
+| r n 
+| s 
+| q p 
+| k 
+| j t i 
+| o 
+
+| a b c d e f 
+| h 
+| g 
+| m l 
+| r n 
+| s 
+| q p 
+| k 
+| j t i 
+| o 
+
+| a b c d e f g 
+| h 
+| 
+| m l 
+| r n 
+| s 
+| q p 
+| k 
+| j t i 
+| o 
+
+| a b c d e f g h 
+| 
+| 
+| m l 
+| r n 
+| s 
+| q p 
+| k 
+| j t i 
+| o 
+
+| a b c d e f g h i 
+| 
+| 
+| m l 
+| r n 
+| s 
+| q p 
+| k 
+| j t 
+| o 
+
+| a b c d e f g h i 
+| t 
+| 
+| m l 
+| r n 
+| s 
+| q p 
+| k 
+| j 
+| o 
+
+| a b c d e f g h i j 
+| t 
+| 
+| m l 
+| r n 
+| s 
+| q p 
+| k 
+| 
+| o 
+
+| a b c d e f g h i j k 
+| t 
+| 
+| m l 
+| r n 
+| s 
+| q p 
+| 
+| 
+| o 
+
+| a b c d e f g h i j k l 
+| t 
+| 
+| m 
+| r n 
+| s 
+| q p 
+| 
+| 
+| o 
+
+| a b c d e f g h i j k l m 
+| t 
+| 
+| 
+| r n 
+| s 
+| q p 
+| 
+| 
+| o 
+
+| a b c d e f g h i j k l m n 
+| t 
+| 
+| 
+| r 
+| s 
+| q p 
+| 
+| 
+| o 
+
+| a b c d e f g h i j k l m n o 
+| t 
+| 
+| 
+| r 
+| s 
+| q p 
+| 
+| 
+| 
+
+| a b c d e f g h i j k l m n o p 
+| t 
+| 
+| 
+| r 
+| s 
+| q 
+| 
+| 
+| 
+
+| a b c d e f g h i j k l m n o p q 
+| t 
+| 
+| 
+| r 
+| s 
+| 
+| 
+| 
+| 
+
+| a b c d e f g h i j k l m n o p q r 
+| t 
+| 
+| 
+| 
+| s 
+| 
+| 
+| 
+| 
+
+| a b c d e f g h i j k l m n o p q r s 
+| t 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+
+| a b c d e f g h i j k l m n o p q r s t 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+
+Total steps taken : 31
+
+Test 3 summary
+Number of goal tests : 25
+Maximum queue size : 1380
+Solution Path:
+| 
+| n b q s 
+| 
+| k f 
+| i j 
+| c m 
+| t r h 
+| g e d 
+| a 
+| o p l 
+
+| a 
+| n b q s 
+| 
+| k f 
+| i j 
+| c m 
+| t r h 
+| g e d 
+| 
+| o p l 
+
+| a 
+| n b q 
+| s 
+| k f 
+| i j 
+| c m 
+| t r h 
+| g e d 
+| 
+| o p l 
+
+| a 
+| n b 
+| s q 
+| k f 
+| i j 
+| c m 
+| t r h 
+| g e d 
+| 
+| o p l 
+
+| a b 
+| n 
+| s q 
+| k f 
+| i j 
+| c m 
+| t r h 
+| g e d 
+| 
+| o p l 
+
+| a b 
+| n m 
+| s q 
+| k f 
+| i j 
+| c 
+| t r h 
+| g e d 
+| 
+| o p l 
+
+| a b c 
+| n m 
+| s q 
+| k f 
+| i j 
+| 
+| t r h 
+| g e d 
+| 
+| o p l 
+
+| a b c d 
+| n m 
+| s q 
+| k f 
+| i j 
+| 
+| t r h 
+| g e 
+| 
+| o p l 
+
+| a b c d e 
+| n m 
+| s q 
+| k f 
+| i j 
+| 
+| t r h 
+| g 
+| 
+| o p l 
+
+| a b c d e f 
+| n m 
+| s q 
+| k 
+| i j 
+| 
+| t r h 
+| g 
+| 
+| o p l 
+
+| a b c d e f g 
+| n m 
+| s q 
+| k 
+| i j 
+| 
+| t r h 
+| 
+| 
+| o p l 
+
+| a b c d e f g h 
+| n m 
+| s q 
+| k 
+| i j 
+| 
+| t r 
+| 
+| 
+| o p l 
+
+| a b c d e f g h 
+| n m j 
+| s q 
+| k 
+| i 
+| 
+| t r 
+| 
+| 
+| o p l 
+
+| a b c d e f g h i 
+| n m j 
+| s q 
+| k 
+| 
+| 
+| t r 
+| 
+| 
+| o p l 
+
+| a b c d e f g h i j 
+| n m 
+| s q 
+| k 
+| 
+| 
+| t r 
+| 
+| 
+| o p l 
+
+| a b c d e f g h i j k 
+| n m 
+| s q 
+| 
+| 
+| 
+| t r 
+| 
+| 
+| o p l 
+
+| a b c d e f g h i j k l 
+| n m 
+| s q 
+| 
+| 
+| 
+| t r 
+| 
+| 
+| o p 
+
+| a b c d e f g h i j k l m 
+| n 
+| s q 
+| 
+| 
+| 
+| t r 
+| 
+| 
+| o p 
+
+| a b c d e f g h i j k l m n 
+| 
+| s q 
+| 
+| 
+| 
+| t r 
+| 
+| 
+| o p 
+
+| a b c d e f g h i j k l m n 
+| p 
+| s q 
+| 
+| 
+| 
+| t r 
+| 
+| 
+| o 
+
+| a b c d e f g h i j k l m n o 
+| p 
+| s q 
+| 
+| 
+| 
+| t r 
+| 
+| 
+| 
+
+| a b c d e f g h i j k l m n o p 
+| 
+| s q 
+| 
+| 
+| 
+| t r 
+| 
+| 
+| 
+
+| a b c d e f g h i j k l m n o p q 
+| 
+| s 
+| 
+| 
+| 
+| t r 
+| 
+| 
+| 
+
+| a b c d e f g h i j k l m n o p q r 
+| 
+| s 
+| 
+| 
+| 
+| t 
+| 
+| 
+| 
+
+| a b c d e f g h i j k l m n o p q r s 
+| 
+| 
+| 
+| 
+| 
+| t 
+| 
+| 
+| 
+
+| a b c d e f g h i j k l m n o p q r s t 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+
+Total steps taken : 25
+
+Test 4 summary
+Number of goal tests : 32
+Maximum queue size : 2057
+Solution Path:
+| f d h 
+| n p 
+| c e r m g 
+| l 
+| i q s 
+| j k 
+| t 
+| o 
+| a 
+| b 
+
+| f d h 
+| n p 
+| c e r m g a 
+| l 
+| i q s 
+| j k 
+| t 
+| o 
+| 
+| b 
+
+| f d 
+| n p 
+| c e r m g a 
+| l 
+| i q s h 
+| j k 
+| t 
+| o 
+| 
+| b 
+
+| f 
+| n p d 
+| c e r m g a 
+| l 
+| i q s h 
+| j k 
+| t 
+| o 
+| 
+| b 
+
+| 
+| n p d 
+| c e r m g a 
+| l 
+| i q s h 
+| j k f 
+| t 
+| o 
+| 
+| b 
+
+| a 
+| n p d 
+| c e r m g 
+| l 
+| i q s h 
+| j k f 
+| t 
+| o 
+| 
+| b 
+
+| a b 
+| n p d 
+| c e r m g 
+| l 
+| i q s h 
+| j k f 
+| t 
+| o 
+| 
+| 
+
+| a b 
+| n p d 
+| c e r m 
+| l g 
+| i q s h 
+| j k f 
+| t 
+| o 
+| 
+| 
+
+| a b 
+| n p d 
+| c e r 
+| l g 
+| i q s h 
+| j k f 
+| t m 
+| o 
+| 
+| 
+
+| a b 
+| n p d 
+| c e 
+| l g 
+| i q s h 
+| j k f 
+| t m 
+| o 
+| r 
+| 
+
+| a b 
+| n p d 
+| c 
+| l g e 
+| i q s h 
+| j k f 
+| t m 
+| o 
+| r 
+| 
+
+| a b c 
+| n p d 
+| 
+| l g e 
+| i q s h 
+| j k f 
+| t m 
+| o 
+| r 
+| 
+
+| a b c d 
+| n p 
+| 
+| l g e 
+| i q s h 
+| j k f 
+| t m 
+| o 
+| r 
+| 
+
+| a b c d e 
+| n p 
+| 
+| l g 
+| i q s h 
+| j k f 
+| t m 
+| o 
+| r 
+| 
+
+| a b c d e f 
+| n p 
+| 
+| l g 
+| i q s h 
+| j k 
+| t m 
+| o 
+| r 
+| 
+
+| a b c d e f g 
+| n p 
+| 
+| l 
+| i q s h 
+| j k 
+| t m 
+| o 
+| r 
+| 
+
+| a b c d e f g h 
+| n p 
+| 
+| l 
+| i q s 
+| j k 
+| t m 
+| o 
+| r 
+| 
+
+| a b c d e f g h 
+| n p 
+| s 
+| l 
+| i q 
+| j k 
+| t m 
+| o 
+| r 
+| 
+
+| a b c d e f g h 
+| n p 
+| s q 
+| l 
+| i 
+| j k 
+| t m 
+| o 
+| r 
+| 
+
+| a b c d e f g h i 
+| n p 
+| s q 
+| l 
+| 
+| j k 
+| t m 
+| o 
+| r 
+| 
+
+| a b c d e f g h i 
+| n p k 
+| s q 
+| l 
+| 
+| j 
+| t m 
+| o 
+| r 
+| 
+
+| a b c d e f g h i j 
+| n p k 
+| s q 
+| l 
+| 
+| 
+| t m 
+| o 
+| r 
+| 
+
+| a b c d e f g h i j k 
+| n p 
+| s q 
+| l 
+| 
+| 
+| t m 
+| o 
+| r 
+| 
+
+| a b c d e f g h i j k l 
+| n p 
+| s q 
+| 
+| 
+| 
+| t m 
+| o 
+| r 
+| 
+
+| a b c d e f g h i j k l m 
+| n p 
+| s q 
+| 
+| 
+| 
+| t 
+| o 
+| r 
+| 
+
+| a b c d e f g h i j k l m 
+| n 
+| s q p 
+| 
+| 
+| 
+| t 
+| o 
+| r 
+| 
+
+| a b c d e f g h i j k l m n 
+| 
+| s q p 
+| 
+| 
+| 
+| t 
+| o 
+| r 
+| 
+
+| a b c d e f g h i j k l m n o 
+| 
+| s q p 
+| 
+| 
+| 
+| t 
+| 
+| r 
+| 
+
+| a b c d e f g h i j k l m n o p 
+| 
+| s q 
+| 
+| 
+| 
+| t 
+| 
+| r 
+| 
+
+| a b c d e f g h i j k l m n o p q 
+| 
+| s 
+| 
+| 
+| 
+| t 
+| 
+| r 
+| 
+
+| a b c d e f g h i j k l m n o p q r 
+| 
+| s 
+| 
+| 
+| 
+| t 
+| 
+| 
+| 
+
+| a b c d e f g h i j k l m n o p q r s 
+| 
+| 
+| 
+| 
+| 
+| t 
+| 
+| 
+| 
+
+| a b c d e f g h i j k l m n o p q r s t 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+
+Total steps taken : 32
+
+Test 5 summary
+Number of goal tests : 39
+Maximum queue size : 2847
+Solution Path:
+| t r k 
+| q g 
+| j i 
+| h c 
+| f 
+| m b l 
+| e d 
+| a o 
+| p s 
+| n 
+
+| t r k 
+| q g 
+| j i 
+| h c 
+| f 
+| m b l 
+| e d 
+| a 
+| p s o 
+| n 
+
+| t r 
+| q g 
+| j i 
+| h c 
+| f 
+| m b l 
+| e d 
+| a 
+| p s o 
+| n k 
+
+| t r 
+| q g 
+| j i 
+| h c 
+| f 
+| m b l a 
+| e d 
+| 
+| p s o 
+| n k 
+
+| t 
+| q g 
+| j i 
+| h c 
+| f 
+| m b l a 
+| e d 
+| r 
+| p s o 
+| n k 
+
+| 
+| q g 
+| j i t 
+| h c 
+| f 
+| m b l a 
+| e d 
+| r 
+| p s o 
+| n k 
+
+| a 
+| q g 
+| j i t 
+| h c 
+| f 
+| m b l 
+| e d 
+| r 
+| p s o 
+| n k 
+
+| a 
+| q g 
+| j i t 
+| h c 
+| f 
+| m b 
+| e d 
+| r l 
+| p s o 
+| n k 
+
+| a b 
+| q g 
+| j i t 
+| h c 
+| f 
+| m 
+| e d 
+| r l 
+| p s o 
+| n k 
+
+| a b c 
+| q g 
+| j i t 
+| h 
+| f 
+| m 
+| e d 
+| r l 
+| p s o 
+| n k 
+
+| a b c d 
+| q g 
+| j i t 
+| h 
+| f 
+| m 
+| e 
+| r l 
+| p s o 
+| n k 
+
+| a b c d e 
+| q g 
+| j i t 
+| h 
+| f 
+| m 
+| 
+| r l 
+| p s o 
+| n k 
+
+| a b c d e f 
+| q g 
+| j i t 
+| h 
+| 
+| m 
+| 
+| r l 
+| p s o 
+| n k 
+
+| a b c d e f g 
+| q 
+| j i t 
+| h 
+| 
+| m 
+| 
+| r l 
+| p s o 
+| n k 
+
+| a b c d e f g h 
+| q 
+| j i t 
+| 
+| 
+| m 
+| 
+| r l 
+| p s o 
+| n k 
+
+| a b c d e f g h 
+| q 
+| j i 
+| t 
+| 
+| m 
+| 
+| r l 
+| p s o 
+| n k 
+
+| a b c d e f g h i 
+| q 
+| j 
+| t 
+| 
+| m 
+| 
+| r l 
+| p s o 
+| n k 
+
+| a b c d e f g h i j 
+| q 
+| 
+| t 
+| 
+| m 
+| 
+| r l 
+| p s o 
+| n k 
+
+| a b c d e f g h i j k 
+| q 
+| 
+| t 
+| 
+| m 
+| 
+| r l 
+| p s o 
+| n 
+
+| a b c d e f g h i j k l 
+| q 
+| 
+| t 
+| 
+| m 
+| 
+| r 
+| p s o 
+| n 
+
+| a b c d e f g h i j k l m 
+| q 
+| 
+| t 
+| 
+| 
+| 
+| r 
+| p s o 
+| n 
+
+| a b c d e f g h i j k l m n 
+| q 
+| 
+| t 
+| 
+| 
+| 
+| r 
+| p s o 
+| 
+
+| a b c d e f g h i j k l m n o 
+| q 
+| 
+| t 
+| 
+| 
+| 
+| r 
+| p s 
+| 
+
+| a b c d e f g h i j k l m n o 
+| q 
+| s 
+| t 
+| 
+| 
+| 
+| r 
+| p 
+| 
+
+| a b c d e f g h i j k l m n o p 
+| q 
+| s 
+| t 
+| 
+| 
+| 
+| r 
+| 
+| 
+
+| a b c d e f g h i j k l m n o p q 
+| 
+| s 
+| t 
+| 
+| 
+| 
+| r 
+| 
+| 
+
+| a b c d e f g h i j k l m n o p q r 
+| 
+| s 
+| t 
+| 
+| 
+| 
+| 
+| 
+| 
+
+| a b c d e f g h i j k l m n o p q r s 
+| 
+| 
+| t 
+| 
+| 
+| 
+| 
+| 
+| 
+
+| a b c d e f g h i j k l m n o p q r s t 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+
+Total steps taken : 28
+
+Test 6 summary
+Number of goal tests : 28
+Maximum queue size : 1764
+Solution Path:
+| 
+| 
+| h 
+| t p 
+| d o 
+| j b 
+| f r e a 
+| c q l 
+| m n k 
+| g i s 
+
+| a 
+| 
+| h 
+| t p 
+| d o 
+| j b 
+| f r e 
+| c q l 
+| m n k 
+| g i s 
+
+| a b 
+| 
+| h 
+| t p 
+| d o 
+| j 
+| f r e 
+| c q l 
+| m n k 
+| g i s 
+
+| a b 
+| 
+| h 
+| t p l 
+| d o 
+| j 
+| f r e 
+| c q 
+| m n k 
+| g i s 
+
+| a b 
+| q 
+| h 
+| t p l 
+| d o 
+| j 
+| f r e 
+| c 
+| m n k 
+| g i s 
+
+| a b c 
+| q 
+| h 
+| t p l 
+| d o 
+| j 
+| f r e 
+| 
+| m n k 
+| g i s 
+
+| a b c 
+| q o 
+| h 
+| t p l 
+| d 
+| j 
+| f r e 
+| 
+| m n k 
+| g i s 
+
+| a b c d 
+| q o 
+| h 
+| t p l 
+| 
+| j 
+| f r e 
+| 
+| m n k 
+| g i s 
+
+| a b c d e 
+| q o 
+| h 
+| t p l 
+| 
+| j 
+| f r 
+| 
+| m n k 
+| g i s 
+
+| a b c d e 
+| q o 
+| h 
+| t p l 
+| r 
+| j 
+| f 
+| 
+| m n k 
+| g i s 
+
+| a b c d e f 
+| q o 
+| h 
+| t p l 
+| r 
+| j 
+| 
+| 
+| m n k 
+| g i s 
+
+| a b c d e f 
+| q o 
+| h 
+| t p l 
+| r 
+| j 
+| s 
+| 
+| m n k 
+| g i 
+
+| a b c d e f 
+| q o i 
+| h 
+| t p l 
+| r 
+| j 
+| s 
+| 
+| m n k 
+| g 
+
+| a b c d e f g 
+| q o i 
+| h 
+| t p l 
+| r 
+| j 
+| s 
+| 
+| m n k 
+| 
+
+| a b c d e f g h 
+| q o i 
+| 
+| t p l 
+| r 
+| j 
+| s 
+| 
+| m n k 
+| 
+
+| a b c d e f g h i 
+| q o 
+| 
+| t p l 
+| r 
+| j 
+| s 
+| 
+| m n k 
+| 
+
+| a b c d e f g h i j 
+| q o 
+| 
+| t p l 
+| r 
+| 
+| s 
+| 
+| m n k 
+| 
+
+| a b c d e f g h i j k 
+| q o 
+| 
+| t p l 
+| r 
+| 
+| s 
+| 
+| m n 
+| 
+
+| a b c d e f g h i j k l 
+| q o 
+| 
+| t p 
+| r 
+| 
+| s 
+| 
+| m n 
+| 
+
+| a b c d e f g h i j k l 
+| q o n 
+| 
+| t p 
+| r 
+| 
+| s 
+| 
+| m 
+| 
+
+| a b c d e f g h i j k l m 
+| q o n 
+| 
+| t p 
+| r 
+| 
+| s 
+| 
+| 
+| 
+
+| a b c d e f g h i j k l m n 
+| q o 
+| 
+| t p 
+| r 
+| 
+| s 
+| 
+| 
+| 
+
+| a b c d e f g h i j k l m n o 
+| q 
+| 
+| t p 
+| r 
+| 
+| s 
+| 
+| 
+| 
+
+| a b c d e f g h i j k l m n o p 
+| q 
+| 
+| t 
+| r 
+| 
+| s 
+| 
+| 
+| 
+
+| a b c d e f g h i j k l m n o p q 
+| 
+| 
+| t 
+| r 
+| 
+| s 
+| 
+| 
+| 
+
+| a b c d e f g h i j k l m n o p q r 
+| 
+| 
+| t 
+| 
+| 
+| s 
+| 
+| 
+| 
+
+| a b c d e f g h i j k l m n o p q r s 
+| 
+| 
+| t 
+| 
+| 
+| 
+| 
+| 
+| 
+
+| a b c d e f g h i j k l m n o p q r s t 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+
+Total steps taken : 27
+
+Test 7 summary
+Number of goal tests : 31
+Maximum queue size : 2238
+Solution Path:
+| j 
+| l r 
+| f s 
+| k 
+| m q 
+| b t 
+| g o c i d e h 
+| n 
+| a 
+| p 
+
+| j 
+| l r 
+| f s 
+| k 
+| m q 
+| b t 
+| g o c i d e h a 
+| n 
+| 
+| p 
+
+| 
+| l r j 
+| f s 
+| k 
+| m q 
+| b t 
+| g o c i d e h a 
+| n 
+| 
+| p 
+
+| a 
+| l r j 
+| f s 
+| k 
+| m q 
+| b t 
+| g o c i d e h 
+| n 
+| 
+| p 
+
+| a 
+| l r j 
+| f s 
+| k 
+| m q 
+| b 
+| g o c i d e h 
+| n 
+| t 
+| p 
+
+| a b 
+| l r j 
+| f s 
+| k 
+| m q 
+| 
+| g o c i d e h 
+| n 
+| t 
+| p 
+
+| a b 
+| l r j 
+| f s 
+| k 
+| m q h 
+| 
+| g o c i d e 
+| n 
+| t 
+| p 
+
+| a b 
+| l r j 
+| f s e 
+| k 
+| m q h 
+| 
+| g o c i d 
+| n 
+| t 
+| p 
+
+| a b 
+| l r j d 
+| f s e 
+| k 
+| m q h 
+| 
+| g o c i 
+| n 
+| t 
+| p 
+
+| a b 
+| l r j d 
+| f s e 
+| k i 
+| m q h 
+| 
+| g o c 
+| n 
+| t 
+| p 
+
+| a b c 
+| l r j d 
+| f s e 
+| k i 
+| m q h 
+| 
+| g o 
+| n 
+| t 
+| p 
+
+| a b c d 
+| l r j 
+| f s e 
+| k i 
+| m q h 
+| 
+| g o 
+| n 
+| t 
+| p 
+
+| a b c d e 
+| l r j 
+| f s 
+| k i 
+| m q h 
+| 
+| g o 
+| n 
+| t 
+| p 
+
+| a b c d e 
+| l r j 
+| f 
+| k i 
+| m q h 
+| s 
+| g o 
+| n 
+| t 
+| p 
+
+| a b c d e f 
+| l r j 
+| 
+| k i 
+| m q h 
+| s 
+| g o 
+| n 
+| t 
+| p 
+
+| a b c d e f 
+| l r j 
+| o 
+| k i 
+| m q h 
+| s 
+| g 
+| n 
+| t 
+| p 
+
+| a b c d e f g 
+| l r j 
+| o 
+| k i 
+| m q h 
+| s 
+| 
+| n 
+| t 
+| p 
+
+| a b c d e f g h 
+| l r j 
+| o 
+| k i 
+| m q 
+| s 
+| 
+| n 
+| t 
+| p 
+
+| a b c d e f g h i 
+| l r j 
+| o 
+| k 
+| m q 
+| s 
+| 
+| n 
+| t 
+| p 
+
+| a b c d e f g h i j 
+| l r 
+| o 
+| k 
+| m q 
+| s 
+| 
+| n 
+| t 
+| p 
+
+| a b c d e f g h i j k 
+| l r 
+| o 
+| 
+| m q 
+| s 
+| 
+| n 
+| t 
+| p 
+
+| a b c d e f g h i j k 
+| l 
+| o 
+| r 
+| m q 
+| s 
+| 
+| n 
+| t 
+| p 
+
+| a b c d e f g h i j k l 
+| 
+| o 
+| r 
+| m q 
+| s 
+| 
+| n 
+| t 
+| p 
+
+| a b c d e f g h i j k l 
+| q 
+| o 
+| r 
+| m 
+| s 
+| 
+| n 
+| t 
+| p 
+
+| a b c d e f g h i j k l m 
+| q 
+| o 
+| r 
+| 
+| s 
+| 
+| n 
+| t 
+| p 
+
+| a b c d e f g h i j k l m n 
+| q 
+| o 
+| r 
+| 
+| s 
+| 
+| 
+| t 
+| p 
+
+| a b c d e f g h i j k l m n o 
+| q 
+| 
+| r 
+| 
+| s 
+| 
+| 
+| t 
+| p 
+
+| a b c d e f g h i j k l m n o p 
+| q 
+| 
+| r 
+| 
+| s 
+| 
+| 
+| t 
+| 
+
+| a b c d e f g h i j k l m n o p q 
+| 
+| 
+| r 
+| 
+| s 
+| 
+| 
+| t 
+| 
+
+| a b c d e f g h i j k l m n o p q r 
+| 
+| 
+| 
+| 
+| s 
+| 
+| 
+| t 
+| 
+
+| a b c d e f g h i j k l m n o p q r s 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| t 
+| 
+
+| a b c d e f g h i j k l m n o p q r s t 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+
+Total steps taken : 31
+
+Test 8 summary
+Number of goal tests : 29
+Maximum queue size : 2051
+Solution Path:
+| b s 
+| l o 
+| k 
+| h d f m j 
+| g a 
+| e 
+| r 
+| p n 
+| c 
+| t i q 
+
+| b s 
+| l o 
+| k 
+| h d f m j c 
+| g a 
+| e 
+| r 
+| p n 
+| 
+| t i q 
+
+| b 
+| l o 
+| k 
+| h d f m j c 
+| g a 
+| e 
+| r 
+| p n 
+| s 
+| t i q 
+
+| 
+| l o b 
+| k 
+| h d f m j c 
+| g a 
+| e 
+| r 
+| p n 
+| s 
+| t i q 
+
+| a 
+| l o b 
+| k 
+| h d f m j c 
+| g 
+| e 
+| r 
+| p n 
+| s 
+| t i q 
+
+| a b 
+| l o 
+| k 
+| h d f m j c 
+| g 
+| e 
+| r 
+| p n 
+| s 
+| t i q 
+
+| a b c 
+| l o 
+| k 
+| h d f m j 
+| g 
+| e 
+| r 
+| p n 
+| s 
+| t i q 
+
+| a b c 
+| l o j 
+| k 
+| h d f m 
+| g 
+| e 
+| r 
+| p n 
+| s 
+| t i q 
+
+| a b c 
+| l o j 
+| k 
+| h d f 
+| g 
+| e 
+| r m 
+| p n 
+| s 
+| t i q 
+
+| a b c 
+| l o j 
+| k 
+| h d 
+| g 
+| e 
+| r m 
+| p n 
+| s 
+| t i q f 
+
+| a b c d 
+| l o j 
+| k 
+| h 
+| g 
+| e 
+| r m 
+| p n 
+| s 
+| t i q f 
+
+| a b c d e 
+| l o j 
+| k 
+| h 
+| g 
+| 
+| r m 
+| p n 
+| s 
+| t i q f 
+
+| a b c d e f 
+| l o j 
+| k 
+| h 
+| g 
+| 
+| r m 
+| p n 
+| s 
+| t i q 
+
+| a b c d e f g 
+| l o j 
+| k 
+| h 
+| 
+| 
+| r m 
+| p n 
+| s 
+| t i q 
+
+| a b c d e f g h 
+| l o j 
+| k 
+| 
+| 
+| 
+| r m 
+| p n 
+| s 
+| t i q 
+
+| a b c d e f g h 
+| l o j 
+| k 
+| q 
+| 
+| 
+| r m 
+| p n 
+| s 
+| t i 
+
+| a b c d e f g h i 
+| l o j 
+| k 
+| q 
+| 
+| 
+| r m 
+| p n 
+| s 
+| t 
+
+| a b c d e f g h i j 
+| l o 
+| k 
+| q 
+| 
+| 
+| r m 
+| p n 
+| s 
+| t 
+
+| a b c d e f g h i j k 
+| l o 
+| 
+| q 
+| 
+| 
+| r m 
+| p n 
+| s 
+| t 
+
+| a b c d e f g h i j k 
+| l 
+| o 
+| q 
+| 
+| 
+| r m 
+| p n 
+| s 
+| t 
+
+| a b c d e f g h i j k l 
+| 
+| o 
+| q 
+| 
+| 
+| r m 
+| p n 
+| s 
+| t 
+
+| a b c d e f g h i j k l m 
+| 
+| o 
+| q 
+| 
+| 
+| r 
+| p n 
+| s 
+| t 
+
+| a b c d e f g h i j k l m n 
+| 
+| o 
+| q 
+| 
+| 
+| r 
+| p 
+| s 
+| t 
+
+| a b c d e f g h i j k l m n o 
+| 
+| 
+| q 
+| 
+| 
+| r 
+| p 
+| s 
+| t 
+
+| a b c d e f g h i j k l m n o p 
+| 
+| 
+| q 
+| 
+| 
+| r 
+| 
+| s 
+| t 
+
+| a b c d e f g h i j k l m n o p q 
+| 
+| 
+| 
+| 
+| 
+| r 
+| 
+| s 
+| t 
+
+| a b c d e f g h i j k l m n o p q r 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| s 
+| t 
+
+| a b c d e f g h i j k l m n o p q r s 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| t 
+
+| a b c d e f g h i j k l m n o p q r s t 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+
+Total steps taken : 28
+
+Test 9 summary
+Number of goal tests : 27
+Maximum queue size : 1810
+Solution Path:
+| b 
+| d c 
+| q m f 
+| p l 
+| g 
+| r 
+| o k j 
+| n h 
+| a t s 
+| e i 
+
+| 
+| d c 
+| q m f 
+| p l 
+| g 
+| r 
+| o k j 
+| n h 
+| a t s 
+| e i b 
+
+| 
+| d c s 
+| q m f 
+| p l 
+| g 
+| r 
+| o k j 
+| n h 
+| a t 
+| e i b 
+
+| 
+| d c s t 
+| q m f 
+| p l 
+| g 
+| r 
+| o k j 
+| n h 
+| a 
+| e i b 
+
+| a 
+| d c s t 
+| q m f 
+| p l 
+| g 
+| r 
+| o k j 
+| n h 
+| 
+| e i b 
+
+| a b 
+| d c s t 
+| q m f 
+| p l 
+| g 
+| r 
+| o k j 
+| n h 
+| 
+| e i 
+
+| a b 
+| d c s 
+| q m f 
+| p l 
+| g 
+| r 
+| o k j 
+| n h 
+| t 
+| e i 
+
+| a b 
+| d c 
+| q m f 
+| p l 
+| g 
+| r 
+| o k j 
+| n h 
+| t s 
+| e i 
+
+| a b c 
+| d 
+| q m f 
+| p l 
+| g 
+| r 
+| o k j 
+| n h 
+| t s 
+| e i 
+
+| a b c d 
+| 
+| q m f 
+| p l 
+| g 
+| r 
+| o k j 
+| n h 
+| t s 
+| e i 
+
+| a b c d 
+| i 
+| q m f 
+| p l 
+| g 
+| r 
+| o k j 
+| n h 
+| t s 
+| e 
+
+| a b c d e 
+| i 
+| q m f 
+| p l 
+| g 
+| r 
+| o k j 
+| n h 
+| t s 
+| 
+
+| a b c d e f 
+| i 
+| q m 
+| p l 
+| g 
+| r 
+| o k j 
+| n h 
+| t s 
+| 
+
+| a b c d e f g 
+| i 
+| q m 
+| p l 
+| 
+| r 
+| o k j 
+| n h 
+| t s 
+| 
+
+| a b c d e f g h 
+| i 
+| q m 
+| p l 
+| 
+| r 
+| o k j 
+| n 
+| t s 
+| 
+
+| a b c d e f g h i 
+| 
+| q m 
+| p l 
+| 
+| r 
+| o k j 
+| n 
+| t s 
+| 
+
+| a b c d e f g h i j 
+| 
+| q m 
+| p l 
+| 
+| r 
+| o k 
+| n 
+| t s 
+| 
+
+| a b c d e f g h i j k 
+| 
+| q m 
+| p l 
+| 
+| r 
+| o 
+| n 
+| t s 
+| 
+
+| a b c d e f g h i j k l 
+| 
+| q m 
+| p 
+| 
+| r 
+| o 
+| n 
+| t s 
+| 
+
+| a b c d e f g h i j k l m 
+| 
+| q 
+| p 
+| 
+| r 
+| o 
+| n 
+| t s 
+| 
+
+| a b c d e f g h i j k l m n 
+| 
+| q 
+| p 
+| 
+| r 
+| o 
+| 
+| t s 
+| 
+
+| a b c d e f g h i j k l m n o 
+| 
+| q 
+| p 
+| 
+| r 
+| 
+| 
+| t s 
+| 
+
+| a b c d e f g h i j k l m n o p 
+| 
+| q 
+| 
+| 
+| r 
+| 
+| 
+| t s 
+| 
+
+| a b c d e f g h i j k l m n o p q 
+| 
+| 
+| 
+| 
+| r 
+| 
+| 
+| t s 
+| 
+
+| a b c d e f g h i j k l m n o p q r 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| t s 
+| 
+
+| a b c d e f g h i j k l m n o p q r s 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| t 
+| 
+
+| a b c d e f g h i j k l m n o p q r s t 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+
+Total steps taken : 26
+
+Test 10 summary
+Number of goal tests : 28
+Maximum queue size : 1674
+Solution Path:
+| e 
+| r p 
+| a 
+| 
+| f 
+| i h t j 
+| s k 
+| l n d 
+| b c q g 
+| m o 
+
+| 
+| r p 
+| a 
+| 
+| f 
+| i h t j e 
+| s k 
+| l n d 
+| b c q g 
+| m o 
+
+| a 
+| r p 
+| 
+| 
+| f 
+| i h t j e 
+| s k 
+| l n d 
+| b c q g 
+| m o 
+
+| a 
+| r p 
+| 
+| 
+| f 
+| i h t j e 
+| s k 
+| l n d 
+| b c q 
+| m o g 
+
+| a 
+| r p 
+| q 
+| 
+| f 
+| i h t j e 
+| s k 
+| l n d 
+| b c 
+| m o g 
+
+| a 
+| r p c 
+| q 
+| 
+| f 
+| i h t j e 
+| s k 
+| l n d 
+| b 
+| m o g 
+
+| a b 
+| r p c 
+| q 
+| 
+| f 
+| i h t j e 
+| s k 
+| l n d 
+| 
+| m o g 
+
+| a b c 
+| r p 
+| q 
+| 
+| f 
+| i h t j e 
+| s k 
+| l n d 
+| 
+| m o g 
+
+| a b c d 
+| r p 
+| q 
+| 
+| f 
+| i h t j e 
+| s k 
+| l n 
+| 
+| m o g 
+
+| a b c d e 
+| r p 
+| q 
+| 
+| f 
+| i h t j 
+| s k 
+| l n 
+| 
+| m o g 
+
+| a b c d e f 
+| r p 
+| q 
+| 
+| 
+| i h t j 
+| s k 
+| l n 
+| 
+| m o g 
+
+| a b c d e f g 
+| r p 
+| q 
+| 
+| 
+| i h t j 
+| s k 
+| l n 
+| 
+| m o 
+
+| a b c d e f g 
+| r p 
+| q 
+| 
+| 
+| i h t 
+| s k 
+| l n j 
+| 
+| m o 
+
+| a b c d e f g 
+| r p 
+| q 
+| t 
+| 
+| i h 
+| s k 
+| l n j 
+| 
+| m o 
+
+| a b c d e f g h 
+| r p 
+| q 
+| t 
+| 
+| i 
+| s k 
+| l n j 
+| 
+| m o 
+
+| a b c d e f g h i 
+| r p 
+| q 
+| t 
+| 
+| 
+| s k 
+| l n j 
+| 
+| m o 
+
+| a b c d e f g h i j 
+| r p 
+| q 
+| t 
+| 
+| 
+| s k 
+| l n 
+| 
+| m o 
+
+| a b c d e f g h i j k 
+| r p 
+| q 
+| t 
+| 
+| 
+| s 
+| l n 
+| 
+| m o 
+
+| a b c d e f g h i j k 
+| r p n 
+| q 
+| t 
+| 
+| 
+| s 
+| l 
+| 
+| m o 
+
+| a b c d e f g h i j k l 
+| r p n 
+| q 
+| t 
+| 
+| 
+| s 
+| 
+| 
+| m o 
+
+| a b c d e f g h i j k l 
+| r p n 
+| q o 
+| t 
+| 
+| 
+| s 
+| 
+| 
+| m 
+
+| a b c d e f g h i j k l m 
+| r p n 
+| q o 
+| t 
+| 
+| 
+| s 
+| 
+| 
+| 
+
+| a b c d e f g h i j k l m n 
+| r p 
+| q o 
+| t 
+| 
+| 
+| s 
+| 
+| 
+| 
+
+| a b c d e f g h i j k l m n o 
+| r p 
+| q 
+| t 
+| 
+| 
+| s 
+| 
+| 
+| 
+
+| a b c d e f g h i j k l m n o p 
+| r 
+| q 
+| t 
+| 
+| 
+| s 
+| 
+| 
+| 
+
+| a b c d e f g h i j k l m n o p q 
+| r 
+| 
+| t 
+| 
+| 
+| s 
+| 
+| 
+| 
+
+| a b c d e f g h i j k l m n o p q r 
+| 
+| 
+| t 
+| 
+| 
+| s 
+| 
+| 
+| 
+
+| a b c d e f g h i j k l m n o p q r s 
+| 
+| 
+| t 
+| 
+| 
+| 
+| 
+| 
+| 
+
+| a b c d e f g h i j k l m n o p q r s t 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+
+Total steps taken : 28
+
+Running tests for 20 blocks with 15 stacks ...
+Test 1 summary
+Number of goal tests : 27
+Maximum queue size : 3320
+Solution Path:
+| s 
+| k q 
+| t o 
+| g r 
+| h 
+| b e 
+| n 
+| a 
+| 
+| l j 
+| d 
+| m 
+| i 
+| 
+| c f p 
+
+| s 
+| k q e 
+| t o 
+| g r 
+| h 
+| b 
+| n 
+| a 
+| 
+| l j 
+| d 
+| m 
+| i 
+| 
+| c f p 
+
+| s 
+| k q e 
+| t o 
+| g r 
+| h 
+| 
+| n 
+| a 
+| 
+| l j 
+| d 
+| m 
+| i 
+| 
+| c f p b 
+
+| 
+| k q e 
+| t o 
+| g r 
+| h 
+| s 
+| n 
+| a 
+| 
+| l j 
+| d 
+| m 
+| i 
+| 
+| c f p b 
+
+| a 
+| k q e 
+| t o 
+| g r 
+| h 
+| s 
+| n 
+| 
+| 
+| l j 
+| d 
+| m 
+| i 
+| 
+| c f p b 
+
+| a b 
+| k q e 
+| t o 
+| g r 
+| h 
+| s 
+| n 
+| 
+| 
+| l j 
+| d 
+| m 
+| i 
+| 
+| c f p 
+
+| a b 
+| k q e 
+| t o 
+| g r 
+| h 
+| s p 
+| n 
+| 
+| 
+| l j 
+| d 
+| m 
+| i 
+| 
+| c f 
+
+| a b 
+| k q e 
+| t o 
+| g r f 
+| h 
+| s p 
+| n 
+| 
+| 
+| l j 
+| d 
+| m 
+| i 
+| 
+| c 
+
+| a b c 
+| k q e 
+| t o 
+| g r f 
+| h 
+| s p 
+| n 
+| 
+| 
+| l j 
+| d 
+| m 
+| i 
+| 
+| 
+
+| a b c d 
+| k q e 
+| t o 
+| g r f 
+| h 
+| s p 
+| n 
+| 
+| 
+| l j 
+| 
+| m 
+| i 
+| 
+| 
+
+| a b c d e 
+| k q 
+| t o 
+| g r f 
+| h 
+| s p 
+| n 
+| 
+| 
+| l j 
+| 
+| m 
+| i 
+| 
+| 
+
+| a b c d e f 
+| k q 
+| t o 
+| g r 
+| h 
+| s p 
+| n 
+| 
+| 
+| l j 
+| 
+| m 
+| i 
+| 
+| 
+
+| a b c d e f 
+| k q 
+| t o 
+| g 
+| h 
+| s p 
+| n 
+| r 
+| 
+| l j 
+| 
+| m 
+| i 
+| 
+| 
+
+| a b c d e f g 
+| k q 
+| t o 
+| 
+| h 
+| s p 
+| n 
+| r 
+| 
+| l j 
+| 
+| m 
+| i 
+| 
+| 
+
+| a b c d e f g h 
+| k q 
+| t o 
+| 
+| 
+| s p 
+| n 
+| r 
+| 
+| l j 
+| 
+| m 
+| i 
+| 
+| 
+
+| a b c d e f g h i 
+| k q 
+| t o 
+| 
+| 
+| s p 
+| n 
+| r 
+| 
+| l j 
+| 
+| m 
+| 
+| 
+| 
+
+| a b c d e f g h i j 
+| k q 
+| t o 
+| 
+| 
+| s p 
+| n 
+| r 
+| 
+| l 
+| 
+| m 
+| 
+| 
+| 
+
+| a b c d e f g h i j 
+| k 
+| t o 
+| q 
+| 
+| s p 
+| n 
+| r 
+| 
+| l 
+| 
+| m 
+| 
+| 
+| 
+
+| a b c d e f g h i j k 
+| 
+| t o 
+| q 
+| 
+| s p 
+| n 
+| r 
+| 
+| l 
+| 
+| m 
+| 
+| 
+| 
+
+| a b c d e f g h i j k l 
+| 
+| t o 
+| q 
+| 
+| s p 
+| n 
+| r 
+| 
+| 
+| 
+| m 
+| 
+| 
+| 
+
+| a b c d e f g h i j k l m 
+| 
+| t o 
+| q 
+| 
+| s p 
+| n 
+| r 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+
+| a b c d e f g h i j k l m n 
+| 
+| t o 
+| q 
+| 
+| s p 
+| 
+| r 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+
+| a b c d e f g h i j k l m n o 
+| 
+| t 
+| q 
+| 
+| s p 
+| 
+| r 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+
+| a b c d e f g h i j k l m n o p 
+| 
+| t 
+| q 
+| 
+| s 
+| 
+| r 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+
+| a b c d e f g h i j k l m n o p q 
+| 
+| t 
+| 
+| 
+| s 
+| 
+| r 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+
+| a b c d e f g h i j k l m n o p q r 
+| 
+| t 
+| 
+| 
+| s 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+
+| a b c d e f g h i j k l m n o p q r s 
+| 
+| t 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+
+| a b c d e f g h i j k l m n o p q r s t 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+
+Total steps taken : 27
+
+Test 2 summary
+Number of goal tests : 26
+Maximum queue size : 3209
+Solution Path:
+| o q 
+| n 
+| p f 
+| g d 
+| 
+| i 
+| h 
+| 
+| j 
+| r 
+| 
+| b m 
+| k 
+| e t 
+| c a s l 
+
+| o q 
+| n l 
+| p f 
+| g d 
+| 
+| i 
+| h 
+| 
+| j 
+| r 
+| 
+| b m 
+| k 
+| e t 
+| c a s 
+
+| o q 
+| n l 
+| p f 
+| g d 
+| s 
+| i 
+| h 
+| 
+| j 
+| r 
+| 
+| b m 
+| k 
+| e t 
+| c a 
+
+| o 
+| n l 
+| p f 
+| g d 
+| s q 
+| i 
+| h 
+| 
+| j 
+| r 
+| 
+| b m 
+| k 
+| e t 
+| c a 
+
+| 
+| n l 
+| p f 
+| g d 
+| s q o 
+| i 
+| h 
+| 
+| j 
+| r 
+| 
+| b m 
+| k 
+| e t 
+| c a 
+
+| a 
+| n l 
+| p f 
+| g d 
+| s q o 
+| i 
+| h 
+| 
+| j 
+| r 
+| 
+| b m 
+| k 
+| e t 
+| c 
+
+| a 
+| n l 
+| p f 
+| g d 
+| s q o m 
+| i 
+| h 
+| 
+| j 
+| r 
+| 
+| b 
+| k 
+| e t 
+| c 
+
+| a b 
+| n l 
+| p f 
+| g d 
+| s q o m 
+| i 
+| h 
+| 
+| j 
+| r 
+| 
+| 
+| k 
+| e t 
+| c 
+
+| a b c 
+| n l 
+| p f 
+| g d 
+| s q o m 
+| i 
+| h 
+| 
+| j 
+| r 
+| 
+| 
+| k 
+| e t 
+| 
+
+| a b c d 
+| n l 
+| p f 
+| g 
+| s q o m 
+| i 
+| h 
+| 
+| j 
+| r 
+| 
+| 
+| k 
+| e t 
+| 
+
+| a b c d 
+| n l 
+| p f 
+| g 
+| s q o m 
+| i 
+| h 
+| t 
+| j 
+| r 
+| 
+| 
+| k 
+| e 
+| 
+
+| a b c d e 
+| n l 
+| p f 
+| g 
+| s q o m 
+| i 
+| h 
+| t 
+| j 
+| r 
+| 
+| 
+| k 
+| 
+| 
+
+| a b c d e f 
+| n l 
+| p 
+| g 
+| s q o m 
+| i 
+| h 
+| t 
+| j 
+| r 
+| 
+| 
+| k 
+| 
+| 
+
+| a b c d e f g 
+| n l 
+| p 
+| 
+| s q o m 
+| i 
+| h 
+| t 
+| j 
+| r 
+| 
+| 
+| k 
+| 
+| 
+
+| a b c d e f g h 
+| n l 
+| p 
+| 
+| s q o m 
+| i 
+| 
+| t 
+| j 
+| r 
+| 
+| 
+| k 
+| 
+| 
+
+| a b c d e f g h i 
+| n l 
+| p 
+| 
+| s q o m 
+| 
+| 
+| t 
+| j 
+| r 
+| 
+| 
+| k 
+| 
+| 
+
+| a b c d e f g h i j 
+| n l 
+| p 
+| 
+| s q o m 
+| 
+| 
+| t 
+| 
+| r 
+| 
+| 
+| k 
+| 
+| 
+
+| a b c d e f g h i j k 
+| n l 
+| p 
+| 
+| s q o m 
+| 
+| 
+| t 
+| 
+| r 
+| 
+| 
+| 
+| 
+| 
+
+| a b c d e f g h i j k l 
+| n 
+| p 
+| 
+| s q o m 
+| 
+| 
+| t 
+| 
+| r 
+| 
+| 
+| 
+| 
+| 
+
+| a b c d e f g h i j k l m 
+| n 
+| p 
+| 
+| s q o 
+| 
+| 
+| t 
+| 
+| r 
+| 
+| 
+| 
+| 
+| 
+
+| a b c d e f g h i j k l m n 
+| 
+| p 
+| 
+| s q o 
+| 
+| 
+| t 
+| 
+| r 
+| 
+| 
+| 
+| 
+| 
+
+| a b c d e f g h i j k l m n o 
+| 
+| p 
+| 
+| s q 
+| 
+| 
+| t 
+| 
+| r 
+| 
+| 
+| 
+| 
+| 
+
+| a b c d e f g h i j k l m n o p 
+| 
+| 
+| 
+| s q 
+| 
+| 
+| t 
+| 
+| r 
+| 
+| 
+| 
+| 
+| 
+
+| a b c d e f g h i j k l m n o p q 
+| 
+| 
+| 
+| s 
+| 
+| 
+| t 
+| 
+| r 
+| 
+| 
+| 
+| 
+| 
+
+| a b c d e f g h i j k l m n o p q r 
+| 
+| 
+| 
+| s 
+| 
+| 
+| t 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+
+| a b c d e f g h i j k l m n o p q r s 
+| 
+| 
+| 
+| 
+| 
+| 
+| t 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+
+| a b c d e f g h i j k l m n o p q r s t 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+
+Total steps taken : 26
+
+Test 3 summary
+Number of goal tests : 25
+Maximum queue size : 2650
+Solution Path:
+| k 
+| q d b 
+| e l t 
+| 
+| m i 
+| o r 
+| 
+| 
+| n 
+| 
+| 
+| h c 
+| a 
+| p g s 
+| j f 
+
+| 
+| q d b 
+| e l t 
+| 
+| m i 
+| o r k 
+| 
+| 
+| n 
+| 
+| 
+| h c 
+| a 
+| p g s 
+| j f 
+
+| a 
+| q d b 
+| e l t 
+| 
+| m i 
+| o r k 
+| 
+| 
+| n 
+| 
+| 
+| h c 
+| 
+| p g s 
+| j f 
+
+| a b 
+| q d 
+| e l t 
+| 
+| m i 
+| o r k 
+| 
+| 
+| n 
+| 
+| 
+| h c 
+| 
+| p g s 
+| j f 
+
+| a b c 
+| q d 
+| e l t 
+| 
+| m i 
+| o r k 
+| 
+| 
+| n 
+| 
+| 
+| h 
+| 
+| p g s 
+| j f 
+
+| a b c d 
+| q 
+| e l t 
+| 
+| m i 
+| o r k 
+| 
+| 
+| n 
+| 
+| 
+| h 
+| 
+| p g s 
+| j f 
+
+| a b c d 
+| q 
+| e l 
+| t 
+| m i 
+| o r k 
+| 
+| 
+| n 
+| 
+| 
+| h 
+| 
+| p g s 
+| j f 
+
+| a b c d 
+| q l 
+| e 
+| t 
+| m i 
+| o r k 
+| 
+| 
+| n 
+| 
+| 
+| h 
+| 
+| p g s 
+| j f 
+
+| a b c d e 
+| q l 
+| 
+| t 
+| m i 
+| o r k 
+| 
+| 
+| n 
+| 
+| 
+| h 
+| 
+| p g s 
+| j f 
+
+| a b c d e f 
+| q l 
+| 
+| t 
+| m i 
+| o r k 
+| 
+| 
+| n 
+| 
+| 
+| h 
+| 
+| p g s 
+| j 
+
+| a b c d e f 
+| q l 
+| s 
+| t 
+| m i 
+| o r k 
+| 
+| 
+| n 
+| 
+| 
+| h 
+| 
+| p g 
+| j 
+
+| a b c d e f g 
+| q l 
+| s 
+| t 
+| m i 
+| o r k 
+| 
+| 
+| n 
+| 
+| 
+| h 
+| 
+| p 
+| j 
+
+| a b c d e f g h 
+| q l 
+| s 
+| t 
+| m i 
+| o r k 
+| 
+| 
+| n 
+| 
+| 
+| 
+| 
+| p 
+| j 
+
+| a b c d e f g h i 
+| q l 
+| s 
+| t 
+| m 
+| o r k 
+| 
+| 
+| n 
+| 
+| 
+| 
+| 
+| p 
+| j 
+
+| a b c d e f g h i j 
+| q l 
+| s 
+| t 
+| m 
+| o r k 
+| 
+| 
+| n 
+| 
+| 
+| 
+| 
+| p 
+| 
+
+| a b c d e f g h i j k 
+| q l 
+| s 
+| t 
+| m 
+| o r 
+| 
+| 
+| n 
+| 
+| 
+| 
+| 
+| p 
+| 
+
+| a b c d e f g h i j k l 
+| q 
+| s 
+| t 
+| m 
+| o r 
+| 
+| 
+| n 
+| 
+| 
+| 
+| 
+| p 
+| 
+
+| a b c d e f g h i j k l m 
+| q 
+| s 
+| t 
+| 
+| o r 
+| 
+| 
+| n 
+| 
+| 
+| 
+| 
+| p 
+| 
+
+| a b c d e f g h i j k l m n 
+| q 
+| s 
+| t 
+| 
+| o r 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| p 
+| 
+
+| a b c d e f g h i j k l m n 
+| q 
+| s r 
+| t 
+| 
+| o 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| p 
+| 
+
+| a b c d e f g h i j k l m n o 
+| q 
+| s r 
+| t 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| p 
+| 
+
+| a b c d e f g h i j k l m n o p 
+| q 
+| s r 
+| t 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+
+| a b c d e f g h i j k l m n o p q 
+| 
+| s r 
+| t 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+
+| a b c d e f g h i j k l m n o p q r 
+| 
+| s 
+| t 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+
+| a b c d e f g h i j k l m n o p q r s 
+| 
+| 
+| t 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+
+| a b c d e f g h i j k l m n o p q r s t 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+
+Total steps taken : 25
+
+Test 4 summary
+Number of goal tests : 26
+Maximum queue size : 3377
+Solution Path:
+| 
+| t a o 
+| h g 
+| d r q 
+| 
+| p b l 
+| e 
+| 
+| i s 
+| 
+| 
+| m k 
+| c 
+| f n 
+| j 
+
+| 
+| t a 
+| h g 
+| d r q 
+| o 
+| p b l 
+| e 
+| 
+| i s 
+| 
+| 
+| m k 
+| c 
+| f n 
+| j 
+
+| a 
+| t 
+| h g 
+| d r q 
+| o 
+| p b l 
+| e 
+| 
+| i s 
+| 
+| 
+| m k 
+| c 
+| f n 
+| j 
+
+| a 
+| t l 
+| h g 
+| d r q 
+| o 
+| p b 
+| e 
+| 
+| i s 
+| 
+| 
+| m k 
+| c 
+| f n 
+| j 
+
+| a b 
+| t l 
+| h g 
+| d r q 
+| o 
+| p 
+| e 
+| 
+| i s 
+| 
+| 
+| m k 
+| c 
+| f n 
+| j 
+
+| a b c 
+| t l 
+| h g 
+| d r q 
+| o 
+| p 
+| e 
+| 
+| i s 
+| 
+| 
+| m k 
+| 
+| f n 
+| j 
+
+| a b c 
+| t l 
+| h g 
+| d r 
+| o 
+| p 
+| e 
+| q 
+| i s 
+| 
+| 
+| m k 
+| 
+| f n 
+| j 
+
+| a b c 
+| t l 
+| h g 
+| d 
+| o 
+| p 
+| e 
+| q 
+| i s 
+| r 
+| 
+| m k 
+| 
+| f n 
+| j 
+
+| a b c d 
+| t l 
+| h g 
+| 
+| o 
+| p 
+| e 
+| q 
+| i s 
+| r 
+| 
+| m k 
+| 
+| f n 
+| j 
+
+| a b c d e 
+| t l 
+| h g 
+| 
+| o 
+| p 
+| 
+| q 
+| i s 
+| r 
+| 
+| m k 
+| 
+| f n 
+| j 
+
+| a b c d e 
+| t l 
+| h g 
+| n 
+| o 
+| p 
+| 
+| q 
+| i s 
+| r 
+| 
+| m k 
+| 
+| f 
+| j 
+
+| a b c d e f 
+| t l 
+| h g 
+| n 
+| o 
+| p 
+| 
+| q 
+| i s 
+| r 
+| 
+| m k 
+| 
+| 
+| j 
+
+| a b c d e f g 
+| t l 
+| h 
+| n 
+| o 
+| p 
+| 
+| q 
+| i s 
+| r 
+| 
+| m k 
+| 
+| 
+| j 
+
+| a b c d e f g h 
+| t l 
+| 
+| n 
+| o 
+| p 
+| 
+| q 
+| i s 
+| r 
+| 
+| m k 
+| 
+| 
+| j 
+
+| a b c d e f g h 
+| t l 
+| s 
+| n 
+| o 
+| p 
+| 
+| q 
+| i 
+| r 
+| 
+| m k 
+| 
+| 
+| j 
+
+| a b c d e f g h i 
+| t l 
+| s 
+| n 
+| o 
+| p 
+| 
+| q 
+| 
+| r 
+| 
+| m k 
+| 
+| 
+| j 
+
+| a b c d e f g h i j 
+| t l 
+| s 
+| n 
+| o 
+| p 
+| 
+| q 
+| 
+| r 
+| 
+| m k 
+| 
+| 
+| 
+
+| a b c d e f g h i j k 
+| t l 
+| s 
+| n 
+| o 
+| p 
+| 
+| q 
+| 
+| r 
+| 
+| m 
+| 
+| 
+| 
+
+| a b c d e f g h i j k l 
+| t 
+| s 
+| n 
+| o 
+| p 
+| 
+| q 
+| 
+| r 
+| 
+| m 
+| 
+| 
+| 
+
+| a b c d e f g h i j k l m 
+| t 
+| s 
+| n 
+| o 
+| p 
+| 
+| q 
+| 
+| r 
+| 
+| 
+| 
+| 
+| 
+
+| a b c d e f g h i j k l m n 
+| t 
+| s 
+| 
+| o 
+| p 
+| 
+| q 
+| 
+| r 
+| 
+| 
+| 
+| 
+| 
+
+| a b c d e f g h i j k l m n o 
+| t 
+| s 
+| 
+| 
+| p 
+| 
+| q 
+| 
+| r 
+| 
+| 
+| 
+| 
+| 
+
+| a b c d e f g h i j k l m n o p 
+| t 
+| s 
+| 
+| 
+| 
+| 
+| q 
+| 
+| r 
+| 
+| 
+| 
+| 
+| 
+
+| a b c d e f g h i j k l m n o p q 
+| t 
+| s 
+| 
+| 
+| 
+| 
+| 
+| 
+| r 
+| 
+| 
+| 
+| 
+| 
+
+| a b c d e f g h i j k l m n o p q r 
+| t 
+| s 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+
+| a b c d e f g h i j k l m n o p q r s 
+| t 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+
+| a b c d e f g h i j k l m n o p q r s t 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+
+Total steps taken : 26
+
+Test 5 summary
+Number of goal tests : 26
+Maximum queue size : 3167
+Solution Path:
+| l 
+| c 
+| h p 
+| q g f 
+| i 
+| n 
+| m 
+| d t k 
+| j 
+| s o 
+| r b e 
+| 
+| a 
+| 
+| 
+
+| l 
+| 
+| h p 
+| q g f 
+| i 
+| n 
+| m 
+| d t k c 
+| j 
+| s o 
+| r b e 
+| 
+| a 
+| 
+| 
+
+| l 
+| 
+| h p e 
+| q g f 
+| i 
+| n 
+| m 
+| d t k c 
+| j 
+| s o 
+| r b 
+| 
+| a 
+| 
+| 
+
+| 
+| l 
+| h p e 
+| q g f 
+| i 
+| n 
+| m 
+| d t k c 
+| j 
+| s o 
+| r b 
+| 
+| a 
+| 
+| 
+
+| a 
+| l 
+| h p e 
+| q g f 
+| i 
+| n 
+| m 
+| d t k c 
+| j 
+| s o 
+| r b 
+| 
+| 
+| 
+| 
+
+| a b 
+| l 
+| h p e 
+| q g f 
+| i 
+| n 
+| m 
+| d t k c 
+| j 
+| s o 
+| r 
+| 
+| 
+| 
+| 
+
+| a b c 
+| l 
+| h p e 
+| q g f 
+| i 
+| n 
+| m 
+| d t k 
+| j 
+| s o 
+| r 
+| 
+| 
+| 
+| 
+
+| a b c 
+| l k 
+| h p e 
+| q g f 
+| i 
+| n 
+| m 
+| d t 
+| j 
+| s o 
+| r 
+| 
+| 
+| 
+| 
+
+| a b c 
+| l k 
+| h p e 
+| q g f 
+| i 
+| n 
+| m 
+| d 
+| j 
+| s o 
+| r 
+| t 
+| 
+| 
+| 
+
+| a b c d 
+| l k 
+| h p e 
+| q g f 
+| i 
+| n 
+| m 
+| 
+| j 
+| s o 
+| r 
+| t 
+| 
+| 
+| 
+
+| a b c d e 
+| l k 
+| h p 
+| q g f 
+| i 
+| n 
+| m 
+| 
+| j 
+| s o 
+| r 
+| t 
+| 
+| 
+| 
+
+| a b c d e f 
+| l k 
+| h p 
+| q g 
+| i 
+| n 
+| m 
+| 
+| j 
+| s o 
+| r 
+| t 
+| 
+| 
+| 
+
+| a b c d e f g 
+| l k 
+| h p 
+| q 
+| i 
+| n 
+| m 
+| 
+| j 
+| s o 
+| r 
+| t 
+| 
+| 
+| 
+
+| a b c d e f g 
+| l k 
+| h 
+| q p 
+| i 
+| n 
+| m 
+| 
+| j 
+| s o 
+| r 
+| t 
+| 
+| 
+| 
+
+| a b c d e f g h 
+| l k 
+| 
+| q p 
+| i 
+| n 
+| m 
+| 
+| j 
+| s o 
+| r 
+| t 
+| 
+| 
+| 
+
+| a b c d e f g h i 
+| l k 
+| 
+| q p 
+| 
+| n 
+| m 
+| 
+| j 
+| s o 
+| r 
+| t 
+| 
+| 
+| 
+
+| a b c d e f g h i j 
+| l k 
+| 
+| q p 
+| 
+| n 
+| m 
+| 
+| 
+| s o 
+| r 
+| t 
+| 
+| 
+| 
+
+| a b c d e f g h i j k 
+| l 
+| 
+| q p 
+| 
+| n 
+| m 
+| 
+| 
+| s o 
+| r 
+| t 
+| 
+| 
+| 
+
+| a b c d e f g h i j k l 
+| 
+| 
+| q p 
+| 
+| n 
+| m 
+| 
+| 
+| s o 
+| r 
+| t 
+| 
+| 
+| 
+
+| a b c d e f g h i j k l m 
+| 
+| 
+| q p 
+| 
+| n 
+| 
+| 
+| 
+| s o 
+| r 
+| t 
+| 
+| 
+| 
+
+| a b c d e f g h i j k l m n 
+| 
+| 
+| q p 
+| 
+| 
+| 
+| 
+| 
+| s o 
+| r 
+| t 
+| 
+| 
+| 
+
+| a b c d e f g h i j k l m n o 
+| 
+| 
+| q p 
+| 
+| 
+| 
+| 
+| 
+| s 
+| r 
+| t 
+| 
+| 
+| 
+
+| a b c d e f g h i j k l m n o p 
+| 
+| 
+| q 
+| 
+| 
+| 
+| 
+| 
+| s 
+| r 
+| t 
+| 
+| 
+| 
+
+| a b c d e f g h i j k l m n o p q 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| s 
+| r 
+| t 
+| 
+| 
+| 
+
+| a b c d e f g h i j k l m n o p q r 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| s 
+| 
+| t 
+| 
+| 
+| 
+
+| a b c d e f g h i j k l m n o p q r s 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| t 
+| 
+| 
+| 
+
+| a b c d e f g h i j k l m n o p q r s t 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+
+Total steps taken : 26
+
+Test 6 summary
+Number of goal tests : 26
+Maximum queue size : 3167
+Solution Path:
+| l 
+| 
+| q 
+| f 
+| i 
+| s e 
+| j 
+| o 
+| r d g 
+| k t n p 
+| 
+| h b c 
+| m 
+| 
+| a 
+
+| l 
+| 
+| q 
+| f 
+| i 
+| s e 
+| j 
+| o 
+| r d 
+| k t n p g 
+| 
+| h b c 
+| m 
+| 
+| a 
+
+| 
+| l 
+| q 
+| f 
+| i 
+| s e 
+| j 
+| o 
+| r d 
+| k t n p g 
+| 
+| h b c 
+| m 
+| 
+| a 
+
+| a 
+| l 
+| q 
+| f 
+| i 
+| s e 
+| j 
+| o 
+| r d 
+| k t n p g 
+| 
+| h b c 
+| m 
+| 
+| 
+
+| a 
+| l c 
+| q 
+| f 
+| i 
+| s e 
+| j 
+| o 
+| r d 
+| k t n p g 
+| 
+| h b 
+| m 
+| 
+| 
+
+| a b 
+| l c 
+| q 
+| f 
+| i 
+| s e 
+| j 
+| o 
+| r d 
+| k t n p g 
+| 
+| h 
+| m 
+| 
+| 
+
+| a b c 
+| l 
+| q 
+| f 
+| i 
+| s e 
+| j 
+| o 
+| r d 
+| k t n p g 
+| 
+| h 
+| m 
+| 
+| 
+
+| a b c d 
+| l 
+| q 
+| f 
+| i 
+| s e 
+| j 
+| o 
+| r 
+| k t n p g 
+| 
+| h 
+| m 
+| 
+| 
+
+| a b c d e 
+| l 
+| q 
+| f 
+| i 
+| s 
+| j 
+| o 
+| r 
+| k t n p g 
+| 
+| h 
+| m 
+| 
+| 
+
+| a b c d e f 
+| l 
+| q 
+| 
+| i 
+| s 
+| j 
+| o 
+| r 
+| k t n p g 
+| 
+| h 
+| m 
+| 
+| 
+
+| a b c d e f g 
+| l 
+| q 
+| 
+| i 
+| s 
+| j 
+| o 
+| r 
+| k t n p 
+| 
+| h 
+| m 
+| 
+| 
+
+| a b c d e f g h 
+| l 
+| q 
+| 
+| i 
+| s 
+| j 
+| o 
+| r 
+| k t n p 
+| 
+| 
+| m 
+| 
+| 
+
+| a b c d e f g h i 
+| l 
+| q 
+| 
+| 
+| s 
+| j 
+| o 
+| r 
+| k t n p 
+| 
+| 
+| m 
+| 
+| 
+
+| a b c d e f g h i j 
+| l 
+| q 
+| 
+| 
+| s 
+| 
+| o 
+| r 
+| k t n p 
+| 
+| 
+| m 
+| 
+| 
+
+| a b c d e f g h i j 
+| l 
+| q p 
+| 
+| 
+| s 
+| 
+| o 
+| r 
+| k t n 
+| 
+| 
+| m 
+| 
+| 
+
+| a b c d e f g h i j 
+| l 
+| q p n 
+| 
+| 
+| s 
+| 
+| o 
+| r 
+| k t 
+| 
+| 
+| m 
+| 
+| 
+
+| a b c d e f g h i j 
+| l 
+| q p n 
+| t 
+| 
+| s 
+| 
+| o 
+| r 
+| k 
+| 
+| 
+| m 
+| 
+| 
+
+| a b c d e f g h i j k 
+| l 
+| q p n 
+| t 
+| 
+| s 
+| 
+| o 
+| r 
+| 
+| 
+| 
+| m 
+| 
+| 
+
+| a b c d e f g h i j k l 
+| 
+| q p n 
+| t 
+| 
+| s 
+| 
+| o 
+| r 
+| 
+| 
+| 
+| m 
+| 
+| 
+
+| a b c d e f g h i j k l m 
+| 
+| q p n 
+| t 
+| 
+| s 
+| 
+| o 
+| r 
+| 
+| 
+| 
+| 
+| 
+| 
+
+| a b c d e f g h i j k l m n 
+| 
+| q p 
+| t 
+| 
+| s 
+| 
+| o 
+| r 
+| 
+| 
+| 
+| 
+| 
+| 
+
+| a b c d e f g h i j k l m n o 
+| 
+| q p 
+| t 
+| 
+| s 
+| 
+| 
+| r 
+| 
+| 
+| 
+| 
+| 
+| 
+
+| a b c d e f g h i j k l m n o p 
+| 
+| q 
+| t 
+| 
+| s 
+| 
+| 
+| r 
+| 
+| 
+| 
+| 
+| 
+| 
+
+| a b c d e f g h i j k l m n o p q 
+| 
+| 
+| t 
+| 
+| s 
+| 
+| 
+| r 
+| 
+| 
+| 
+| 
+| 
+| 
+
+| a b c d e f g h i j k l m n o p q r 
+| 
+| 
+| t 
+| 
+| s 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+
+| a b c d e f g h i j k l m n o p q r s 
+| 
+| 
+| t 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+
+| a b c d e f g h i j k l m n o p q r s t 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+
+Total steps taken : 26
+
+Test 7 summary
+Number of goal tests : 26
+Maximum queue size : 2971
+Solution Path:
+| b 
+| m g j 
+| n 
+| i s c 
+| h 
+| q r 
+| e 
+| o 
+| 
+| t 
+| 
+| p 
+| f l 
+| 
+| d k a 
+
+| 
+| m g j b 
+| n 
+| i s c 
+| h 
+| q r 
+| e 
+| o 
+| 
+| t 
+| 
+| p 
+| f l 
+| 
+| d k a 
+
+| a 
+| m g j b 
+| n 
+| i s c 
+| h 
+| q r 
+| e 
+| o 
+| 
+| t 
+| 
+| p 
+| f l 
+| 
+| d k 
+
+| a b 
+| m g j 
+| n 
+| i s c 
+| h 
+| q r 
+| e 
+| o 
+| 
+| t 
+| 
+| p 
+| f l 
+| 
+| d k 
+
+| a b c 
+| m g j 
+| n 
+| i s 
+| h 
+| q r 
+| e 
+| o 
+| 
+| t 
+| 
+| p 
+| f l 
+| 
+| d k 
+
+| a b c 
+| m g j 
+| n 
+| i s 
+| h 
+| q r k 
+| e 
+| o 
+| 
+| t 
+| 
+| p 
+| f l 
+| 
+| d 
+
+| a b c d 
+| m g j 
+| n 
+| i s 
+| h 
+| q r k 
+| e 
+| o 
+| 
+| t 
+| 
+| p 
+| f l 
+| 
+| 
+
+| a b c d e 
+| m g j 
+| n 
+| i s 
+| h 
+| q r k 
+| 
+| o 
+| 
+| t 
+| 
+| p 
+| f l 
+| 
+| 
+
+| a b c d e 
+| m g j 
+| n l 
+| i s 
+| h 
+| q r k 
+| 
+| o 
+| 
+| t 
+| 
+| p 
+| f 
+| 
+| 
+
+| a b c d e f 
+| m g j 
+| n l 
+| i s 
+| h 
+| q r k 
+| 
+| o 
+| 
+| t 
+| 
+| p 
+| 
+| 
+| 
+
+| a b c d e f 
+| m g 
+| n l j 
+| i s 
+| h 
+| q r k 
+| 
+| o 
+| 
+| t 
+| 
+| p 
+| 
+| 
+| 
+
+| a b c d e f g 
+| m 
+| n l j 
+| i s 
+| h 
+| q r k 
+| 
+| o 
+| 
+| t 
+| 
+| p 
+| 
+| 
+| 
+
+| a b c d e f g h 
+| m 
+| n l j 
+| i s 
+| 
+| q r k 
+| 
+| o 
+| 
+| t 
+| 
+| p 
+| 
+| 
+| 
+
+| a b c d e f g h 
+| m 
+| n l j 
+| i 
+| s 
+| q r k 
+| 
+| o 
+| 
+| t 
+| 
+| p 
+| 
+| 
+| 
+
+| a b c d e f g h i 
+| m 
+| n l j 
+| 
+| s 
+| q r k 
+| 
+| o 
+| 
+| t 
+| 
+| p 
+| 
+| 
+| 
+
+| a b c d e f g h i j 
+| m 
+| n l 
+| 
+| s 
+| q r k 
+| 
+| o 
+| 
+| t 
+| 
+| p 
+| 
+| 
+| 
+
+| a b c d e f g h i j k 
+| m 
+| n l 
+| 
+| s 
+| q r 
+| 
+| o 
+| 
+| t 
+| 
+| p 
+| 
+| 
+| 
+
+| a b c d e f g h i j k l 
+| m 
+| n 
+| 
+| s 
+| q r 
+| 
+| o 
+| 
+| t 
+| 
+| p 
+| 
+| 
+| 
+
+| a b c d e f g h i j k l m 
+| 
+| n 
+| 
+| s 
+| q r 
+| 
+| o 
+| 
+| t 
+| 
+| p 
+| 
+| 
+| 
+
+| a b c d e f g h i j k l m n 
+| 
+| 
+| 
+| s 
+| q r 
+| 
+| o 
+| 
+| t 
+| 
+| p 
+| 
+| 
+| 
+
+| a b c d e f g h i j k l m n o 
+| 
+| 
+| 
+| s 
+| q r 
+| 
+| 
+| 
+| t 
+| 
+| p 
+| 
+| 
+| 
+
+| a b c d e f g h i j k l m n o p 
+| 
+| 
+| 
+| s 
+| q r 
+| 
+| 
+| 
+| t 
+| 
+| 
+| 
+| 
+| 
+
+| a b c d e f g h i j k l m n o p 
+| r 
+| 
+| 
+| s 
+| q 
+| 
+| 
+| 
+| t 
+| 
+| 
+| 
+| 
+| 
+
+| a b c d e f g h i j k l m n o p q 
+| r 
+| 
+| 
+| s 
+| 
+| 
+| 
+| 
+| t 
+| 
+| 
+| 
+| 
+| 
+
+| a b c d e f g h i j k l m n o p q r 
+| 
+| 
+| 
+| s 
+| 
+| 
+| 
+| 
+| t 
+| 
+| 
+| 
+| 
+| 
+
+| a b c d e f g h i j k l m n o p q r s 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| t 
+| 
+| 
+| 
+| 
+| 
+
+| a b c d e f g h i j k l m n o p q r s t 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+
+Total steps taken : 26
+
+Test 8 summary
+Number of goal tests : 28
+Maximum queue size : 3445
+Solution Path:
+| b 
+| n 
+| k 
+| p 
+| 
+| q 
+| f h t d o i 
+| 
+| m 
+| s 
+| c r 
+| a 
+| e 
+| 
+| g l j 
+
+| 
+| n 
+| k 
+| p 
+| 
+| q 
+| f h t d o i b 
+| 
+| m 
+| s 
+| c r 
+| a 
+| e 
+| 
+| g l j 
+
+| a 
+| n 
+| k 
+| p 
+| 
+| q 
+| f h t d o i b 
+| 
+| m 
+| s 
+| c r 
+| 
+| e 
+| 
+| g l j 
+
+| a b 
+| n 
+| k 
+| p 
+| 
+| q 
+| f h t d o i 
+| 
+| m 
+| s 
+| c r 
+| 
+| e 
+| 
+| g l j 
+
+| a b 
+| n 
+| k 
+| p 
+| r 
+| q 
+| f h t d o i 
+| 
+| m 
+| s 
+| c 
+| 
+| e 
+| 
+| g l j 
+
+| a b c 
+| n 
+| k 
+| p 
+| r 
+| q 
+| f h t d o i 
+| 
+| m 
+| s 
+| 
+| 
+| e 
+| 
+| g l j 
+
+| a b c 
+| n i 
+| k 
+| p 
+| r 
+| q 
+| f h t d o 
+| 
+| m 
+| s 
+| 
+| 
+| e 
+| 
+| g l j 
+
+| a b c 
+| n i 
+| k 
+| p o 
+| r 
+| q 
+| f h t d 
+| 
+| m 
+| s 
+| 
+| 
+| e 
+| 
+| g l j 
+
+| a b c d 
+| n i 
+| k 
+| p o 
+| r 
+| q 
+| f h t 
+| 
+| m 
+| s 
+| 
+| 
+| e 
+| 
+| g l j 
+
+| a b c d e 
+| n i 
+| k 
+| p o 
+| r 
+| q 
+| f h t 
+| 
+| m 
+| s 
+| 
+| 
+| 
+| 
+| g l j 
+
+| a b c d e 
+| n i 
+| k 
+| p o 
+| r 
+| q 
+| f h 
+| t 
+| m 
+| s 
+| 
+| 
+| 
+| 
+| g l j 
+
+| a b c d e 
+| n i h 
+| k 
+| p o 
+| r 
+| q 
+| f 
+| t 
+| m 
+| s 
+| 
+| 
+| 
+| 
+| g l j 
+
+| a b c d e f 
+| n i h 
+| k 
+| p o 
+| r 
+| q 
+| 
+| t 
+| m 
+| s 
+| 
+| 
+| 
+| 
+| g l j 
+
+| a b c d e f 
+| n i h 
+| k j 
+| p o 
+| r 
+| q 
+| 
+| t 
+| m 
+| s 
+| 
+| 
+| 
+| 
+| g l 
+
+| a b c d e f 
+| n i h 
+| k j 
+| p o l 
+| r 
+| q 
+| 
+| t 
+| m 
+| s 
+| 
+| 
+| 
+| 
+| g 
+
+| a b c d e f g 
+| n i h 
+| k j 
+| p o l 
+| r 
+| q 
+| 
+| t 
+| m 
+| s 
+| 
+| 
+| 
+| 
+| 
+
+| a b c d e f g h 
+| n i 
+| k j 
+| p o l 
+| r 
+| q 
+| 
+| t 
+| m 
+| s 
+| 
+| 
+| 
+| 
+| 
+
+| a b c d e f g h i 
+| n 
+| k j 
+| p o l 
+| r 
+| q 
+| 
+| t 
+| m 
+| s 
+| 
+| 
+| 
+| 
+| 
+
+| a b c d e f g h i j 
+| n 
+| k 
+| p o l 
+| r 
+| q 
+| 
+| t 
+| m 
+| s 
+| 
+| 
+| 
+| 
+| 
+
+| a b c d e f g h i j k 
+| n 
+| 
+| p o l 
+| r 
+| q 
+| 
+| t 
+| m 
+| s 
+| 
+| 
+| 
+| 
+| 
+
+| a b c d e f g h i j k l 
+| n 
+| 
+| p o 
+| r 
+| q 
+| 
+| t 
+| m 
+| s 
+| 
+| 
+| 
+| 
+| 
+
+| a b c d e f g h i j k l m 
+| n 
+| 
+| p o 
+| r 
+| q 
+| 
+| t 
+| 
+| s 
+| 
+| 
+| 
+| 
+| 
+
+| a b c d e f g h i j k l m n 
+| 
+| 
+| p o 
+| r 
+| q 
+| 
+| t 
+| 
+| s 
+| 
+| 
+| 
+| 
+| 
+
+| a b c d e f g h i j k l m n o 
+| 
+| 
+| p 
+| r 
+| q 
+| 
+| t 
+| 
+| s 
+| 
+| 
+| 
+| 
+| 
+
+| a b c d e f g h i j k l m n o p 
+| 
+| 
+| 
+| r 
+| q 
+| 
+| t 
+| 
+| s 
+| 
+| 
+| 
+| 
+| 
+
+| a b c d e f g h i j k l m n o p q 
+| 
+| 
+| 
+| r 
+| 
+| 
+| t 
+| 
+| s 
+| 
+| 
+| 
+| 
+| 
+
+| a b c d e f g h i j k l m n o p q r 
+| 
+| 
+| 
+| 
+| 
+| 
+| t 
+| 
+| s 
+| 
+| 
+| 
+| 
+| 
+
+| a b c d e f g h i j k l m n o p q r s 
+| 
+| 
+| 
+| 
+| 
+| 
+| t 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+
+| a b c d e f g h i j k l m n o p q r s t 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+
+Total steps taken : 28
+
+Test 9 summary
+Number of goal tests : 24
+Maximum queue size : 2903
+Solution Path:
+| 
+| 
+| b t s 
+| h d 
+| g 
+| p a 
+| j e 
+| l k 
+| 
+| n 
+| 
+| m o r 
+| f 
+| i 
+| q c 
+
+| a 
+| 
+| b t s 
+| h d 
+| g 
+| p 
+| j e 
+| l k 
+| 
+| n 
+| 
+| m o r 
+| f 
+| i 
+| q c 
+
+| a 
+| s 
+| b t 
+| h d 
+| g 
+| p 
+| j e 
+| l k 
+| 
+| n 
+| 
+| m o r 
+| f 
+| i 
+| q c 
+
+| a 
+| s 
+| b 
+| h d 
+| g 
+| p 
+| j e 
+| l k 
+| t 
+| n 
+| 
+| m o r 
+| f 
+| i 
+| q c 
+
+| a b 
+| s 
+| 
+| h d 
+| g 
+| p 
+| j e 
+| l k 
+| t 
+| n 
+| 
+| m o r 
+| f 
+| i 
+| q c 
+
+| a b c 
+| s 
+| 
+| h d 
+| g 
+| p 
+| j e 
+| l k 
+| t 
+| n 
+| 
+| m o r 
+| f 
+| i 
+| q 
+
+| a b c d 
+| s 
+| 
+| h 
+| g 
+| p 
+| j e 
+| l k 
+| t 
+| n 
+| 
+| m o r 
+| f 
+| i 
+| q 
+
+| a b c d e 
+| s 
+| 
+| h 
+| g 
+| p 
+| j 
+| l k 
+| t 
+| n 
+| 
+| m o r 
+| f 
+| i 
+| q 
+
+| a b c d e f 
+| s 
+| 
+| h 
+| g 
+| p 
+| j 
+| l k 
+| t 
+| n 
+| 
+| m o r 
+| 
+| i 
+| q 
+
+| a b c d e f g 
+| s 
+| 
+| h 
+| 
+| p 
+| j 
+| l k 
+| t 
+| n 
+| 
+| m o r 
+| 
+| i 
+| q 
+
+| a b c d e f g h 
+| s 
+| 
+| 
+| 
+| p 
+| j 
+| l k 
+| t 
+| n 
+| 
+| m o r 
+| 
+| i 
+| q 
+
+| a b c d e f g h i 
+| s 
+| 
+| 
+| 
+| p 
+| j 
+| l k 
+| t 
+| n 
+| 
+| m o r 
+| 
+| 
+| q 
+
+| a b c d e f g h i j 
+| s 
+| 
+| 
+| 
+| p 
+| 
+| l k 
+| t 
+| n 
+| 
+| m o r 
+| 
+| 
+| q 
+
+| a b c d e f g h i j k 
+| s 
+| 
+| 
+| 
+| p 
+| 
+| l 
+| t 
+| n 
+| 
+| m o r 
+| 
+| 
+| q 
+
+| a b c d e f g h i j k l 
+| s 
+| 
+| 
+| 
+| p 
+| 
+| 
+| t 
+| n 
+| 
+| m o r 
+| 
+| 
+| q 
+
+| a b c d e f g h i j k l 
+| s r 
+| 
+| 
+| 
+| p 
+| 
+| 
+| t 
+| n 
+| 
+| m o 
+| 
+| 
+| q 
+
+| a b c d e f g h i j k l 
+| s r o 
+| 
+| 
+| 
+| p 
+| 
+| 
+| t 
+| n 
+| 
+| m 
+| 
+| 
+| q 
+
+| a b c d e f g h i j k l m 
+| s r o 
+| 
+| 
+| 
+| p 
+| 
+| 
+| t 
+| n 
+| 
+| 
+| 
+| 
+| q 
+
+| a b c d e f g h i j k l m n 
+| s r o 
+| 
+| 
+| 
+| p 
+| 
+| 
+| t 
+| 
+| 
+| 
+| 
+| 
+| q 
+
+| a b c d e f g h i j k l m n o 
+| s r 
+| 
+| 
+| 
+| p 
+| 
+| 
+| t 
+| 
+| 
+| 
+| 
+| 
+| q 
+
+| a b c d e f g h i j k l m n o p 
+| s r 
+| 
+| 
+| 
+| 
+| 
+| 
+| t 
+| 
+| 
+| 
+| 
+| 
+| q 
+
+| a b c d e f g h i j k l m n o p q 
+| s r 
+| 
+| 
+| 
+| 
+| 
+| 
+| t 
+| 
+| 
+| 
+| 
+| 
+| 
+
+| a b c d e f g h i j k l m n o p q r 
+| s 
+| 
+| 
+| 
+| 
+| 
+| 
+| t 
+| 
+| 
+| 
+| 
+| 
+| 
+
+| a b c d e f g h i j k l m n o p q r s 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| t 
+| 
+| 
+| 
+| 
+| 
+| 
+
+| a b c d e f g h i j k l m n o p q r s t 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+
+Total steps taken : 24
+
+Test 10 summary
+Number of goal tests : 31
+Maximum queue size : 3946
+Solution Path:
+| o 
+| 
+| m 
+| d q l 
+| 
+| r 
+| e 
+| f 
+| s 
+| a k j 
+| i p 
+| g 
+| c 
+| b n t h 
+| 
+
+| o 
+| j 
+| m 
+| d q l 
+| 
+| r 
+| e 
+| f 
+| s 
+| a k 
+| i p 
+| g 
+| c 
+| b n t h 
+| 
+
+| o 
+| j 
+| m k 
+| d q l 
+| 
+| r 
+| e 
+| f 
+| s 
+| a 
+| i p 
+| g 
+| c 
+| b n t h 
+| 
+
+| o 
+| j 
+| m k 
+| d q l 
+| 
+| r 
+| e 
+| f 
+| s 
+| 
+| i p 
+| g 
+| c 
+| b n t h a 
+| 
+
+| o 
+| j 
+| m k 
+| d q l c 
+| 
+| r 
+| e 
+| f 
+| s 
+| 
+| i p 
+| g 
+| 
+| b n t h a 
+| 
+
+| 
+| j 
+| m k 
+| d q l c 
+| o 
+| r 
+| e 
+| f 
+| s 
+| 
+| i p 
+| g 
+| 
+| b n t h a 
+| 
+
+| a 
+| j 
+| m k 
+| d q l c 
+| o 
+| r 
+| e 
+| f 
+| s 
+| 
+| i p 
+| g 
+| 
+| b n t h 
+| 
+
+| a 
+| j 
+| m k 
+| d q l c 
+| o 
+| r 
+| e 
+| f 
+| s 
+| 
+| i p h 
+| g 
+| 
+| b n t 
+| 
+
+| a 
+| j 
+| m k 
+| d q l c 
+| o 
+| r 
+| e 
+| f 
+| s 
+| t 
+| i p h 
+| g 
+| 
+| b n 
+| 
+
+| a 
+| j 
+| m k 
+| d q l c 
+| o n 
+| r 
+| e 
+| f 
+| s 
+| t 
+| i p h 
+| g 
+| 
+| b 
+| 
+
+| a b 
+| j 
+| m k 
+| d q l c 
+| o n 
+| r 
+| e 
+| f 
+| s 
+| t 
+| i p h 
+| g 
+| 
+| 
+| 
+
+| a b c 
+| j 
+| m k 
+| d q l 
+| o n 
+| r 
+| e 
+| f 
+| s 
+| t 
+| i p h 
+| g 
+| 
+| 
+| 
+
+| a b c 
+| j 
+| m k 
+| d q 
+| o n l 
+| r 
+| e 
+| f 
+| s 
+| t 
+| i p h 
+| g 
+| 
+| 
+| 
+
+| a b c 
+| j 
+| m k 
+| d 
+| o n l 
+| r q 
+| e 
+| f 
+| s 
+| t 
+| i p h 
+| g 
+| 
+| 
+| 
+
+| a b c d 
+| j 
+| m k 
+| 
+| o n l 
+| r q 
+| e 
+| f 
+| s 
+| t 
+| i p h 
+| g 
+| 
+| 
+| 
+
+| a b c d e 
+| j 
+| m k 
+| 
+| o n l 
+| r q 
+| 
+| f 
+| s 
+| t 
+| i p h 
+| g 
+| 
+| 
+| 
+
+| a b c d e f 
+| j 
+| m k 
+| 
+| o n l 
+| r q 
+| 
+| 
+| s 
+| t 
+| i p h 
+| g 
+| 
+| 
+| 
+
+| a b c d e f g 
+| j 
+| m k 
+| 
+| o n l 
+| r q 
+| 
+| 
+| s 
+| t 
+| i p h 
+| 
+| 
+| 
+| 
+
+| a b c d e f g h 
+| j 
+| m k 
+| 
+| o n l 
+| r q 
+| 
+| 
+| s 
+| t 
+| i p 
+| 
+| 
+| 
+| 
+
+| a b c d e f g h 
+| j 
+| m k 
+| p 
+| o n l 
+| r q 
+| 
+| 
+| s 
+| t 
+| i 
+| 
+| 
+| 
+| 
+
+| a b c d e f g h i 
+| j 
+| m k 
+| p 
+| o n l 
+| r q 
+| 
+| 
+| s 
+| t 
+| 
+| 
+| 
+| 
+| 
+
+| a b c d e f g h i j 
+| 
+| m k 
+| p 
+| o n l 
+| r q 
+| 
+| 
+| s 
+| t 
+| 
+| 
+| 
+| 
+| 
+
+| a b c d e f g h i j k 
+| 
+| m 
+| p 
+| o n l 
+| r q 
+| 
+| 
+| s 
+| t 
+| 
+| 
+| 
+| 
+| 
+
+| a b c d e f g h i j k l 
+| 
+| m 
+| p 
+| o n 
+| r q 
+| 
+| 
+| s 
+| t 
+| 
+| 
+| 
+| 
+| 
+
+| a b c d e f g h i j k l m 
+| 
+| 
+| p 
+| o n 
+| r q 
+| 
+| 
+| s 
+| t 
+| 
+| 
+| 
+| 
+| 
+
+| a b c d e f g h i j k l m n 
+| 
+| 
+| p 
+| o 
+| r q 
+| 
+| 
+| s 
+| t 
+| 
+| 
+| 
+| 
+| 
+
+| a b c d e f g h i j k l m n o 
+| 
+| 
+| p 
+| 
+| r q 
+| 
+| 
+| s 
+| t 
+| 
+| 
+| 
+| 
+| 
+
+| a b c d e f g h i j k l m n o p 
+| 
+| 
+| 
+| 
+| r q 
+| 
+| 
+| s 
+| t 
+| 
+| 
+| 
+| 
+| 
+
+| a b c d e f g h i j k l m n o p q 
+| 
+| 
+| 
+| 
+| r 
+| 
+| 
+| s 
+| t 
+| 
+| 
+| 
+| 
+| 
+
+| a b c d e f g h i j k l m n o p q r 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| s 
+| t 
+| 
+| 
+| 
+| 
+| 
+
+| a b c d e f g h i j k l m n o p q r s 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| t 
+| 
+| 
+| 
+| 
+| 
+
+| a b c d e f g h i j k l m n o p q r s t 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+
+Total steps taken : 31
+
